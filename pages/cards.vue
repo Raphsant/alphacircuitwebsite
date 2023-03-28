@@ -1,10 +1,10 @@
 <template>
-
+  add something to cards
 </template>
 
 <script>
 export default {
-  name: "header"
+  name: "cards"
 }
 </script>
 
