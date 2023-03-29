@@ -1,5 +1,11 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtPage/>
   </div>
 </template>
+<script>
+
+export default {
+
+}
+</script>
