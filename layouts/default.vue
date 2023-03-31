@@ -41,17 +41,14 @@
     </div>
   </nav>
 
+  <div>
     <slot/>
-
-  <footer>
-    <!-- Todo -->
-  </footer>
-  
+  </div>
 </template>
 
 <script>
 export default {
-  name: "header"
+  name: "default"
 }
 </script>
 

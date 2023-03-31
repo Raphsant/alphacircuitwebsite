@@ -1,5 +1,5 @@
 <template>
-<!--TODO this is our mainpage-->
+<!--TODO this is our Homepage-->
 </template>
 
 <script>
