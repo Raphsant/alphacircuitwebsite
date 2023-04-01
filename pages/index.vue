@@ -1,5 +1,4 @@
 <template>
-<!--TODO this is our mainpage-->
   <section class="flex justify-between max-h-max max-w-7xl mx-auto pb-36">
     <div class="flex flex-col">
       <h1 class="font-ubuntu bold text-5xl text-left mt-4">Powering your tech at  every spec</h1>

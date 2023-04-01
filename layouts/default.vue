@@ -40,18 +40,16 @@
       <!-- TODO -->
     </div>
   </nav>
-
-    <slot/>
-
-  <footer>
-    <!-- Todo -->
-  </footer>
   
+  <slot/>
+  <Footer/>
 </template>
 
 <script>
+import Footer from "./footer"
 export default {
-  name: "header"
+  name: "default",
+  components: {Footer}
 }
 </script>
 
