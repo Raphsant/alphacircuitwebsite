@@ -25,7 +25,7 @@
         <div class="flex font-manrope">
           <div class="flex items-center space-x-3 mr-2">
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Home</a>
-            <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">About</a>
+            <NuxtLink to="/contact" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Contact</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Products</a>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Quote</a>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Capabilities</a>
@@ -40,17 +40,13 @@
       <!-- TODO -->
     </div>
   </nav>
-  
+
   <slot/>
   <Footer/>
 </template>
 
-<script>
-import Footer from "./footer"
-export default {
-  name: "default",
-  components: {Footer}
-}
+<script setup>
+
 </script>
 
 <style scoped>

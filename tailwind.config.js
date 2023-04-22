@@ -75,7 +75,10 @@ module.exports = {
         '40': '40px',
         '45': '45px',
         '50': '50px',
-      }
+      },
+      fontFamily: {
+        custom: ['Manrope', "sans-serif"]
+      },
       // fontFamily: {
       //   manrope: "'Manrope', sans-serif",
       //   ubuntu: "'Ubuntu', sans-serif",
