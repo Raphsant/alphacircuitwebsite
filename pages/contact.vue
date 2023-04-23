@@ -1,12 +1,12 @@
 <template>
-<div id="wrapper" class="mb-10">
-    <div class="flex justify-end items-center bg-darkGreen-500 h-20">
-        <div class="flex flex-row gap-5 mr-80 mt-50">
+<div id="wrapper" class="mb-10 w-full">
+    <div class="flex bg-darkGreen-500 h-20 w-full">
+        <div class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center">
             <div>
-                Ready to request a Quote?
+                READY TO REQUEST A QUOTE?
             </div>
-            <div>
-                Contact Us!
+            <div class="rounded-md text-white bg-neutrals-600 p-3">
+                Inquires?
             </div>
         </div>
     </div>
