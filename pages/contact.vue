@@ -1,5 +1,5 @@
 <template>
-<div id="wrapper">
+<div id="wrapper" class="mb-10">
     <div class="flex justify-end items-center bg-darkGreen-500 h-20">
         <div class="flex flex-row gap-5 mr-80 mt-50">
             <div>
@@ -36,7 +36,7 @@
             <img src="~/assets/images/ph.png" class="w-2/6" alt="ph">
         </div>
     </div>
-    <div id="third section" class="h-80">
+    <div id="third section" class="h-90">
         <div class="flex flex-row justify-evenly items-center gap-40 p-10">
             <div class="text-white bg-darkGreen-900 rounded-lg text-3xl p-10">
                 <p class="font-bold mt-5 mb-5">First Choice PCB Supplier</p>
@@ -48,14 +48,43 @@
             <img src="~/assets/images/ph.png" class="h-52 w-1/5" alt="">
         </div>
     </div>
+    <div class="bg-lightGreen-100 flex flex-col pb-10">
+        <div class="flex flex-row gap-16 justify-center items-center m-10" >
+            <ContactCard v-for="data in fourthSectionData" :title='data.title' :body='data.body' :button-text="data.buttonText"/>
+        </div>
+        <div>
+            <div class="flex flex-row justify-center items-center">
+                <Form class="w-4/5"/>
+            </div>
+            <div></div>
+        </div>
+    </div>
 </div>
 
 </template>
 
-<script>
-export default {
-    name: "contact"
-}
+<script setup>
+
+import Form from "~/components/contact/fourth/form.vue";
+
+const fourthSectionData = [
+    {
+        "title": "Careers",
+        "body": "Interested in applying?\n Take a look at our open positions",
+        "buttonText": "Explore jobs"
+    },
+    {
+        "title": "About Us",
+        "body": "Want to know more?\n Come by schedule a visit, let's talk",
+        "buttonText": "Book Appointment"
+    },
+    {
+        "title": "Quote Request",
+        "body": "Talk directly with a sales representative",
+        "buttonText": "Get a quote"
+    }
+]
+
 </script>
 
 <style scoped>
