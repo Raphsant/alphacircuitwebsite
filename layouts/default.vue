@@ -40,13 +40,12 @@
       <!-- TODO -->
     </div>
   </nav>
-
   <slot/>
   <Footer/>
 </template>
 
 <script setup>
-
+import Footer from "~/layouts/footer.vue";
 </script>
 
 <style scoped>

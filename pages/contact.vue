@@ -56,7 +56,9 @@
             <div class="flex flex-row justify-center items-center">
                 <Form class="w-4/5"/>
             </div>
-            <div></div>
+            <div>
+                    <!--TODO: Here goes the map with the location-->
+            </div>
         </div>
     </div>
 </div>
