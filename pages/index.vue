@@ -102,52 +102,60 @@
       <h1>Industries</h1>
       <h2>We Serve Solutions In These Markets</h2>
     </div>
-
-    <div class="grid grid-cols-5 gap-4">
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Medical Diagnostics</p>
+      <div class="grid grid-cols-5 gap-3 w-full place-items-center">
+          <Indexcards v-for="data in cards" :image-url="data.url" :text="data.text"/>
       </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">5G Infrastructure</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Automotives</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Display Electronics</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">HDI PCB</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Avionics</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Aerospace</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Industrial Automation</p>
-      </div>
-      <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Power Electronics</p>
-      </div>
-    </div>
   </section>
 </template>
 
-<script>
-export default {
-  name: "index"
-}
+<script setup>
+import Indexcards from "~/components/index/third/indexcards.vue";
+
+const cards = [
+    {
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },
+    {
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },{
+        "url": 'form.png',
+        "text": 'Medical'
+
+    },
+]
+
 </script>
 
 <style scoped>
