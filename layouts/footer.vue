@@ -34,10 +34,10 @@
   
         <div class="border-solid border-neutrals-100 border-l-2 left-2/4 h-75 mt-4"></div>
         <div class="flex space-x-2">
-          <img src="" width="60" height="60" alt="Minority Business Enterprise Logo">
-          <img src="" width="60" height="60" alt="UL Certified Logo">
-          <img src="" width="60" height="60" alt="International Traffic In Arms Regulations Registered Certification Logo">
-          <img src="" width="60" height="60" alt="AS9100 Certification & ISO 9001 Certification Logo">
+          <img class="self-center" src="../assets/images/MBE-Logo-Alt-Color-300x300.png" alt="Minority Business Enterprise Logo">
+          <img class="self-center" src="../assets/images/UL.png" alt="UL Certified Logo">
+          <img class="self-center" src="../assets/images/download.png" alt="International Traffic In Arms Regulations Registered Certification Logo">
+          <img class="self-center" src="../assets/images/AS9100+Black+TM+png.png" alt="AS9100 Certification & ISO 9001 Certification Logo">
         </div>
       </div>
     </div>

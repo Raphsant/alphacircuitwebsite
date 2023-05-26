@@ -14,23 +14,23 @@
           <div class="relative h-56 overflow-hidden rounded-lg">
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="../src/images/650x250.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <img src="../assets/images/26-02-2018882096.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-              <img src="../src/images/650x250.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <img src="../assets/images/26-02-201863869.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="../src/images/650x250.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <img src="../assets/images/26-02-2018989851.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="../src/images/650x250.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <img src="../assets/images/26-02-2018286406.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="../src/images/650x250.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+              <img src="../assets/images/26-02-2018468055.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
             </div>
           </div>
           <!-- Slider controls -->
@@ -53,7 +53,7 @@
     </div>
 
     <div class="relative">
-      <img class="absolute top-10 -left-10" src="../src/images/15916-removebg-preview 1.png" alt="">
+      <img class="absolute top-10 -left-10" src="../assets/images/15916-removebg-preview 1.png" alt="">
       <svg class="top-0" width="516" height="453" viewBox="0 0 566 503" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M56.3367 116.702C92.0917 73.8894 135.114 41.7804 183.715 20.9305C231.887 0.112132 285.606 -9.87691 315.26 17.3355C344.944 44.9778 350.595 110.251 398.021 149.99C445.478 190.158 534.711 204.791 558.421 239.353C581.701 273.948 539.458 328.472 493.155 362.982C446.82 397.063 397.253 410.637 347.436 438.49C297.62 466.344 248.413 508.413 209.034 501.793C169.623 494.744 140.437 438.542 101.135 391.726C61.8019 344.48 12.7512 306.157 2.43824 259.808C-7.84318 213.889 20.5817 159.514 56.3367 116.702Z" fill="#54C68E" fill-opacity="0.6"/>
       </svg>
@@ -71,14 +71,14 @@
     <!-- Action Cards -->
     <div class="ml-20 m-16 space-y-5">
       <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 rounded-lg cursor-pointer">
-        <img src="../src/images/icons8-quote-request-64 2.png" alt="">
+        <img src="../assets/images/icons8-quote-request-64 2.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Request A Quote</h4>
           <p class="font-manrope bold ml-2">Our goal is to provide you with the best possible product and solution</p>
         </div>
       </div>
       <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 rounded-lg cursor-pointer">
-        <img src="../src/images/Support.png" alt="">
+        <img src="../assets/images/Support.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Capabilities</h4>
           <p class="font-manrope bold ml-2">View our technical capabilities at a glance here</p>
@@ -106,19 +106,19 @@
 
     <div class="grid grid-cols-4 gap-4 pb-6">
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Medical Diagnostics</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">5G Infrastructure</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Automotives</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Display Electronics</p>
       </div>
       <!-- <div class="bg-lightGreen-50">
@@ -126,19 +126,19 @@
         <p class="font-ubuntu">HDI PCB</p>
       </div> -->
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Avionics</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Aerospace</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Industrial Automation</p>
       </div>
       <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
         <p class="font-ubuntu">Power Electronics</p>
       </div>
     </div>
@@ -150,6 +150,15 @@
 export default {
   name: "index"
 }
+</script>
+
+<script setup>
+  import { onMounted } from 'vue'
+  import { initCarousels } from 'flowbite'
+
+  onMounted(() => {
+    initCarousels()
+  })
 </script>
 
 <style scoped>
