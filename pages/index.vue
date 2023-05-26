@@ -6,7 +6,7 @@
         <p class="text-left font-manrope text-4xl break-normal pr-48 mt-4">Delivering high quality PCB components creating lasting value for our customers</p>
         <a href="#_" class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
           <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
-          <span class="relative">Learn More</span>
+          <span class="relative font-manrope">Learn More</span>
         </a>
         <!-- Carousel -->
         <div id="controls-carousel" class="relative mt-4" data-carousel="slide">
@@ -67,17 +67,17 @@
   </div>
 
   <!-- Second Section -->
-  <section class="bg-lightGreen-50 flex max-w-7xl mx-auto">
+  <section class="bg-lightGreen-50 flex mx-auto">
     <!-- Action Cards -->
     <div class="ml-20 m-16 space-y-5">
-      <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 rounded-lg cursor-pointer">
+      <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 pl-4 rounded-lg cursor-pointer">
         <img src="../assets/images/icons8-quote-request-64 2.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Request A Quote</h4>
           <p class="font-manrope bold ml-2">Our goal is to provide you with the best possible product and solution</p>
         </div>
       </div>
-      <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 rounded-lg cursor-pointer">
+      <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 pl-4 rounded-lg cursor-pointer">
         <img src="../assets/images/Support.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Capabilities</h4>
@@ -86,13 +86,13 @@
       </div>
     </div>
     <!-- Trusted By Section -->
-    <div class="mt-24 ml-64 flex flex-col justify-evenly">
-      <h3 class="text-center text-2xl font-ubuntu bold">Recognized and Trusted By:</h3>
+    <div class="mt-24 ml-64 flex flex-col justify-center">
+      <h3 class="text-center text-2xl my-4 font-ubuntu bold">Recognized and Trusted By:</h3>
       <div class="flex space-x-2">
-        <img class="transform transition duration-500 hover:scale-110" src="https://via.placeholder.com/148x90" alt="">
-        <img class="transform transition duration-500 hover:scale-110" src="https://via.placeholder.com/148x90" alt="">
-        <img class="transform transition duration-500 hover:scale-110" src="https://via.placeholder.com/148x90" alt="">
-        <img class="transform transition duration-500 hover:scale-110" src="https://via.placeholder.com/148x90" alt="">
+        <img class="" src="https://via.placeholder.com/148x90" alt="">
+        <img class="" src="https://via.placeholder.com/148x90" alt="">
+        <img class="" src="https://via.placeholder.com/148x90" alt="">
+        <img class="" src="https://via.placeholder.com/148x90" alt="">
       </div>
     </div>
   </section>
@@ -100,46 +100,51 @@
   <!-- Serving In These Industries Section -->
   <section class="max-w-7xl mx-auto pt-6">
     <div class="text-center">
-      <h1>Industries</h1>
-      <h2 class="text-darkGreen-700">We Serve Solutions In These Markets</h2>
+      <h1 class="text-2xl font-manrope">Industries</h1>
+      <h2 class="text-darkGreen-700 text-xl font-bold font-ubuntu">We Serve Solutions In These Markets</h2>
     </div>
 
-    <div class="grid grid-cols-4 gap-4 pb-6">
-      <div class="bg-lightGreen-50">
+    <div class="grid place-items-center gap-4 grid-cols-4 py-6">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Medical Diagnostics</p>
+        <p class="font-ubuntu font-medium hover:underline">Medical Diagnostics</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">5G Infrastructure</p>
+        <p class="font-ubuntu font-medium hover:underline">5G Infrastructure</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Automotives</p>
+        <p class="font-ubuntu font-medium hover:underline">Automotives</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Display Electronics</p>
+        <p class="font-ubuntu font-medium hover:underline"></p>
+        <p class="font-ubuntu font-medium hover:underline">Display Electronics</p>
       </div>
-      <!-- <div class="bg-lightGreen-50">
-        <img class="" src="../src/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">HDI PCB</p>
-      </div> -->
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Avionics</p>
+        <p class="font-ubuntu font-medium hover:underline">Avionics</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Aerospace</p>
+        <p class="font-ubuntu font-medium hover:underline">Aerospace</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Industrial Automation</p>
+        <p class="font-ubuntu font-medium hover:underline">Industrial Automation</p>
       </div>
-      <div class="bg-lightGreen-50">
+      <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
+      <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
         <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu">Power Electronics</p>
+        <p class="font-ubuntu font-medium hover:underline">Power Electronics</p>
       </div>
     </div>
   </section>

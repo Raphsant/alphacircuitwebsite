@@ -1,22 +1,22 @@
 <template>
   <!-- Footer Container -->
-  <footer class="max-w-7xl mx-auto bg-lightGreen-100 p-12 flex relative"> 
+  <footer class="max-w-7xl mx-auto bg-lightGreen-100 p-12 flex relative rounded-md font-manrope"> 
     <!-- Left Company Information Container -->
     <div class="">
       <img src="../assets/images/logo.png" alt="Alpha Circuit Logo">
       <p class="w-300 h-85 mt-5">Lorem Ipsum Dolor sit amet, consecutur adipsicng elit, in rutrummauris vitae ullamcopp</p>
-      <div class="bg-darkGreen-700 text-neutrals-100 py-2 px-8 w-fit rounded-lg mt-5">
-        <a href="">Inquiries</a>
+      <div class="bg-darkGreen-700 text-neutrals-100 py-2 px-8 w-fit rounded-lg mt-5 hover:underline cursor-pointer hover:scale-105 transform transition">
+        <a href="">Inquiries?</a>
       </div>
-      <ul class="flex space-x-2 mt-2 underline">
-        <li><a href="">Services</a></li>
-        <li><a href="">Careers</a></li>
-        <li><a href="">Certificates</a></li>
-        <li><a href="">Terms</a></li>
+      <ul class="flex space-x-2 mt-2">
+        <li><a class="hover:underline" href="">Services</a></li>
+        <li><a class="hover:underline" href="">Careers</a></li>
+        <li><a class="hover:underline" href="">Certificates</a></li>
+        <li><a class="hover:underline" href="">Terms</a></li>
       </ul>
     </div>
     <!-- Right Contact Information Container -->
-    <div class="text-neutrals-100 bg-darkGreen-900 h-max absolute top-36 left-96">
+    <div class="text-neutrals-100 bg-darkGreen-900 h-max absolute top-36 left-96 rounded-md">
       <div class="flex p-2 space-x-10">
         <div class="p-4 pr-8 flex-col space-y-1">
           <h5 class="">Address:</h5>
