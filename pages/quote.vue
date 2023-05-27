@@ -1,6 +1,6 @@
 <template>
     <div class="w-max max-w-7xl mx-auto">
-        <div class="space-y-2 mb-4">
+        <div class="space-y-2 mb-8 pl-2">
             <h1 class="text-3xl font-ubuntu">Request A Quote</h1>
             <h3 class="font-manrope text-2xl">Fill up the form and our team will get <br> back to you within 24 hours</h3>
         </div>
@@ -362,6 +362,22 @@
             </div> 
             <button type="submit" class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-lightGreen-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
         </form>
+
+        <div class="rounded-lg flex border-2 border-red-500 h-250 max-w-5xl mx-auto mb-8">
+            <!-- Leftside -->
+            <div class="bg-white text-black rounded-lg h-250">
+                <img src="../assets/images/icons/icons8-schedule-60.png" alt="">
+                <h4>Schedule A Visit</h4>
+                <p>Want to know more? Come by, schedule a visit, let's talk!</p>
+            </div>
+            <!-- Rightside -->
+            <div>
+                <div class="bg-lightGreen-100 text-black rounded-lg h-250 flex flex-col">
+                    <hr class="w-48 h-1 my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+                    <p>We welcome you to come visit our facility and discuss more about our solutions. Feel free to fill out your email and a preferred date of visit and a member of our team will reach out!  We appreciate your interest in Alpha Circuit!</p>
+                </div>
+            </div>
+        </div>
 
     </div>
 </template>
