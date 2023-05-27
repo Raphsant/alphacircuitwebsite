@@ -3,13 +3,13 @@
     <!-- Social Icons - Subheader -->
     <div class="flex items-center space-x-0 5 absolute ml-24 left-3/4 pt-2">
       <a href="https://twitter.com/AlphaCircuitCor">
-        <img src="../assets/images/icons8-twitter.svg" alt="Alpha Circuit on Twitter"/>
+        <img src="../assets/images/icons/icons8-twitter.svg" alt="Alpha Circuit on Twitter"/>
       </a>
       <a href="https://facebook.com">
-        <img src="../assets/images/icons8-facebook-32.svg" alt="Alpha Circuit on Facebook"/>
+        <img src="../assets/images/icons/icons8-facebook-32.svg" alt="Alpha Circuit on Facebook"/>
       </a>
       <a href="https://www.linkedin.com/company/alpha-circuit-corporation/about/">
-        <img src="../assets/images/icons8-linkedin-32.svg" alt="Alpha Circuit on LinkedIn"/>
+        <img src="../assets/images/icons/icons8-linkedin-32.svg" alt="Alpha Circuit on LinkedIn"/>
       </a>
     </div>
 
@@ -18,7 +18,7 @@
         <!-- logo -->
         <div>
           <a href="index.html" class="py-2 px-3">
-            <img src="../assets/images/logo.png" alt="Alpha Circuit Logo" />
+            <img src="../assets/images/logos/logo.png" alt="Alpha Circuit Logo" />
           </a>
         </div>
         <!-- primary navigation -->
@@ -27,7 +27,7 @@
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Home</a>
             <NuxtLink to="/contact" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Contact</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Products</a>
-            <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Quote</a>
+            <NuxtLink to="/quote" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Quote</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Capabilities</a>
           </div>
           <!-- secondary nav - cta -->
