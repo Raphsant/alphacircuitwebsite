@@ -104,46 +104,45 @@
       <h2 class="text-darkGreen-700 text-xl font-bold font-ubuntu">We Serve Solutions In These Markets</h2>
     </div>
 
-    <div class="grid place-items-center gap-4 grid-cols-4 py-6">
+    <div class="grid place-items-center gap-4 grid-cols-4 pt-6 pb-12">
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-hospital-bed-with-iv-machine-48.png" alt="Medical Diagnostics Icon">
         <p class="font-ubuntu font-medium hover:underline">Medical Diagnostics</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-microchip-48.png" alt="5G Infrastructure Icon">
         <p class="font-ubuntu font-medium hover:underline">5G Infrastructure</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-automotive-48.png" alt="Automotives Icon">
         <p class="font-ubuntu font-medium hover:underline">Automotives</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
-        <p class="font-ubuntu font-medium hover:underline"></p>
+        <img class="" src="../assets/images/icons/icons8-display-48.png" alt="Display Electronics Icon">
         <p class="font-ubuntu font-medium hover:underline">Display Electronics</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-cockpit-48.png" alt="Avionics In Cockpic Icon">
         <p class="font-ubuntu font-medium hover:underline">Avionics</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-aeronautics-48.png" alt="Aerospace Icon">
         <p class="font-ubuntu font-medium hover:underline">Aerospace</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-automation-48.png" alt="Industrial Automation">
         <p class="font-ubuntu font-medium hover:underline">Industrial Automation</p>
       </div>
       <!-- All of these "cards" should clickout to a paragraph or writeup on another page. TODO -->
       <div class="bg-lightGreen-50 w-200 h-150 rounded-xl grid place-items-center hover:scale-110 transform transition cursor-pointer">
-        <img class="" src="../assets/images/icons8-careers-vacancy-48.png" alt="">
+        <img class="" src="../assets/images/icons/icons8-electronics-48.png" alt="">
         <p class="font-ubuntu font-medium hover:underline">Power Electronics</p>
       </div>
     </div>
