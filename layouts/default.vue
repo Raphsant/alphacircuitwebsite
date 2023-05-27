@@ -25,7 +25,7 @@
         <div class="flex font-manrope">
           <div class="flex items-center space-x-3 mr-2">
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Home</a>
-            <NuxtLink to="/contact" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Contact</NuxtLink>
+            <NuxtLink to="/about" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">About</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Products</a>
             <NuxtLink to="/quote" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Quote</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Capabilities</a>
