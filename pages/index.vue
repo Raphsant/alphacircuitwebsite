@@ -71,14 +71,14 @@
     <!-- Action Cards -->
     <div class="ml-20 m-16 space-y-5">
       <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 pl-4 rounded-lg cursor-pointer">
-        <img src="../assets/images/icons8-quote-request-64 2.png" alt="">
+        <img src="../assets/images/icons/icons8-quote-request-64 2.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Request A Quote</h4>
           <p class="font-manrope bold ml-2">Our goal is to provide you with the best possible product and solution</p>
         </div>
       </div>
       <div class="bg-darkGreen-900 text-neutrals-100 flex justify-center w-[24rem] py-8 pl-4 rounded-lg cursor-pointer">
-        <img src="../assets/images/Support.png" alt="">
+        <img src="../assets/images/icons/Support.png" alt="">
         <div>
           <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">Capabilities</h4>
           <p class="font-manrope bold ml-2">View our technical capabilities at a glance here</p>

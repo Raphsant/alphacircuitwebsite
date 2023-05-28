@@ -10,7 +10,7 @@
     </div>
     <div class="bg-darkGreen-900 text-white h-80 flex flex-row items-center justify-center gap-12 text-lg">
       <div>
-        <img class="h-56 w-96" src="~/assets/images/ph.png" alt="" />
+        <img class="h-56 w-96" src="~/assets/images/thumbnail.jpeg" alt="" />
       </div>
       <div class="flex-col flex">
         <div class="text-2xl font-ubuntu">Who are we?</div>

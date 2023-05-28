@@ -365,7 +365,7 @@
 
         <div class="rounded-lg flex shadow-lg h-250 max-w-5xl mx-auto mb-8">
             <!-- Leftside -->
-            <div class="text-left align-middle p-8 ext-black rounded-lg h-250">
+            <div class="text-left align-middle p-8 text-black rounded-lg h-250">
                 <img class="-m-2 mb-2" src="../assets/images/icons/icons8-schedule-60.png" alt="">
                 <h4 class="font-ubuntu font-semibold">Schedule A Visit</h4>
                 <p class="font-manrope">Want to know more? Come by, schedule a visit, let's talk!</p>
@@ -387,5 +387,5 @@
 </script>
 
 <style scoped>
-
+    
 </style>
