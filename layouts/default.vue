@@ -17,14 +17,14 @@
       <div class="flex justify-between items-center">
         <!-- logo -->
         <div>
-          <a href="index.html" class="py-2 px-3">
+          <NuxtLink to="/" class="py-2 px-3">
             <img src="../assets/images/logos/logo.png" alt="Alpha Circuit Logo" />
-          </a>
+          </NuxtLink>
         </div>
         <!-- primary navigation -->
         <div class="flex font-manrope">
           <div class="flex items-center space-x-3 mr-2">
-            <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Home</a>
+            <NuxtLink to="/" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Home</NuxtLink>
             <NuxtLink to="/about" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">About</NuxtLink>
             <a href="#" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Products</a>
             <NuxtLink to="/quote" class="py-2 px-3 text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4">Quote</NuxtLink>
@@ -32,7 +32,7 @@
           </div>
           <!-- secondary nav - cta -->
           <div class="flex items-center space-x-1">
-            <a href="#" class="py-2 px-4 shadow-xl bg-darkGreen-700 rounded-full text-neutrals-100 hover:bg-lightGreen-100 hover:text-darkGreen-300 transition-all duration-300 ease-out">Contact Us</a>
+            <NuxtLink to="/contact" class="py-2 px-4 shadow-xl bg-darkGreen-700 rounded-full text-neutrals-100 hover:bg-lightGreen-100 hover:text-darkGreen-300 transition-all duration-300 ease-out">Contact Us</NuxtLink>
           </div>
         </div>
       </div>

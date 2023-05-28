@@ -10,6 +10,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        kenburns: {
+          '0%': {
+            transform: 'scale(1) translate(0%, 0%)',
+          },
+          '50%': {
+            transform: 'scale(1.1) translate(-2%, -2%)',
+          },
+          '100%': {
+            transform: 'scale(1) translate(0%, 0%)',
+          },
+        },
+      },
+      animation: {
+        kenburns: 'kenburns 6000ms',
+      },
       colors: {
         darkGreen: {
           300: "#010A0A",
@@ -45,6 +61,8 @@ module.exports = {
         300: "300px",
         350: "350px",
         400: "400",
+        550: "550px",
+        625: "625px"
       },
       width: {
         50: "50px",
@@ -55,6 +73,8 @@ module.exports = {
         300: "300px",
         350: "350px",
         400: "400",
+        550: "550px",
+        625: "625px"
       },
       top: {
         10: "10px",
