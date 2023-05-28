@@ -85,7 +85,7 @@ const fourthSectionData = [
     {
         "imgUrl": "~/assets/images/icons/icons8-quote-request-48.png",
         "title": "Quote Request",
-        "body": "Talk directly with a sales representative",
+        "body": "Talk directly with a representative of our sales team today!",
         "buttonText": "Get a quote",
     }
 ]
