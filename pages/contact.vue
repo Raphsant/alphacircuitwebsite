@@ -10,32 +10,6 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center align-center bg-lightGreen-50 ">
-        <div class="flex justify-center align-center flex-row w-2/2 m-20">
-            <div class="flex flex-col justify-start align-top rounded-tl-2xl rounded-bl-2xl p-6 w-2/6 bg-gradient-to-b from-darkGreen-700 from-5% via-darkGreen-500 via-lightGreen-100 to-white to-95%">
-                <p class="text-6xl text-neutrals-800 font-bold">
-                    Partner with
-                </p><p class="text-6xl text-neutrals-800 font-bold">
-                Alpha Circuit!
-            </p><p class="text-6xl text-neutrals-800 font-bold">
-                today!
-            </p>
-                <p class="text-3xl text-neutrals-800">
-                    Level up your business
-                </p>
-                <p class="text-3xl text-neutrals-800">
-                    with a leader in producing
-                </p>
-                <p class="text-3xl text-neutrals-800">
-                    innovative PCB for
-                </p>
-                <p class="text-3xl text-neutrals-800">
-                    emerging electronics
-                </p>
-            </div>
-            <img src="~/assets/images/ph.png" class="w-2/6" alt="ph">
-        </div>
-    </div>
     <div id="third section" class="h-90">
         <div class="flex flex-row justify-evenly items-center gap-40 p-10">
             <div class="text-white bg-darkGreen-900 rounded-lg text-3xl p-10">

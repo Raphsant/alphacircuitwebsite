@@ -3,7 +3,7 @@
   <footer class="max-w-7xl mx-auto bg-lightGreen-100 p-12 flex relative rounded-md font-manrope"> 
     <!-- Left Company Information Container -->
     <div class="">
-      <img src="../assets/images/logos/logo.png" alt="Alpha Circuit Logo">
+      <NuxtLink to="/"><img src="../assets/images/logos/logo.png" alt="Alpha Circuit Logo"></NuxtLink>
       <p class="w-300 h-85 mt-5">Lorem Ipsum Dolor sit amet, consecutur adipsicng elit, in rutrummauris vitae ullamcopp</p>
       <div class="bg-darkGreen-700 text-neutrals-100 py-2 px-8 w-fit rounded-lg mt-5 hover:underline cursor-pointer hover:scale-105 transform transition">
         <a href="">Inquiries?</a>
