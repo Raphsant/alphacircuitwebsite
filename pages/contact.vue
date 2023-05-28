@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="rounded-lg flex shadow-lg bg-gradient-to-b from-darkGreen-700 via-lightGreen-300 to-lightGreen-600 max-w-5xl mt-8 mx-auto mb-8 w-1100 h-400">
+    <div class="rounded-lg flex shadow-lg bg-gradient-to-b from-darkGreen-700 to-darkGreen-500 via-lightGreen-300 to-lightGreen-600 max-w-5xl mt-8 mx-auto mb-8 w-1100 h-400">
             <!-- Leftside -->
             <div class="text-left align-middle p-8 text-black rounded-lg gap-2 flex-col flex">
                 <h1 class="w-400 text-5xl font-ubuntu font-semibold">Partner with Alpha Circuit today!</h1>
