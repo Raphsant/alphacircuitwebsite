@@ -5,7 +5,7 @@
             <h3 class="font-manrope text-2xl">Fill up the form and our team will get <br> back to you within 24 hours</h3>
         </div>
  
-        <form class="bg-darkGreen-700 p-12 rounded-lg mb-8 font-manrope">
+        <form class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope">
             <div class="grid gap-6 mb-6 md:grid-cols-3">
                 <!-- First Name -->
                 <div>
@@ -349,7 +349,7 @@
                 <!-- File Upload -->
                 <div>
                     <label class="block mb-2 text-sm font-medium text-white dark:text-white" for="file_input">Upload file</label>
-                    <input class="block w-max text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file" accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                    <input class="block w-max text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file" accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
                 </div>
             </div>
             
@@ -363,18 +363,18 @@
             <button type="submit" class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-lightGreen-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
         </form>
 
-        <div class="rounded-lg flex border-2 border-red-500 h-250 max-w-5xl mx-auto mb-8">
+        <div class="rounded-lg flex shadow-lg h-250 max-w-5xl mx-auto mb-8">
             <!-- Leftside -->
-            <div class="bg-white text-black rounded-lg h-250">
-                <img src="../assets/images/icons/icons8-schedule-60.png" alt="">
-                <h4>Schedule A Visit</h4>
-                <p>Want to know more? Come by, schedule a visit, let's talk!</p>
+            <div class="text-left align-middle p-8 ext-black rounded-lg h-250">
+                <img class="-m-2 mb-2" src="../assets/images/icons/icons8-schedule-60.png" alt="">
+                <h4 class="font-ubuntu font-semibold">Schedule A Visit</h4>
+                <p class="font-manrope">Want to know more? Come by, schedule a visit, let's talk!</p>
             </div>
             <!-- Rightside -->
             <div>
-                <div class="bg-lightGreen-100 text-black rounded-lg h-250 flex flex-col">
-                    <hr class="w-48 h-1 my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-                    <p>We welcome you to come visit our facility and discuss more about our solutions. Feel free to fill out your email and a preferred date of visit and a member of our team will reach out!  We appreciate your interest in Alpha Circuit!</p>
+                <div class="bg-lightGreen-100 text-black rounded-r-lg h-250 flex flex-col p-8 pt-20">
+                    <hr class="w-24 h-1 bg-gray-100 border-0 rounded dark:bg-gray-700">
+                    <p class="mt-4 font-manrope text-lg">We welcome you to come visit our facility and discuss more about our solutions. Feel free to fill out your email and a preferred date of visit and a member of our team will reach out!  We appreciate your interest in Alpha Circuit!</p>
                 </div>
             </div>
         </div>
