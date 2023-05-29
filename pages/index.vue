@@ -246,7 +246,7 @@
       <div class="relative">
         <img
           class="absolute top-10 -left-10"
-          src="~/assets/images/15916-removebg-preview 1.png"
+          src="~/assets/images/15916-removebg-preview1.png"
           alt=""
         />
         <svg
