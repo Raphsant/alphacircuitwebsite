@@ -16,7 +16,7 @@
             duration-3000
             animate-kenburns
           "
-          src="~/assets/img/26-02-201863869.jpeg"
+          src="~/assets/images/images/26-02-201863869.jpeg"
           alt=""
         />
         <h1
@@ -45,7 +45,7 @@
       "
     >
       <div>
-        <img class="h-56 w-96" src="~/assets/img/thumbnail.jpeg" alt="" />
+        <img class="h-56 w-96" src="~/assets/images/images/thumbnail.jpeg" alt="" />
       </div>
       <div class="flex-col flex">
         <div class="text-2xl font-ubuntu">Who are we?</div>
@@ -99,23 +99,23 @@
         "
       >
         <div class="flex flex-col justify-center items-center">
-          <img src="~/assets/img/icons/icons8-family-60.png" alt="" />
+          <img src="~/assets/images/icons/60x60-Icons/icons8-family-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">
             Family Spirit
           </div>
         </div>
         <div class="flex flex-col justify-center items-center">
-          <img src="~/assets/img/icons/icons8-box-secured-60.png" alt="" />
+          <img src="~/assets/images/icons/60x60-Icons/icons8-box-secured-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">
             Confidentiality
           </div>
         </div>
         <div class="flex flex-col justify-center items-center">
-          <img src="~/assets/img/icons/icons8-checkmark-60.png" alt="" />
+          <img src="~/assets/images/icons/60x60-Icons/icons8-checkmark-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">Fulfillment</div>
         </div>
         <div class="flex flex-col justify-center items-center">
-          <img src="~/assets/img/icons/icons8-check-document-60.png" alt="" />
+          <img src="~/assets/images/icons/60x60-Icons/icons8-check-document-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">
             Accountability
           </div>

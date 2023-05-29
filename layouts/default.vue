@@ -4,13 +4,13 @@
     <div class="flex items-center space-x-0 5 absolute ml-24 left-3/4 pt-2">
       <a href="https://twitter.com/AlphaCircuitCor">
         <img
-          src="~/assets/images/icons/icons8-twitter.svg"
+          src="~/assets/images/icons/32x32-Icons/icons8-twitter.svg"
           alt="Alpha Circuit on Twitter"
         />
       </a>
       <a href="https://facebook.com">
         <img
-          src="~/assets/images/icons/icons8-facebook-32.svg"
+          src="~/assets/images/icons/32x32-Icons/icons8-facebook-32.svg"
           alt="Alpha Circuit on Facebook"
         />
       </a>
@@ -18,7 +18,7 @@
         href="https://www.linkedin.com/company/alpha-circuit-corporation/about/"
       >
         <img
-          src="~/assets/images/icons/icons8-linkedin-32.svg"
+          src="~/assets/images/icons/32x32-Icons/icons8-linkedin-32.svg"
           alt="Alpha Circuit on LinkedIn"
         />
       </a>
