@@ -51,24 +51,24 @@
         <div class="flex w-150 -ml-1 space-x-1">
           <img
             class="cursor-pointer"
-            src="~/assets/images/icons/icons8-location-32.png"
+            src="~/assets/img/icons/icons8-location-32.png"
             alt="Location Pin"
           />
           <img
             class="cursor-pointer"
-            src="~/assets/images/icons/icons8-phone-32.png"
+            src="~/assets/img/icons/icons8-phone-32.png"
             alt="Call Icon"
           />
           <img
             class="cursor-pointer"
-            src="~/assets/images/icons/icons8-email-32.png"
+            src="~/assets/img/icons/icons8-email-32.png"
             alt="Email Icon"
           />
         </div>
       </div>
       <!-- Rightside -->
       <div>
-        <img class="rounded-r-lg h-400" src="~/assets/images/pcb.jpg" alt="" />
+        <img class="rounded-r-lg h-400" src="~/assets/img/pcb.jpg" alt="" />
       </div>
     </div>
 
@@ -97,7 +97,7 @@
             success is our success.
           </p>
         </blockquote>
-        <img src="~/assets/images/video-call.svg" class="h-52 w-1/5" alt="" />
+        <img src="~/assets/img/video-call.svg" class="h-52 w-1/5" alt="" />
       </div>
     </div>
     <div class="bg-lightGreen-100">

@@ -57,7 +57,7 @@
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="~/assets/images/26-02-2018882096.jpeg"
+                src="~/assets/img/26-02-2018882096.jpeg"
                 class="
                   absolute
                   block
@@ -75,7 +75,7 @@
               data-carousel-item="active"
             >
               <img
-                src="~/assets/images/26-02-201863869.jpeg"
+                src="~/assets/img/26-02-201863869.jpeg"
                 class="
                   absolute
                   block
@@ -90,7 +90,7 @@
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="~/assets/images/26-02-2018989851.jpeg"
+                src="~/assets/img/26-02-2018989851.jpeg"
                 class="
                   absolute
                   block
@@ -105,7 +105,7 @@
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="~/assets/images/26-02-2018286406.jpeg"
+                src="~/assets/img/26-02-2018286406.jpeg"
                 class="
                   absolute
                   block
@@ -120,7 +120,7 @@
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="~/assets/images/26-02-2018468055.jpeg"
+                src="~/assets/img/26-02-2018468055.jpeg"
                 class="
                   absolute
                   block
@@ -246,7 +246,7 @@
       <div class="relative">
         <!--        <img-->
         <!--          class="absolute top-10 -left-10"-->
-        <!--          src="~/assets/images/15916-removebg-preview1.png"-->
+        <!--          src="~/assets/img/15916-removebg-preview1.png"-->
         <!--          alt=""-->
         <!--        />-->
         <svg
@@ -307,10 +307,7 @@
             cursor-pointer
           "
         >
-          <img
-            src="~/assets/images/icons/icons8-quote-request-64 2.png"
-            alt=""
-          />
+          <img src="~/assets/img/icons/icons8-quote-request-64 2.png" alt="" />
           <div>
             <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">
               Request A Quote
@@ -334,7 +331,7 @@
             cursor-pointer
           "
         >
-          <img src="~/assets/images/icons/Support.png" alt="" />
+          <img src="~/assets/img/icons/Support.png" alt="" />
           <div>
             <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">
               Capabilities
@@ -386,7 +383,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-hospital-bed-with-iv-machine-48.png"
+            src="~/assets/img/icons/icons8-hospital-bed-with-iv-machine-48.png"
             alt="Medical Diagnostics Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -410,7 +407,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-microchip-48.png"
+            src="~/assets/img/icons/icons8-microchip-48.png"
             alt="5G Infrastructure Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -434,7 +431,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-automotive-48.png"
+            src="~/assets/img/icons/icons8-automotive-48.png"
             alt="Automotives Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Automotives</p>
@@ -456,7 +453,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-display-48.png"
+            src="~/assets/img/icons/icons8-display-48.png"
             alt="Display Electronics Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -480,7 +477,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-cockpit-48.png"
+            src="~/assets/img/icons/icons8-cockpit-48.png"
             alt="Avionics In Cockpic Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Avionics</p>
@@ -502,7 +499,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-aeronautics-48.png"
+            src="~/assets/img/icons/icons8-aeronautics-48.png"
             alt="Aerospace Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Aerospace</p>
@@ -524,7 +521,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-automation-48.png"
+            src="~/assets/img/icons/icons8-automation-48.png"
             alt="Industrial Automation"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -548,7 +545,7 @@
         >
           <img
             class=""
-            src="~/assets/images/icons/icons8-electronics-48.png"
+            src="~/assets/img/icons/icons8-electronics-48.png"
             alt=""
           />
           <p class="font-ubuntu font-medium hover:underline">
