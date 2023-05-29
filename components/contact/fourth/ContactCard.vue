@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-col flex border bg-neutral-50 rounded-lg w-3/12 space-y-4 p-5">
+    <div class="flex-col flex border bg-neutral-50 rounded-lg w-3/12 space-y-4 p-5 shadow-xl">
         <img :src="props.imgUrl" alt="">
         <div class="text-3xl w-fit">
             {{props.title}}
