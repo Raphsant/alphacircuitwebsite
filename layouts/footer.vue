@@ -10,7 +10,7 @@
       </div>
       <ul class="flex space-x-2 mt-2">
         <li><a class="hover:underline" href="">Services</a></li>
-        <li><a class="hover:underline" href="">Careers</a></li>
+        <li><NuxtLink to="/careers" class="hover:underline" href="">Careers</NuxtLink></li>
         <li><a class="hover:underline" href="">Certificates</a></li>
         <li><a class="hover:underline" href="">Terms</a></li>
       </ul>

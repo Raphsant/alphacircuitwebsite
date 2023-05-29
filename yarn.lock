@@ -4402,6 +4402,11 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
+tailwind-clip-path@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwind-clip-path/-/tailwind-clip-path-1.0.0.tgz#2a1d41480cac00603b6c4504d597426f6b4d0c88"
+  integrity sha512-pac3BiCZCEKtX+3In4508PFcX2eZL7JwliZMtfYE0RoqFMjfbCVLmu+uuEFqn1y/f2vrOB5rY4XNcmaOSG1csw==
+
 tailwindcss@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.3.0.tgz#8cab40e5a10a10648118c0859ba8bfbc744a761e"

@@ -11,6 +11,16 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
+        fadeInDown: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
         kenburns: {
           '0%': {
             transform: 'scale(1) translate(0%, 0%)',
@@ -25,6 +35,7 @@ module.exports = {
       },
       animation: {
         kenburns: 'kenburns 6000ms',
+        fadeInDown: 'fadeInDown 0.5s'
       },
       borderWidth: {
         DEFAULT: '1px',
@@ -58,6 +69,7 @@ module.exports = {
           300: "#CBD5E1",
           400: "#94A3B8",
           500: "#64748B",
+          550: "#D9D9D9",
           600: "#475569",
           700: "#1E29EB",
           800: "#0F172A",
@@ -72,7 +84,9 @@ module.exports = {
         250: "250px",
         300: "300px",
         350: "350px",
+        375: "375px",
         400: "400px",
+        475: "475px",
         550: "550px",
         575: "575px",
         600: "600px",
@@ -87,6 +101,8 @@ module.exports = {
         300: "300px",
         350: "350px",
         400: "400px",
+        425: "425px",
+        525: "525px",
         550: "550px",
         575: "575px",
         600: "600px",
@@ -121,5 +137,10 @@ module.exports = {
       },
     },
   },
-  plugins: [require("flowbite/plugin"), require("@tailwindcss/forms")],
+  variants: {
+    extend: {
+      translate: ['group-hover'],
+    },
+  },
+  plugins: [require("flowbite/plugin"), require("@tailwindcss/forms"), require('tailwind-clip-path')],
 };
