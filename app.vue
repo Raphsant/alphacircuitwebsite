@@ -1,13 +1,13 @@
 <template>
   <div>
     <NuxtLayout>
-      <NuxtPage/>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
 <script>
-
-export default {
-
-}
+useSeoMeta({
+  title: "Alpha Circuit",
+});
+export default {};
 </script>
