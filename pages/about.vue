@@ -129,7 +129,7 @@
         flex flex-row
         justify-center
         items-center
-        gap-2
+        gap-8
         font-manrope
       "
     >

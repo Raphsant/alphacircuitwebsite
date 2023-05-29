@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper" class="mb-10 w-full">
+  <div id="wrapper" class="w-full">
     <div class="flex bg-lightGreen-100 h-20 w-full">
       <div class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center">
         <div>READY TO REQUEST A QUOTE?</div>
@@ -71,7 +71,7 @@
         <img src="~/assets/images/images/video-call.svg" class="h-52 w-1/5" alt="" />
       </div>
     </div>
-    <div class="bg-lightGreen-100">
+    <div class="bg-lightGreen-50">
       <div class="flex flex-row gap-16 justify-center m-10 relative abolute -top-40">
         <ContactCard
           v-for="data in fourthSectionData"
@@ -127,4 +127,6 @@ const fourthSectionData = [
 ];
 </script>
 
-<style scoped></style>
+<style scoped>
+  
+</style>

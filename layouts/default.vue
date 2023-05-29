@@ -1,7 +1,7 @@
 <template>
   <nav>
     <!-- Social Icons - Subheader -->
-    <div class="flex items-center space-x-0 5 absolute ml-24 left-3/4 pt-2">
+    <!-- <div class="flex items-center space-x-0 5 absolute ml-24 left-3/4 pt-2">
       <a href="https://twitter.com/AlphaCircuitCor">
         <img
           src="~/assets/images/icons/32x32-Icons/icons8-twitter.svg"
@@ -22,7 +22,7 @@
           alt="Alpha Circuit on LinkedIn"
         />
       </a>
-    </div>
+    </div> -->
 
     <div class="max-w-7xl mx-auto pt-6">
       <div class="flex justify-between items-center">
@@ -130,11 +130,13 @@
     </div>
   </nav>
   <slot />
-  <Footer />
+  <!-- <Footer /> -->
+  <newFooter />
 </template>
 
 <script setup>
-import Footer from "~/layouts/footer.vue";
+// import Footer from "~/layouts/footer.vue";
+import newFooter from "~/layouts/newFooter.vue"
 </script>
 
 <style scoped></style>
