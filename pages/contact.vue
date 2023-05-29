@@ -68,7 +68,7 @@
       </div>
       <!-- Rightside -->
       <div>
-        <img class="rounded-r-lg h-400" src="../assets/images/pcb.jpg" alt="" />
+        <img class="rounded-r-lg h-400" src="~/assets/images/pcb.jpg" alt="" />
       </div>
     </div>
 
