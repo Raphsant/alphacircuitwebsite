@@ -16,7 +16,7 @@
             duration-3000
             animate-kenburns
           "
-          src="~/assets/images/images/26-02-201863869.jpeg"
+          src="~/assets/images/images/carouselImages/26-02-201863869.webp"
           alt=""
         />
         <h1
@@ -45,7 +45,7 @@
       "
     >
       <div>
-        <img class="h-56 w-96" src="~/assets/images/images/thumbnail.jpeg" alt="" />
+        <img class="h-56 w-96" src="~/assets/images/images/companyAssets/thumbnail.webp" alt="" />
       </div>
       <div class="flex-col flex">
         <div class="text-2xl font-ubuntu">Who are we?</div>

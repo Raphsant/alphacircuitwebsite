@@ -39,7 +39,7 @@
       </div>
       <!-- Rightside -->
       <div>
-        <img class="rounded-r-lg h-400" src="~/assets/images/images/pcb.jpg" alt="" />
+        <img class="rounded-r-lg h-400" src="~/assets/images/images/carouselImages/pcb.webp" alt="" />
       </div>
     </div>
 
@@ -68,7 +68,7 @@
             success is our success.
           </p>
         </blockquote>
-        <img src="~/assets/images/images/video-call.svg" class="h-52 w-1/5" alt="" />
+        <img src="~/assets/images/shapes/video-call.svg" class="h-52 w-1/5" alt="" />
       </div>
     </div>
     <div class="bg-lightGreen-50">

@@ -22,17 +22,17 @@
               <!-- Item 1 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="~/assets/images/images/26-02-2018882096.jpeg"
+                  src="~/assets/images/images/carouselImages/26-02-2018882096.webp"
                   class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
               </div>
               <!-- Item 2 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                <img src="~/assets/images/images/26-02-201863869.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+                <img src="~/assets/images/images/carouselImages/26-02-201863869.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
               </div>
               <!-- Item 3 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="~/assets/images/images/26-02-2018989851.jpeg"
+                  src="~/assets/images/images/carouselImages/26-02-2018989851.webp"
                   class="
                     absolute
                     block
@@ -47,7 +47,7 @@
               <!-- Item 4 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="~/assets/images/images/26-02-2018286406.jpeg"
+                  src="~/assets/images/images/carouselImages/26-02-2018286406.webp"
                   class="
                     absolute
                     block
@@ -62,7 +62,7 @@
               <!-- Item 5 -->
               <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <img
-                  src="~/assets/images/images/26-02-2018468055.jpeg"
+                  src="~/assets/images/images/carouselImages/26-02-2018391558.webp"
                   class="
                     absolute
                     block
@@ -143,7 +143,7 @@
       </div>
 
       <div class="relative">
-        <img class="absolute top-10 -left-10" src="~/assets/images/images/15916-removebg-preview-1.png" alt="">
+        <img class="absolute top-10 -left-10" src="~/assets/images/images/companyAssets/15916-removebg-preview-1.webp" alt="">
         <svg class="top-0" width="516" height="453" viewBox="0 0 566 503" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M56.3367 116.702C92.0917 73.8894 135.114 41.7804 183.715 20.9305C231.887 0.112132 285.606 -9.87691 315.26 17.3355C344.944 44.9778 350.595 110.251 398.021 149.99C445.478 190.158 534.711 204.791 558.421 239.353C581.701 273.948 539.458 328.472 493.155 362.982C446.82 397.063 397.253 410.637 347.436 438.49C297.62 466.344 248.413 508.413 209.034 501.793C169.623 494.744 140.437 438.542 101.135 391.726C61.8019 344.48 12.7512 306.157 2.43824 259.808C-7.84318 213.889 20.5817 159.514 56.3367 116.702Z" fill="#54C68E" fill-opacity="0.6"/>
         </svg>
