@@ -332,7 +332,6 @@
         </div>
       </div>
       <button
-        @click="send"
         type="submit"
         class="
           text-gray-900
