@@ -10,6 +10,8 @@
 
     <form
       data-netlify="true"
+      name="Quote"
+      method="POST"
       class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
     >
       <div class="grid gap-6 mb-6 md:grid-cols-3">
