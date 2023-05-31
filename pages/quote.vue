@@ -8,7 +8,10 @@
       </h3>
     </div>
 
-    <form class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope">
+    <form
+      netlify
+      class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
+    >
       <div class="grid gap-6 mb-6 md:grid-cols-3">
         <!-- First Name -->
         <div>
@@ -327,7 +330,6 @@
         </div>
       </div>
       <button
-        @click="send"
         type="submit"
         class="
           text-gray-900
