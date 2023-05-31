@@ -1,295 +1,160 @@
 <template>
   <div>
-    <section class="flex justify-between max-h-max max-w-7xl mx-auto pb-36">
-      <div class="flex flex-col">
-        <h1 class="font-ubuntu bold text-5xl text-left mt-4">
-          Powering your tech at every spec
-        </h1>
-        <p class="text-left font-manrope text-4xl break-normal pr-48 mt-4">
-          Delivering high quality PCB components creating lasting value for our
-          customers
-        </p>
-        <a
-          href="#_"
-          class="
-            py-3
-            px-5
-            mt-4
-            m-1
-            w-max
-            rounded-lg
-            text-neutrals-100
-            relative
-            inline-flex
-            group
-            items-center
-            justify-center
-            cursor-pointer
-            border-b-4 border-l-2
-            active:border-darkGreen-700 active:shadow-none
-            shadow-xl
-            bg-gradient-to-tr
-            from-darkGreen-700
-            to-darkGreen-700
-            border-darkGreen-700
-          "
-        >
-          <span
-            class="
-              absolute
-              w-0
-              h-0
-              transition-all
-              duration-300
-              ease-out
-              bg-white
-              rounded-full
-              group-hover:w-32 group-hover:h-32
-              opacity-10
-            "
-          ></span>
-          <span class="relative font-manrope">Learn More</span>
-        </a>
-        <!-- Carousel -->
-        <div id="controls-carousel" class="relative mt-4" data-carousel="slide">
-          <!-- Carousel wrapper -->
-          <div class="relative h-56 overflow-hidden rounded-lg">
-            <!-- Item 1 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="~/assets/img/26-02-2018882096.jpeg"
-                class="
-                  absolute
-                  block
-                  w-full
-                  -translate-x-1/2 -translate-y-1/2
-                  top-1/2
-                  left-1/2
-                "
-                alt="..."
-              />
+      <div class="flex justify-between max-h-max max-w-7xl mx-auto pb-36">
+        <div class="flex flex-col">
+          <h1 class="font-ubuntu bold text-5xl text-left mt-4">
+            Powering your tech at every spec
+          </h1>
+          <p class="text-left font-manrope text-4xl break-normal pr-48 mt-4">
+            Delivering high quality PCB components creating lasting value for our
+            customers
+          </p>
+          <a
+            href="#_"
+            class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
+            <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
+            <span class="relative font-manrope">Learn More</span>
+          </a>
+          <!-- Carousel -->
+          <div id="controls-carousel" class="relative mt-4" data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class="relative h-56 overflow-hidden rounded-lg">
+              <!-- Item 1 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="~/assets/images/images/carouselImages/26-02-2018882096.webp"
+                  class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+              </div>
+              <!-- Item 2 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="~/assets/images/images/carouselImages/26-02-201863869.webp" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+              </div>
+              <!-- Item 3 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="~/assets/images/images/carouselImages/26-02-2018989851.webp"
+                  class="
+                    absolute
+                    block
+                    w-full
+                    -translate-x-1/2 -translate-y-1/2
+                    top-1/2
+                    left-1/2
+                  "
+                  alt="..."
+                />
+              </div>
+              <!-- Item 4 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="~/assets/images/images/carouselImages/26-02-2018286406.webp"
+                  class="
+                    absolute
+                    block
+                    w-full
+                    -translate-x-1/2 -translate-y-1/2
+                    top-1/2
+                    left-1/2
+                  "
+                  alt="..."
+                />
+              </div>
+              <!-- Item 5 -->
+              <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img
+                  src="~/assets/images/images/carouselImages/26-02-2018391558.webp"
+                  class="
+                    absolute
+                    block
+                    w-full
+                    -translate-x-1/2 -translate-y-1/2
+                    top-1/2
+                    left-1/2
+                  "
+                  alt="..."
+                />
+              </div>
             </div>
-            <!-- Item 2 -->
-            <div
-              class="hidden duration-700 ease-in-out"
-              data-carousel-item="active"
+            <!-- Slider controls -->
+            <button
+              type="button"
+              class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+              <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30group-hover:bg-white/50dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="
+                absolute
+                top-0
+                right-0
+                z-30
+                flex
+                items-center
+                justify-center
+                h-full
+                px-4
+                cursor-pointer
+                group
+                focus:outline-none
+              "
+              data-carousel-next
             >
-              <img
-                src="~/assets/img/26-02-201863869.jpeg"
+              <span
                 class="
-                  absolute
-                  block
-                  w-full
-                  -translate-x-1/2 -translate-y-1/2
-                  top-1/2
-                  left-1/2
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-10
+                  h-10
+                  rounded-full
+                  bg-white/30
+                  dark:bg-gray-800/30
+                  group-hover:bg-white/50
+                  dark:group-hover:bg-gray-800/60
+                  group-focus:ring-4 group-focus:ring-white
+                  dark:group-focus:ring-gray-800/70
+                  group-focus:outline-none
                 "
-                alt="..."
-              />
-            </div>
-            <!-- Item 3 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="~/assets/img/26-02-2018989851.jpeg"
-                class="
-                  absolute
-                  block
-                  w-full
-                  -translate-x-1/2 -translate-y-1/2
-                  top-1/2
-                  left-1/2
-                "
-                alt="..."
-              />
-            </div>
-            <!-- Item 4 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="~/assets/img/26-02-2018286406.jpeg"
-                class="
-                  absolute
-                  block
-                  w-full
-                  -translate-x-1/2 -translate-y-1/2
-                  top-1/2
-                  left-1/2
-                "
-                alt="..."
-              />
-            </div>
-            <!-- Item 5 -->
-            <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img
-                src="~/assets/img/26-02-2018468055.jpeg"
-                class="
-                  absolute
-                  block
-                  w-full
-                  -translate-x-1/2 -translate-y-1/2
-                  top-1/2
-                  left-1/2
-                "
-                alt="..."
-              />
-            </div>
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-6 h-6 text-white dark:text-gray-800"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
           </div>
-          <!-- Slider controls -->
-          <button
-            type="button"
-            class="
-              absolute
-              top-0
-              left-0
-              z-30
-              flex
-              items-center
-              justify-center
-              h-full
-              px-4
-              cursor-pointer
-              group
-              focus:outline-none
-            "
-            data-carousel-prev
-          >
-            <span
-              class="
-                inline-flex
-                items-center
-                justify-center
-                w-10
-                h-10
-                rounded-full
-                bg-white/30
-                dark:bg-gray-800/30
-                group-hover:bg-white/50
-                dark:group-hover:bg-gray-800/60
-                group-focus:ring-4 group-focus:ring-white
-                dark:group-focus:ring-gray-800/70
-                group-focus:outline-none
-              "
-            >
-              <svg
-                aria-hidden="true"
-                class="w-6 h-6 text-white dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 19l-7-7 7-7"
-                ></path>
-              </svg>
-              <span class="sr-only">Previous</span>
-            </span>
-          </button>
-          <button
-            type="button"
-            class="
-              absolute
-              top-0
-              right-0
-              z-30
-              flex
-              items-center
-              justify-center
-              h-full
-              px-4
-              cursor-pointer
-              group
-              focus:outline-none
-            "
-            data-carousel-next
-          >
-            <span
-              class="
-                inline-flex
-                items-center
-                justify-center
-                w-10
-                h-10
-                rounded-full
-                bg-white/30
-                dark:bg-gray-800/30
-                group-hover:bg-white/50
-                dark:group-hover:bg-gray-800/60
-                group-focus:ring-4 group-focus:ring-white
-                dark:group-focus:ring-gray-800/70
-                group-focus:outline-none
-              "
-            >
-              <svg
-                aria-hidden="true"
-                class="w-6 h-6 text-white dark:text-gray-800"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5l7 7-7 7"
-                ></path>
-              </svg>
-              <span class="sr-only">Next</span>
-            </span>
-          </button>
-        </div>
       </div>
 
       <div class="relative">
-        <!--        <img-->
-        <!--          class="absolute top-10 -left-10"-->
-        <!--          src="~/assets/img/15916-removebg-preview1.png"-->
-        <!--          alt=""-->
-        <!--        />-->
-        <svg
-          class="top-0"
-          width="516"
-          height="453"
-          viewBox="0 0 566 503"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M56.3367 116.702C92.0917 73.8894 135.114 41.7804 183.715 20.9305C231.887 0.112132 285.606 -9.87691 315.26 17.3355C344.944 44.9778 350.595 110.251 398.021 149.99C445.478 190.158 534.711 204.791 558.421 239.353C581.701 273.948 539.458 328.472 493.155 362.982C446.82 397.063 397.253 410.637 347.436 438.49C297.62 466.344 248.413 508.413 209.034 501.793C169.623 494.744 140.437 438.542 101.135 391.726C61.8019 344.48 12.7512 306.157 2.43824 259.808C-7.84318 213.889 20.5817 159.514 56.3367 116.702Z"
-            fill="#54C68E"
-            fill-opacity="0.6"
-          />
+        <img class="absolute top-10 -left-10" src="~/assets/images/images/companyAssets/15916-removebg-preview-1.webp" alt="">
+        <svg class="top-0" width="516" height="453" viewBox="0 0 566 503" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M56.3367 116.702C92.0917 73.8894 135.114 41.7804 183.715 20.9305C231.887 0.112132 285.606 -9.87691 315.26 17.3355C344.944 44.9778 350.595 110.251 398.021 149.99C445.478 190.158 534.711 204.791 558.421 239.353C581.701 273.948 539.458 328.472 493.155 362.982C446.82 397.063 397.253 410.637 347.436 438.49C297.62 466.344 248.413 508.413 209.034 501.793C169.623 494.744 140.437 438.542 101.135 391.726C61.8019 344.48 12.7512 306.157 2.43824 259.808C-7.84318 213.889 20.5817 159.514 56.3367 116.702Z" fill="#54C68E" fill-opacity="0.6"/>
         </svg>
       </div>
-    </section>
-
-    <!-- Lets Innovate Together Section -->
-    <div
-      class="
-        bg-darkGreen-700
-        text-neutrals-100
-        flex flex-col
-        p-8
-        absolute
-        w-[46rem]
-        left-1/2
-        top-[46rem]
-        rounded-l-lg
-      "
-    >
-      <h2 class="font-ubuntu italic text-2xl">Lets Innovate Together</h2>
-      <p class="font-manrope text-xl">
-        Here at Alpha Circuit we strive to be the best in class manufacturer and
-        provider of PCB solutions in the industry and for your needs. Work
-        together with us to prototype your goals and we'll work towards making
-        that a reality. Giving you a best in class product that is built to
-        last.
-      </p>
     </div>
 
+    <!-- Lets Innovate Together Section -->
+    <div class="bg-darkGreen-700 text-neutrals-100 flex flex-col p-8 absolute w-[46rem] left-1/2 top-[46rem] rounded-l-lg">
+      <h2 class="font-ubuntu italic text-2xl">Lets Innovate Together</h2>
+      <p class="font-manrope text-xl">Here at Alpha Circuit we strive to be the best in class manufacturer and provider of PCB solutions in the industry and for your needs. Work together with us to prototype your goals and we'll work towards making that a reality. Giving you a best in class product that is built to last.</p>
+    </div>
     <!-- Second Section -->
     <section class="bg-lightGreen-50 flex mx-auto">
       <!-- Action Cards -->
@@ -307,7 +172,7 @@
             cursor-pointer
           "
         >
-          <img src="~/assets/img/icons/icons8-quote-request-64 2.png" alt="" />
+          <img src="~/assets/images/icons/64x72-Icons/icons8-quote-request-64x72.png" alt="" />
           <div>
             <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">
               Request A Quote
@@ -331,7 +196,7 @@
             cursor-pointer
           "
         >
-          <img src="~/assets/img/icons/Support.png" alt="" />
+          <img src="~/assets/images/icons/64x72-Icons/Support.png" alt="" />
           <div>
             <h4 class="font-ubuntu bold ml-2 no-underline hover:underline">
               Capabilities
@@ -383,7 +248,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-hospital-bed-with-iv-machine-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-hospital-bed-with-iv-machine-48.png"
             alt="Medical Diagnostics Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -407,7 +272,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-microchip-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-microchip-48.png"
             alt="5G Infrastructure Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -431,7 +296,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-automotive-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-automotive-48.png"
             alt="Automotives Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Automotives</p>
@@ -453,7 +318,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-display-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-display-48.png"
             alt="Display Electronics Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -477,7 +342,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-cockpit-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-cockpit-48.png"
             alt="Avionics In Cockpic Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Avionics</p>
@@ -499,7 +364,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-aeronautics-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-aeronautics-48.png"
             alt="Aerospace Icon"
           />
           <p class="font-ubuntu font-medium hover:underline">Aerospace</p>
@@ -521,7 +386,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-automation-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-automation-48.png"
             alt="Industrial Automation"
           />
           <p class="font-ubuntu font-medium hover:underline">
@@ -545,7 +410,7 @@
         >
           <img
             class=""
-            src="~/assets/img/icons/icons8-electronics-48.png"
+            src="~/assets/images/icons/48x48-Icons/icons8-electronics-48.png"
             alt=""
           />
           <p class="font-ubuntu font-medium hover:underline">

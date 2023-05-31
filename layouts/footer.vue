@@ -14,29 +14,9 @@
   >
     <!-- Left Company Information Container -->
     <div class="">
-      <NuxtLink to="/"
-        ><img src="~/assets/images/logos/logo.png" alt="Alpha Circuit Logo"
-      /></NuxtLink>
-      <p class="w-300 h-85 mt-5">
-        Lorem Ipsum Dolor sit amet, consecutur adipsicng elit, in rutrummauris
-        vitae ullamcopp
-      </p>
-      <div
-        class="
-          bg-darkGreen-700
-          text-neutrals-100
-          py-2
-          px-8
-          w-fit
-          rounded-lg
-          mt-5
-          hover:underline
-          cursor-pointer
-          hover:scale-105
-          transform
-          transition
-        "
-      >
+      <NuxtLink to="/"><img src="../assets/images/logos/logo.png" alt="Alpha Circuit Logo"></NuxtLink>
+      <p class="w-300 h-85 mt-5">One stop shop for your printed circuit board requirements. We are the foundation your business can be based on.</p>
+      <div class="bg-darkGreen-700 text-neutrals-100 py-2 px-8 w-fit rounded-lg mt-5 hover:underline cursor-pointer hover:scale-105 transform transition">
         <a href="">Inquiries?</a>
       </div>
       <ul class="flex space-x-2 mt-2">
@@ -49,6 +29,7 @@
         <li><a class="hover:underline" href="">Certificates</a></li>
         <li><a class="hover:underline" href="">Terms</a></li>
       </ul>
+      <a class="text-xs hover:underline" href="icons8.com">Icons by icons8.com</a>
     </div>
     <!-- Right Contact Information Container -->
     <div

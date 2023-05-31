@@ -354,7 +354,7 @@
       <div class="text-left align-middle p-8 text-black rounded-lg h-250">
         <img
           class="-m-2 mb-2"
-          src="~/assets/img/icons/icons8-schedule-60.png"
+          src="~/assets/images/icons/60x60-Icons/icons8-schedule-60.png"
           alt=""
         />
         <h4 class="font-ubuntu font-semibold">Schedule A Visit</h4>

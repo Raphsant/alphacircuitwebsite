@@ -1,55 +1,16 @@
 <template>
-  <div
-    class="
-      flex-col flex
-      border
-      bg-neutral-50
-      rounded-lg
-      w-3/12
-      space-y-4
-      p-5
-      shadow-xl
-    "
-  >
-    <img :src="props.imgUrl" alt="" />
-    <div class="text-3xl w-fit">
-      {{ props.title }}
+    <div class="flex-col flex border bg-neutral-50 rounded-lg w-3/12 space-y-4 p-5 shadow-xl">
+        <img class="w-16" :src="props.imgUrl" alt="">
+        <div class="text-3xl w-fit">
+            {{props.title}}
+        </div>
+        <div class="w-4/6 text-lg">
+            {{props.body}}
+        </div>
+        <div class="bg-darkGreen-700 text-white w-fit p-3 font-bold rounded-lg cursor-pointer hover:underline">
+            {{props.buttonText}}
+        </div>
     </div>
-    <div class="w-3/6 text-lg">
-      {{ props.body }}
-    </div>
-    <div
-      class="
-        bg-darkGreen-700
-        text-white
-        w-fit
-        p-3
-        font-bold
-        rounded-lg
-        cursor-pointer
-        hover:underline
-      "
-    >
-      {{ props.buttonText }}
-    </div>
-  </div>
-  <div class="w-3/6 text-lg">
-    {{ props.body }}
-  </div>
-  <div
-    class="
-      bg-darkGreen-700
-      text-white
-      w-fit
-      p-3
-      font-bold
-      rounded-lg
-      cursor-pointer
-      hover:underline
-    "
-  >
-    {{ props.buttonText }}
-  </div>
 </template>
 <script setup>
 const props = defineProps(["title", "imgUrl", "body", "buttonText"]);

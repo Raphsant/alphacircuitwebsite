@@ -1,9 +1,7 @@
 <template>
-  <div id="wrapper" class="mb-10 w-full">
+  <div id="wrapper" class="w-full">
     <div class="flex bg-lightGreen-100 h-20 w-full">
-      <div
-        class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center"
-      >
+      <div class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center">
         <div>READY TO REQUEST A QUOTE?</div>
         <div class="rounded-md text-white bg-neutrals-600 p-2 px-4">
           Inquires?
@@ -11,36 +9,9 @@
       </div>
     </div>
 
-    <div
-      class="
-        rounded-lg
-        flex
-        shadow-lg
-        bg-gradient-to-b
-        from-darkGreen-700
-        to-darkGreen-500
-        via-lightGreen-300
-        to-lightGreen-600
-        max-w-5xl
-        mt-8
-        mx-auto
-        mb-8
-        w-1100
-        h-400
-      "
-    >
+    <div class="rounded-lg flex shadow-lg bg-gradient-to-b from-darkGreen-700 to-darkGreen-500 via-lightGreen-300 to-lightGreen-600 max-w-5xl mt-8 mx-auto mb-8 w-1100 h-400">
       <!-- Leftside -->
-      <div
-        class="
-          text-left
-          align-middle
-          p-8
-          text-black
-          rounded-lg
-          gap-2
-          flex-col flex
-        "
-      >
+      <div class="text-left align-middle p-8 text-black rounded-lg gap-2 flex-col flex">
         <h1 class="w-400 text-5xl font-ubuntu font-semibold">
           Partner with Alpha Circuit today!
         </h1>
@@ -51,24 +22,24 @@
         <div class="flex w-150 -ml-1 space-x-1">
           <img
             class="cursor-pointer"
-            src="~/assets/img/icons/icons8-location-32.png"
+            src="~/assets/images/icons/32x32-Icons/icons8-location-32.png"
             alt="Location Pin"
           />
           <img
             class="cursor-pointer"
-            src="~/assets/img/icons/icons8-phone-32.png"
+            src="~/assets/images/icons/32x32-Icons/icons8-phone-32.png"
             alt="Call Icon"
           />
           <img
             class="cursor-pointer"
-            src="~/assets/img/icons/icons8-email-32.png"
+            src="~/assets/images/icons/32x32-Icons/icons8-email-32.png"
             alt="Email Icon"
           />
         </div>
       </div>
       <!-- Rightside -->
       <div>
-        <img class="rounded-r-lg h-400" src="~/assets/img/pcb.jpg" alt="" />
+        <img class="rounded-r-lg h-400" src="~/assets/images/images/carouselImages/pcb.webp" alt="" />
       </div>
     </div>
 
@@ -97,21 +68,11 @@
             success is our success.
           </p>
         </blockquote>
-        <img src="~/assets/img/video-call.svg" class="h-52 w-1/5" alt="" />
+        <img src="~/assets/images/shapes/video-call.svg" class="h-52 w-1/5" alt="" />
       </div>
     </div>
-    <div class="bg-lightGreen-100">
-      <div
-        class="
-          flex flex-row
-          gap-16
-          justify-center
-          m-10
-          relative
-          abolute
-          -top-40
-        "
-      >
+    <div class="bg-lightGreen-50">
+      <div class="flex flex-row gap-16 justify-center m-10 relative abolute -top-40">
         <ContactCard
           v-for="data in fourthSectionData"
           :imgUrl="data.imgUrl"
@@ -146,24 +107,26 @@ import Form from "~/components/contact/fourth/form.vue";
 
 const fourthSectionData = [
   {
-    imgUrl: "/img/icons8-career-vacancy-48.png",
+    imgUrl: "assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
     title: "Careers",
     body: "Interested in applying? Take a look at our open positions",
     buttonText: "Explore jobs",
   },
   {
-    imgUrl: "/img/icons8-career-vacancy-48.png",
+    imgUrl: "/assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
     title: "About Us",
     body: "Want to know more? Come by schedule a visit, let's talk",
     buttonText: "Book Appointment",
   },
   {
-    imgUrl: "/img/icons8-quote-request-48.png",
+    imgUrl: "/assets/images/icons/48x48-Icons/icons8-quote-request-48.png",
     title: "Quote Request",
-    body: "Talk directly with a sales representative",
+    body: "Talk directly with a representative of our sales team today!",
     buttonText: "Get a quote",
   },
 ];
 </script>
 
-<style scoped></style>
+<style scoped>
+  
+</style>
