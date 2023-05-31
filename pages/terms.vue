@@ -2,7 +2,6 @@
   <section class="max-w-5xl mx-auto space-y-1">
     <h2 class="font-ubuntu font-bold">Alpha Circuit Corporation</h2>
     <hr class="w-16 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700" />
-
     <h6 class="font-ubuntu font-semibold">
       Alpha Circuit Corporation Supplier Agreement
     </h6>
