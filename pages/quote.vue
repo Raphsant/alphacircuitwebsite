@@ -296,6 +296,7 @@
             "
             id="file_input"
             type="file"
+            name="file"
             accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
           />
         </div>
