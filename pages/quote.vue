@@ -9,9 +9,9 @@
     </div>
 
     <form
+      name="ask-question"
+      method="post"
       data-netlify="true"
-      name="Quote"
-      method="POST"
       class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
     >
       <div class="grid gap-6 mb-6 md:grid-cols-3">
@@ -24,8 +24,8 @@
           >
           <input
             type="text"
-            value="first_name"
             id="first_name"
+            name="emailData.firstName"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -56,7 +56,7 @@
           <input
             type="text"
             id="last_name"
-            value="last_name"
+            name="emailData.lastName"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -87,7 +87,7 @@
           <input
             type="text"
             id="company"
-            value="company"
+            name="emailData.company"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -118,7 +118,7 @@
           <input
             type="tel"
             id="phone"
-            value="phone"
+            name="emailData.phoneNumber"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -150,7 +150,7 @@
           <input
             type="email"
             id="email_address"
-            value="email_address"
+            name="emailData.emailAddress"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -181,7 +181,7 @@
           <input
             type="number"
             id="quantity"
-            value="quantity"
+            name="emailData.estimatedQuantity"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -210,7 +210,7 @@
           >
           <select
             id="states"
-            value="states"
+            name="emailData.state"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -246,7 +246,7 @@
           >
           <select
             id="countries"
-            value="countries"
+            name="emailData.country"
             class="
               bg-gray-50
               border border-gray-300
@@ -293,7 +293,6 @@
               dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
             "
             id="file_input"
-            value="file_input"
             type="file"
             accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
           />
@@ -310,11 +309,12 @@
           >
           <textarea
             id="message"
-            value="message"
+            name="emailData.message"
+            rows="4"
             class="
               block
               p-2.5
-              w-full w-full
+              w-full
               text-sm text-gray-900
               bg-gray-50
               rounded-lg
@@ -425,7 +425,6 @@ const send = async () => {
   }
   window.location.reload();
 };
-
 const states = [
   { code: "AL", name: "Alabama" },
   { code: "AK", name: "Alaska" },
