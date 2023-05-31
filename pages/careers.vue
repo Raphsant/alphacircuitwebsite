@@ -57,6 +57,7 @@
                 <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">Open Positions</h4>
                 <p class="w-525 font-ubuntu font-bold"> We are excited to offer a range of open positions that provide excellent opportunities for individuals looking to contribute their skills and expertise to our dynamic and innovative team. Whether you are an experienced engineer, a skilled technician, or a passionate problem solver, we have positions available that encompass various areas of expertise. From design and manufacturing to quality control and project management, we offer a diverse range of roles that cater to different skill sets and interests.</p>
                 <a
+                    @click="showContent1 = !showContent1"
                     href="#_"
                     class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
                     <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
@@ -65,6 +66,69 @@
             </div>
             <div>
                 <img class="w-425 h-375 rounded-lg" id="hello" src="~/assets/images/images/carouselImages/dylan-gillis-KdeqA3aTnBY-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <div v-if="showContent1" id="" class="space-y-5">
+            <div class="max-w-2xl mx-48">
+                <div class="bg-white rounded-xl border-2">
+                    <div @click="showContent2 = !showContent2" class="flex items-center justify-between cursor-pointer">
+                        <span class="font-semibold text-lg p-4">Entry Level PCB Designer (10)</span>
+                        <span class="font-semibold text-xs text-gray-500">*US Citizen or Green Card required</span>
+                        <img class="scale-75 mr-2" src="~/assets/images/icons/32x32-Icons/icons8-chevron-down-32.png" alt="">
+                    </div>
+
+                    <div v-if="showContent2" class="">
+                        <div class="p-4 border-t space-y-2">
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Responsibilities and Duties</h6>
+                            <p class="font-manrope">In this role, you will be responsible for designing and drafting layouts of printed circuit boards (PCBs) based on engineering specifications. You will collaborate closely with the Engineering staff to address design details and resolve any issues that may arise. Additionally, you will analyze engineering design schematics and supporting documents to strategically plan the layout of PCB components and printed circuitry. </p>
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Education / Experience:</h6>
+                            <p class="font-manrope">The ideal candidate will have completed a PCB design course from an accredited source. Their educational background should include an Associate's degree or On-the-Job training within the electronics industry, candidate should have working knowledge of Cadence and/or Atrium Designer software tools.</p>
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Preferred Experience Level</h6>
+                            <p class="font-manrope">The ideal candidate will have completed a PCB design course from an accredited source. Their educational background should include an Associate's degree or On-the-Job training within the electronics industry, candidate should have working knowledge of Cadence and/or Atrium Designer software tools.</p>
+                            <p class="text-gray-500 text-xs mt-2">*A complete design and layout training will be provided to the selected candidate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-2xl mx-48">
+                <div class="bg-white rounded-xl border-2">
+                    <div @click="showContent3 = !showContent3" class="flex items-center justify-between cursor-pointer">
+                        <span class="font-semibold text-lg p-4">Quality Control Inspector (5)</span>
+                        <span class="font-semibold text-xs text-gray-500">*US Citizen or Green Card required</span>
+                        <img class="scale-75 mr-2" src="~/assets/images/icons/32x32-Icons/icons8-chevron-down-32.png" alt="">
+                    </div>
+
+                    <div v-if="showContent3" class="">
+                        <div class="p-4 border-t space-y-2">
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Responsibilities and Duties</h6>
+                            <p class="font-manrope">In this role, you will oversee various procurement activities, including the acquisition of goods and services such as raw materials, equipment, tools, parts, and supplies. This involves engaging with vendors to gather essential product or service information, such as pricing, availability, and delivery schedules. Utilizing your market knowledge, you will estimate values and determine the most suitable procurement method, whether it's through direct purchase or bid. You will meticulously review bid proposals, negotiate contracts within budgetary constraints, and maintain comprehensive procurement records. In cases of defective or unsatisfactory goods or services, you will liaise with vendors to identify the root cause and implement corrective measures. Additionally, you may be responsible for validating invoices for payment.</p>
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Education / Experience:</h6>
+                            <p class="font-manrope">This candidate will have a high school diploma or equivalent - ideally 2 years of college desirable.</p>
+                            <p class="font-manrope">Proficient in Microsoft Office</p>
+                            <p class="text-gray-500 text-xs mt-2">*Training will be provided</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-2xl mx-48">
+                <div class="bg-white rounded-xl border-2">
+                    <div @click="showContent4 = !showContent4" class="flex items-center justify-between cursor-pointer">
+                        <span class="font-semibold text-lg p-4">Buyer (2)</span>
+                        <span class="font-semibold text-xs text-gray-500">*US Citizen or Green Card required</span>
+                        <img class="scale-75 mr-2" src="~/assets/images/icons/32x32-Icons/icons8-chevron-down-32.png" alt="">
+                    </div>
+
+                    <div v-if="showContent4" class="">
+                        <div class="p-4 border-t space-y-2">
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Responsibilities and Duties</h6>
+                            <p class="font-manrope">In this role, you will oversee various procurement activities, including the acquisition of goods and services such as raw materials, equipment, tools, parts, and supplies. This involves engaging with vendors to gather essential product or service information, such as pricing, availability, and delivery schedules. Utilizing your market knowledge, you will estimate values and determine the most suitable procurement method, whether it's through direct purchase or bid. You will meticulously review bid proposals, negotiate contracts within budgetary constraints, and maintain comprehensive procurement records. In cases of defective or unsatisfactory goods or services, you will liaise with vendors to identify the root cause and implement corrective measures. Additionally, you may be responsible for validating invoices for payment.</p>
+                            <h6 class="font-ubuntu font-semibold text-darkGreen-700">Education / Experience:</h6>
+                            <p class="font-manrope">This candidate will have a high school diploma or equivalent - ideally 2 years of college desirable.</p>
+                            <p class="font-manrope">Proficient in Microsoft Office</p>
+                            <p class="text-gray-500 text-xs mt-2">*Training will be provided</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="your_possibilities" class="mx-auto max-w-7xl flex flex-row justify-evenly mt-16">
@@ -99,29 +163,31 @@
         <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <p class="text-darkGreen-700 font-ubuntu font-bold">Management Board</p>
         <div class="flex flex-row justify-evenly p-4">
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Prashant Patel</p>
+                <p class="font-bold font-ubuntu">Owner and CEO</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p>Steve Smith</p>
+                <p class="font-bold">General Manager</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-116</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Natu Vaghani</p>
+                <p class="font-bold font-ubuntu">Engineering Manager</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-119</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
         </div>
     </div>
@@ -130,43 +196,47 @@
         <!-- divider line -->
         <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <p class="text-darkGreen-700 font-ubuntu font-bold">Sales Team</p>
-        <div class="flex flex-row justify-evenly p-4">
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+        <div class="flex flex-row justify-evenly p-4 mb-4">
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Steve Ryan</p>
+                <p class="font-bold font-ubuntu">Sales Team</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">SteveR@alphacircuit.com</p>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-110</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Person 2 Name</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
-            <div class="flex flex-col text-center gap-1">
-                <p>Person Name</p>
-                <p>Job Role</p>
-                <div class="w-200 h-200 rounded-full bg-slate-200"></div>
-                <p>Contact Info</p>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
         </div>
     </div>
 
 </template>
 
-
-  
 <script>
 export default {
     data() {
         return {
-            showContent: false
+            showContent: false,
+            showContent1: false,
+            showContent2: false,
+            showContent3: false,
+            showContent4: false,
         };
     },
     name: "careers"
@@ -174,9 +244,6 @@ export default {
 </script>
   
   <script setup>
-import { dataToEsm } from '@rollup/pluginutils';
-
-    
   </script>
   
   <style scoped>
