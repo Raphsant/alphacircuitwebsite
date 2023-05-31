@@ -9,7 +9,7 @@
     </div>
 
     <form
-      netlify
+      data-netlify="true"
       class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
     >
       <div class="grid gap-6 mb-6 md:grid-cols-3">
@@ -22,6 +22,7 @@
           >
           <input
             type="text"
+            value="first_name"
             id="first_name"
             v-model="emailData.firstName"
             class="
@@ -54,6 +55,7 @@
           <input
             type="text"
             id="last_name"
+            value="last_name"
             v-model="emailData.lastName"
             class="
               bg-gray-50
@@ -85,6 +87,7 @@
           <input
             type="text"
             id="company"
+            value="company"
             v-model="emailData.company"
             class="
               bg-gray-50
@@ -116,6 +119,7 @@
           <input
             type="tel"
             id="phone"
+            value="phone"
             v-model="emailData.phoneNumber"
             class="
               bg-gray-50
@@ -148,6 +152,7 @@
           <input
             type="email"
             id="email_address"
+            value="email_address"
             v-model="emailData.emailAddress"
             class="
               bg-gray-50
@@ -179,6 +184,7 @@
           <input
             type="number"
             id="quantity"
+            value="quantity"
             v-model="emailData.estimatedQuantity"
             class="
               bg-gray-50
@@ -208,6 +214,7 @@
           >
           <select
             id="states"
+            value="states"
             v-model="emailData.state"
             class="
               bg-gray-50
@@ -244,6 +251,7 @@
           >
           <select
             id="countries"
+            value="countries"
             v-model="emailData.country"
             class="
               bg-gray-50
@@ -291,6 +299,7 @@
               dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
             "
             id="file_input"
+            value="file_input"
             type="file"
             accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
           />
@@ -307,12 +316,13 @@
           >
           <textarea
             id="message"
+            value="message"
             v-model="emailData.message"
             rows="4"
             class="
               block
               p-2.5
-              w-full
+              w-full w-full
               text-sm text-gray-900
               bg-gray-50
               rounded-lg
