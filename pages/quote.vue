@@ -24,7 +24,6 @@
             type="text"
             value="first_name"
             id="first_name"
-            v-model="emailData.firstName"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -56,7 +55,6 @@
             type="text"
             id="last_name"
             value="last_name"
-            v-model="emailData.lastName"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -88,7 +86,6 @@
             type="text"
             id="company"
             value="company"
-            v-model="emailData.company"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -120,7 +117,6 @@
             type="tel"
             id="phone"
             value="phone"
-            v-model="emailData.phoneNumber"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -153,7 +149,6 @@
             type="email"
             id="email_address"
             value="email_address"
-            v-model="emailData.emailAddress"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -185,7 +180,6 @@
             type="number"
             id="quantity"
             value="quantity"
-            v-model="emailData.estimatedQuantity"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -215,7 +209,6 @@
           <select
             id="states"
             value="states"
-            v-model="emailData.state"
             class="
               bg-gray-50
               border border-lightGreen-500
@@ -252,7 +245,6 @@
           <select
             id="countries"
             value="countries"
-            v-model="emailData.country"
             class="
               bg-gray-50
               border border-gray-300
@@ -317,8 +309,6 @@
           <textarea
             id="message"
             value="message"
-            v-model="emailData.message"
-            rows="4"
             class="
               block
               p-2.5
