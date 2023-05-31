@@ -14,6 +14,7 @@
       data-netlify="true"
       class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
     >
+      <input type="hidden" name="form-name" value="ask-question" />
       <div class="grid gap-6 mb-6 md:grid-cols-3">
         <!-- First Name -->
         <div>
