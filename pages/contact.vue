@@ -165,14 +165,14 @@ import Form from "~/components/contact/fourth/form.vue";
 
 const fourthSectionData = [
   {
-    imgUrl: "assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
+    imgUrl: "/img/form.png",
     title: "Careers",
     body: "Interested in applying? Take a look at our open positions",
     buttonText: "Explore jobs",
     redirectLink: "/careers",
   },
   {
-    imgUrl: "/assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
+    imgUrl: "/img/form.png",
     title: "About Us",
     body: "Want to know more? Come by schedule a visit, let's talk",
     buttonText: "Book Appointment",
@@ -180,7 +180,7 @@ const fourthSectionData = [
     hash: "#form",
   },
   {
-    imgUrl: "/assets/images/icons/48x48-Icons/icons8-quote-request-48.png",
+    imgUrl: "/img/icons8-quote-request-48.png",
     title: "Quote Request",
     body: "Talk directly with a representative of our sales team today!",
     buttonText: "Get a quote",
