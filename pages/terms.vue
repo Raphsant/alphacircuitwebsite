@@ -1,5 +1,31 @@
 <template>
-    <section class="max-w-5xl mx-auto space-y-1">
+    <div>
+      <div class="relative overflow-hidden h-56">
+        <img
+          class="
+            h-full
+            w-full
+            absolute
+            object-cover
+            brightness-50
+          "
+          src="~/assets/images/images/carouselImages/26-02-201863869.webp"
+          alt=""
+        />
+        <h1
+          class="
+            text-3xl text-white
+            absolute
+            top-1/2
+            left-1/2
+            -translate-x-1/2 -translate-y-1/2
+          "
+        >
+          Terms & Conditions
+        </h1>
+      </div>
+    </div>
+    <section class="max-w-5xl mx-auto space-y-1 p-16 rounded-xl">
         <h2 class="font-ubuntu font-bold">Alpha Circuit Corporation</h2>
         <hr class="w-16 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
 

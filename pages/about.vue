@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div id="image">
+    <div>
       <div class="relative overflow-hidden h-56">
         <img
           class="
