@@ -1,7 +1,9 @@
 <template>
   <div id="wrapper" class="w-full">
     <div class="flex bg-lightGreen-100 h-20 w-full">
-      <div class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center">
+      <div
+        class="flex flex-row gap-10 mr-28 mt-50 w-full justify-end items-center"
+      >
         <div>READY TO REQUEST A QUOTE?</div>
         <div class="rounded-md text-white bg-neutrals-600 p-2 px-4">
           Inquires?
@@ -9,9 +11,36 @@
       </div>
     </div>
 
-    <div class="rounded-lg flex shadow-lg bg-gradient-to-b from-darkGreen-700 to-darkGreen-500 via-lightGreen-300 to-lightGreen-600 max-w-5xl mt-8 mx-auto mb-8 w-1100 h-400">
+    <div
+      class="
+        rounded-lg
+        flex
+        shadow-lg
+        bg-gradient-to-b
+        from-darkGreen-700
+        to-darkGreen-500
+        via-lightGreen-300
+        to-lightGreen-600
+        max-w-5xl
+        mt-8
+        mx-auto
+        mb-8
+        w-1100
+        h-400
+      "
+    >
       <!-- Leftside -->
-      <div class="text-left align-middle p-8 text-black rounded-lg gap-2 flex-col flex">
+      <div
+        class="
+          text-left
+          align-middle
+          p-8
+          text-black
+          rounded-lg
+          gap-2
+          flex-col flex
+        "
+      >
         <h1 class="w-400 text-5xl font-ubuntu font-semibold">
           Partner with Alpha Circuit today!
         </h1>
@@ -20,26 +49,39 @@
           emerging electronics
         </p>
         <div class="flex w-150 -ml-1 space-x-1">
-          <img
-            class="cursor-pointer"
-            src="~/assets/images/icons/32x32-Icons/icons8-location-32.png"
-            alt="Location Pin"
-          />
-          <img
-            class="cursor-pointer"
-            src="~/assets/images/icons/32x32-Icons/icons8-phone-32.png"
-            alt="Call Icon"
-          />
-          <img
-            class="cursor-pointer"
-            src="~/assets/images/icons/32x32-Icons/icons8-email-32.png"
-            alt="Email Icon"
-          />
+          <a
+            href="https://www.google.com/maps/place/Alpha+Circuit/@41.9501225,-87.9481431,12z/data=!4m10!1m2!2m1!1salpha+circuit!3m6!1s0x880fb33e009a8cc1:0xe257b9fba3dbacc6!8m2!3d41.921193!4d-87.957951!15sCg1hbHBoYSBjaXJjdWl0kgEMbWFudWZhY3R1cmVy4AEA!16s%2Fg%2F1tzzw2vf?entry=ttu"
+            target="_blank"
+          >
+            <img
+              class="cursor-pointer"
+              src="~/assets/images/icons/32x32-Icons/icons8-location-32.png"
+              alt="Location Pin"
+            />
+          </a>
+          <a href="tel:6306175555">
+            <img
+              class="cursor-pointer"
+              src="~/assets/images/icons/32x32-Icons/icons8-phone-32.png"
+              alt="Call Icon"
+            />
+          </a>
+          <a href="mailto:sales@alphacircuit.com">
+            <img
+              class="cursor-pointer"
+              src="~/assets/images/icons/32x32-Icons/icons8-email-32.png"
+              alt="Email Icon"
+            />
+          </a>
         </div>
       </div>
       <!-- Rightside -->
       <div>
-        <img class="rounded-r-lg h-400" src="~/assets/images/images/carouselImages/pcb.webp" alt="" />
+        <img
+          class="rounded-r-lg h-400"
+          src="~/assets/images/images/carouselImages/pcb.webp"
+          alt=""
+        />
       </div>
     </div>
 
@@ -68,22 +110,38 @@
             success is our success.
           </p>
         </blockquote>
-        <img src="~/assets/images/shapes/video-call.svg" class="h-52 w-1/5" alt="" />
+        <img
+          src="~/assets/images/shapes/video-call.svg"
+          class="h-52 w-1/5"
+          alt=""
+        />
       </div>
     </div>
     <div class="bg-lightGreen-50">
-      <div class="flex flex-row gap-16 justify-center m-10 relative abolute -top-40">
+      <div
+        class="
+          flex flex-row
+          gap-16
+          justify-center
+          m-10
+          relative
+          abolute
+          -top-40
+        "
+      >
         <ContactCard
           v-for="data in fourthSectionData"
           :imgUrl="data.imgUrl"
           :title="data.title"
           :body="data.body"
           :button-text="data.buttonText"
+          :redirect-link="data.redirectLink"
+          :hash="data.hash"
         />
       </div>
       <div class="flex -mt-32">
         <div>
-          <Form class="w-650 h-450" />
+          <Form id="form" class="w-650 h-450" />
         </div>
         <div class="p-12 mt-4">
           <iframe
@@ -107,26 +165,28 @@ import Form from "~/components/contact/fourth/form.vue";
 
 const fourthSectionData = [
   {
-    imgUrl: "assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
+    imgUrl: "/img/form.png",
     title: "Careers",
     body: "Interested in applying? Take a look at our open positions",
     buttonText: "Explore jobs",
+    redirectLink: "/careers",
   },
   {
-    imgUrl: "/assets/images/icons/48x48-Icons/icons8-career-vacancy-48.png",
+    imgUrl: "/img/form.png",
     title: "About Us",
     body: "Want to know more? Come by schedule a visit, let's talk",
     buttonText: "Book Appointment",
+    redirectLink: "/contact",
+    hash: "#form",
   },
   {
-    imgUrl: "/assets/images/icons/48x48-Icons/icons8-quote-request-48.png",
+    imgUrl: "/img/icons8-quote-request-48.png",
     title: "Quote Request",
     body: "Talk directly with a representative of our sales team today!",
     buttonText: "Get a quote",
+    redirectLink: "/quote",
   },
 ];
 </script>
 
-<style scoped>
-  
-</style>
+<style scoped></style>
