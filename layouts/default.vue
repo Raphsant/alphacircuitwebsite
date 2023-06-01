@@ -64,8 +64,7 @@
               "
               >About</NuxtLink
             >
-            <a
-              href="#"
+            <NuxtLink to="/products"
               class="
                 py-2
                 px-3
@@ -75,8 +74,7 @@
                 underline-offset-8
                 decoration-lightGreen-100 decoration-4
               "
-              >Products</a
-            >
+              >Products</NuxtLink>
             <NuxtLink
               to="/quote"
               class="
@@ -90,8 +88,7 @@
               "
               >Quote</NuxtLink
             >
-            <a
-              href="#"
+            <NuxtLink to="/capabilities"
               class="
                 py-2
                 px-3
@@ -101,8 +98,7 @@
                 underline-offset-8
                 decoration-lightGreen-100 decoration-4
               "
-              >Capabilities</a
-            >
+              >Capabilities</NuxtLink>
           </div>
           <!-- secondary nav - cta -->
           <div class="flex items-center space-x-1">
