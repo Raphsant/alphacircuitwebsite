@@ -1,21 +1,21 @@
 <template>
     <div class="text-center">
         <h4 class="font-ubuntu text-lg">Categories</h4>
-        <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded dark:bg-gray-700"/>
+        <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded"/>
         <div class="inline-flex rounded-md shadow-lg mt-2" role="group">
-            <button @click="showOption1 = !showOption1" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption1 = !showOption1" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 Quick-Turn Prototype
             </button>
-            <button @click="showOption2 = !showOption2" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption2 = !showOption2" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 Fast-Turn Prototype
             </button>
-            <button @click="showOption3 = !showOption3" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption3 = !showOption3" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 Offshore Production
             </button>
-            <button @click="showOption4 = !showOption4" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption4 = !showOption4" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 Design Validation
             </button>
-            <button @click="showOption5 = !showOption5" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption5 = !showOption5" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 Volume Production
             </button>
         </div>
@@ -24,7 +24,7 @@
             <!-- Option 1 -->
             <div v-if="showOption1">
                 <h3>Quick Turn Prototype</h3>
-            <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+            <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
             <h6>Prototype PCB</h6>
             <h6>Quick-Turn PCB Prototypes</h6>
@@ -50,7 +50,7 @@
             <!-- Option 2 -->
             <div v-if="showOption2">
                 <h3>Fast-Turn Production</h3>
-            <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+            <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded"/>
 
             <h6>Production PCB</h6>
             <h6>Quick-Turn PCB Production</h6>
@@ -77,7 +77,7 @@
             <!-- Option 3 -->
             <div v-if="showOption3">
                 <h3>Offshore Production</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded"/>
 
                 <h6>Offshore Sourcing</h6>
                 <p>ACC'sElmhurst facilities manufacture volume products at the highest levels of technology while our plants in Asia supply high-volume at globally competitive price points.</p>
@@ -114,7 +114,7 @@
             <!-- Option 4 -->
             <div v-if="showOption4">
                 <h3>Design Validation</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded"/>
 
                 <h6>PCB Prototype Design and Process Development</h6>
                 <h6> Prototype Design Support</h6>
@@ -128,7 +128,7 @@
             <!-- Option 5 -->
             <div v-if="showOption5">
                 <h3>Volume Production</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded"/>
 
                 <h6>High Volume Production</h6>
                 <p> Alpha comprehensively maintains the entire PCB platform by isolating each part of the process into succinct stages that ensure the highest levels of quality. This rigid isolation accumulates into greater flexibility for the overall process, as well as paves the way for Alpha to set Industry criteria through its participation in ground-breaking research...</p>

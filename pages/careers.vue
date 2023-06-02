@@ -1,15 +1,54 @@
 <template>
-  <div>
-    <div class="text-left items-left flex max-w-6xl mx-auto flex-col mt-4">
-      <hr
-        class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded dark:bg-gray-700"
-      />
-      <p class="mt-2 text-2xl font-ubuntu font-bold">Careers</p>
-      <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
-      <p class="mt-2 text-2xl font-manrope font-bold">
-        Our people have the talent, tools and passion to do epic things
-        together—for our clients, for consumers and for our community.
-      </p>
+    <div>
+        <div class="text-left items-left flex max-w-6xl mx-auto flex-col mt-4">
+            <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded">
+            <p class="mt-2 text-2xl font-ubuntu font-bold">Careers</p>
+            <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
+            <p class="mt-2 text-2xl font-manrope font-bold">Our people have the talent, tools and passion to do epic things together—for our clients, for consumers and for our community.</p>
+        </div>
+    
+        <div class="flex flex-row justify-center gap-8 mt-8">
+                <div class="w-250 h-250 bg-lightGreen-100 grid place-items-center rounded-2xl p-2 shadow-2xl hover:scale-105 cursor-pointer group">
+                    <a class="scroll-smooth" href="#meet_the_team">
+                        <img class="" src="~/assets/images/icons/64x64-Icons/icons8-team-64.png" alt="">
+                        <h4 class="font-ubuntu font-bold">Meet Us</h4>
+                        <p class="font-manrope">Learn more about the team!</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" class="w-8 h-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:animate-fadeInDown">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </a>
+                </div>
+            <div class="w-250 h-250 bg-lightGreen-100 grid place-items-center rounded-2xl p-2 shadow-2xl hover:scale-105 cursor-pointer group">
+                <a class="scroll-smooth" href="#your_possibilities">
+                    <img class="" src="~/assets/images/icons/64x64-Icons/icons8-award-64.png" alt="">
+                    <h4 class="font-ubuntu font-bold">Your Possibilities</h4>
+                    <p class="font-manrope">Career opportunities for you</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" class="w-8 h-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:animate-fadeInDown">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="w-250 h-250 bg-lightGreen-100 grid place-items-center rounded-2xl p-2 shadow-2xl hover:scale-105 cursor-pointer group">
+                <a class="scroll-smooth" href="#open_positions">
+                    <img class="" src="~/assets/images/icons/64x64-Icons/icons8-job-64.png" alt="">
+                    <h4 class="font-ubuntu font-bold">Open Positions</h4>
+                    <p class="font-manrope">Apply and join our team!</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" class="w-8 h-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:animate-fadeInDown">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="w-250 h-250 bg-lightGreen-100 grid place-items-center rounded-2xl p-2 shadow-2xl hover:scale-105 cursor-pointer group">
+                <NuxtLink to="/about">
+                    <img class="" src="~/assets/images/icons/64x64-Icons/icons8-lightbulb-64.png" alt="">
+                    <h4 class="font-ubuntu font-bold">Learn about AlphaCircuit</h4>
+                    <p class="font-manrope">About Us</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" class="w-8 h-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:animate-fadeInDown">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </NuxtLink>
+            </div>
+        </div>
     </div>
 
     <div class="flex flex-row justify-center gap-8 mt-8">
@@ -451,39 +490,36 @@
               />
             </div>
           </div>
-
-          <div v-if="showContent4" class="">
-            <div class="p-4 border-t space-y-2">
-              <h6 class="font-ubuntu font-semibold text-darkGreen-700">
-                Responsibilities and Duties
-              </h6>
-              <p class="font-manrope">
-                In this role, you will oversee various procurement activities,
-                including the acquisition of goods and services such as raw
-                materials, equipment, tools, parts, and supplies. This involves
-                engaging with vendors to gather essential product or service
-                information, such as pricing, availability, and delivery
-                schedules. Utilizing your market knowledge, you will estimate
-                values and determine the most suitable procurement method,
-                whether it's through direct purchase or bid. You will
-                meticulously review bid proposals, negotiate contracts within
-                budgetary constraints, and maintain comprehensive procurement
-                records. In cases of defective or unsatisfactory goods or
-                services, you will liaise with vendors to identify the root
-                cause and implement corrective measures. Additionally, you may
-                be responsible for validating invoices for payment.
-              </p>
-              <h6 class="font-ubuntu font-semibold text-darkGreen-700">
-                Education / Experience:
-              </h6>
-              <p class="font-manrope">
-                This candidate will have a high school diploma or equivalent -
-                ideally 2 years of college desirable.
-              </p>
-              <p class="font-manrope">Proficient in Microsoft Office</p>
-              <p class="text-gray-500 text-xs mt-2">
-                *Training will be provided
-              </p>
+    <div v-if="showContent" class="mx-auto max-w-6xl">
+        <!-- divider line -->
+        <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
+        <p class="text-darkGreen-700 font-ubuntu font-bold">Management Board</p>
+        <div class="flex flex-row justify-evenly p-4">
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Prashant Patel</p>
+                <p class="font-bold font-ubuntu">Owner and CEO</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p>Steve Smith</p>
+                <p class="font-bold">General Manager</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-116</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Natu Vaghani</p>
+                <p class="font-bold font-ubuntu">Engineering Manager</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-119</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
             </div>
           </div>
         </div>
@@ -581,39 +617,39 @@
         />
       </div>
     </div>
-  </div>
+    <div v-if="showContent" class="mx-auto max-w-6xl">
+        <!-- divider line -->
+        <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
+        <p class="text-darkGreen-700 font-ubuntu font-bold">Sales Team</p>
+        <div class="flex flex-row justify-evenly p-4 mb-4">
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Steve Ryan</p>
+                <p class="font-bold font-ubuntu">Sales Team</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">SteveR@alphacircuit.com</p>
+                <p class="font-manrope">630-617-5555</p>
+                <p class="text-xs">EXT-110</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
+            </div>
+            <div class="flex flex-col text-center gap-1.5">
+                <p class="font-manrope">Person Name</p>
+                <p class="font-bold font-ubuntu">Job Role</p>
+                <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+                <p class="font-manrope">Contact Info</p>
+            </div>
+        </div>
 
-  <div v-if="showContent" class="mx-auto max-w-6xl">
-    <!-- divider line -->
-    <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <p class="text-darkGreen-700 font-ubuntu font-bold">Management Board</p>
-    <div class="flex flex-row justify-evenly p-4">
-      <div class="flex flex-col text-center gap-1.5">
-        <p class="font-manrope">Prashant Patel</p>
-        <p class="font-bold font-ubuntu">Owner and CEO</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
-        <p class="font-manrope">Contact Info</p>
-      </div>
-      <div class="flex flex-col text-center gap-1.5">
-        <p>Steve Smith</p>
-        <p class="font-bold">General Manager</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
-        <p class="font-manrope">630-617-5555</p>
-        <p class="text-xs">EXT-116</p>
-      </div>
-      <div class="flex flex-col text-center gap-1.5">
-        <p class="font-manrope">Natu Vaghani</p>
-        <p class="font-bold font-ubuntu">Engineering Manager</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
-        <p class="font-manrope">630-617-5555</p>
-        <p class="text-xs">EXT-119</p>
-      </div>
-      <div class="flex flex-col text-center gap-1.5">
-        <p class="font-manrope">Person Name</p>
-        <p class="font-bold font-ubuntu">Job Role</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
-        <p class="font-manrope">Contact Info</p>
-      </div>
     </div>
   </div>
 
