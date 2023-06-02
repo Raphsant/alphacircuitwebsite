@@ -35,6 +35,12 @@
                       <li class="mb-4">
                           <NuxtLink to="/terms" class="hover:underline">Terms &amp; Conditions</NuxtLink>
                       </li>
+                      <div class="flex flex-row space-x-1">
+                        <img src="~/assets/images/icons/24x24-Icons/ISO.png" alt="ISO9001 and AS9100 Certification Logo">
+                        <img src="~/assets/images/icons/24x24-Icons/ITAR.png" alt="International Traffic In Arms Regulation Certification Logo">
+                        <img src="~/assets/images/icons/24x24-Icons/MBE.png" alt="Chicago Minority Supplier - Minority Business Enterprise Certification Logo">
+                        <img src="~/assets/images/icons/24x24-Icons/UL (1).png" alt="UL Certified Logo">
+                      </div>
                   </ul>
               </div>
           </div>

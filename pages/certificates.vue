@@ -109,14 +109,16 @@
       </button>
     </div>
 
-    <div class="text-left max-w-5xl mx-auto space-y-1 p-16 rounded-xl">
+    <div class="text-left max-w-5xl mx-auto space-y-1 p-8 rounded-xl">
       <!-- Option 1 -->
-      <div v-if="content[0].isOpen">
+      <div v-if="content[0].isOpen" class="space-y-4">
         <h3 class="font-bold font-ubuntu">AS9100</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
+        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="">
+
         <h6 class="font-bold font-ubuntu">What is AS9100?</h6>
-        <p>
+        <p class="font-manrope">
           The AS9100 is a technical specification aiming to the development of a
           quality management system for the Aerospace Industry. Much like the
           TS16949 that the current Revision C seems to be based on, it provides
@@ -124,8 +126,8 @@
           reduction of variation and waste in the supply chain. It replaces the
           former AS9000 and now fully incorporates the ISO 9001 standard.
         </p>
-        <h6>Benefits</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu">Benefits</h6>
+        <p class="font-manrope">
           "The Improvement Standard" with ISO 9001:2000 as the basic quality
           management system, organizations achieving certification to AS9100
           receive dual benefits. First, they benefit from the process approach,
@@ -139,28 +141,21 @@
           enhance an organization's ability to achieve high quality levels in
           the challenging automotive sector.
         </p>
-        <p>AS9100 certification offers the following benefits:</p>
-
-        <p>Improved product and process quality and reliability.</p>
-        <p>Improved on-time delivery.</p>
-        <p>Greater emphasis on supplier quality improvement efforts.</p>
-        <p>
-          Single quality system registration to meet multiple customer quality
-          requirements
-        </p>
-        <p>
-          Incorporates the best lessons learned from the global automotive
-          segment
-        </p>
-        <p>Improved staff morale through increased management efficiencies</p>
-        <p>
-          Continuous improvement of business performance through ongoing
-          certification audits
-        </p>
-        <p>
-          Bottom-line benefits through increased efficiency, reduced waste and
-          better utilization of resources
-        </p>
+        <p class="font-bold font-ubuntu">AS9100 certification offers the following benefits:</p>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Improved product and process quality and reliability.</li>
+          <li>Improved on-time delivery.</li>
+          <li>Greater emphasis on supplier quality improvement efforts.</li>
+          <li>Single quality system registration to meet multiple customer quality
+          requirements</li>
+          <li>Incorporates the best lessons learned from the global automotive
+          segment</li>
+          <li>Improved staff morale through increased management efficiencies</li>
+          <li>Continuous improvement of business performance through ongoing
+          certification audits</li>
+          <li>Bottom-line benefits through increased efficiency, reduced waste and
+          better utilization of resources</li>
+        </ul>
 
         <a
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
@@ -208,12 +203,12 @@
       </div>
 
       <!-- Option 2 -->
-      <div v-if="content[1].isOpen">
+      <div v-if="content[1].isOpen" class="space-y-4">
         <h3 class="font-bold font-ubuntu">TS16949</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
         <h6 class="font-bold font-ubuntu">What is TS16949</h6>
-        <p>
+        <p class="font-manrope">
           The ISO/TS16949 is an ISO technical specification aiming to the
           development of a quality management system that provides for continual
           improvement, emphasizing defect prevention and the reduction of
@@ -221,12 +216,12 @@
           and the first edition was published in March 2002 as ISO/TS
           16949:2002.
         </p>
-        <p>
+        <p class="font-manrope">
           It was prepared by the International Automotive Task Force (IATF) and
           the "Technical Committee" of ISO. It harmonizes the country-specific
           regulations of Quality-Management-Systems.
         </p>
-        <p>
+        <p class="font-manrope">
           About 30 percent of the more than 100 existing automobile
           manufacturers affiliate the requirements of the norm but especially
           the large Asian manufacturers have differentiated, own requirements
@@ -235,9 +230,9 @@
         </p>
 
         <h6 class="font-bold font-ubuntu">Benefits</h6>
-        <p>"The Improvement Standard"</p>
+        <p class="font-semibold font-manrope italic">"The Improvement Standard"</p>
 
-        <p>
+        <p class="font-manrope">
           With ISO 9001:2000 as the basic quality management system,
           organizations achieving certification to ISO/TS 16949 receive dual
           benefits. First, they benefit from the process approach, with emphasis
@@ -251,28 +246,22 @@
           enhance an organization’s ability to achieve high quality levels in
           the challenging automotive sector.
         </p>
-        <p>ISO/TS 16949 certification offers the following benefits:</p>
 
-        <p>Improved product and process quality and reliability.</p>
-        <p>Improved on-time delivery.</p>
-        <p>Greater emphasis on supplier quality improvement efforts.</p>
-        <p>
-          Single quality system registration to meet multiple customer quality
-          requirements
-        </p>
-        <p>
-          Incorporates the best lessons learned from the global automotive
-          segment
-        </p>
-        <p>Improved staff morale through increased management efficiencies</p>
-        <p>
-          Continuous improvement of business performance through ongoing
-          certification audits
-        </p>
-        <p>
-          Bottom-line benefits through increased efficiency, reduced waste and
-          better utilization of resources
-        </p>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>ISO/TS 16949 certification offers the following benefits:</li>
+          <li>Improved product and process quality and reliability.</li>
+          <li>Improved on-time delivery.</li>
+          <li>Greater emphasis on supplier quality improvement efforts.</li>
+          <li> Single quality system registration to meet multiple customer quality
+          requirements</li>
+          <li>Incorporates the best lessons learned from the global automotive
+          segment</li>
+          <li>Improved staff morale through increased management efficiencies</li>
+          <li>Continuous improvement of business performance through ongoing
+          certification audits</li>
+          <li>Bottom-line benefits through increased efficiency, reduced waste and
+          better utilization of resources</li>
+        </ul>
 
         <a
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
@@ -320,12 +309,14 @@
       </div>
 
       <!-- Option 3 -->
-      <div v-if="content[2].isOpen">
+      <div v-if="content[2].isOpen" class="space-y-2">
         <h3 class="font-bold font-ubuntu">ISO9001</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
+        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="">
+
         <h6 class="font-bold font-ubuntu">What is ISO9001?</h6>
-        <p>
+        <p class="font-manrope">
           The ISO 9000 family of standards is related to quality management
           systems and designed to help organizations ensure that they meet the
           needs of customers and other stakeholders while meeting statutory and
@@ -384,23 +375,25 @@
       </div>
 
       <!-- Option 4 -->
-      <div v-if="content[3].isOpen">
-        <h3>ITAR</h3>
+      <div v-if="content[3].isOpen" class="space-y-2">
+        <h3 class="font-ubuntu">ITAR</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
+
+        <img src="~/assets/images/logos/ITAR.png" alt="">
 
         <h6 class="font-ubuntu font-bold">ITAR Registration</h6>
         <h6 class="font-ubuntu font-bold">
           Know Your Flexible Circuit Supply Chain
         </h6>
 
-        <p>
+        <p class="font-manrope">
           Come into Alpha anytime if you’d like to inspect your boards during
           production. If a company is not willing to make this offer, regardless
           of being ITAR registered, then they may potentially be producing your
           product elsewhere.
         </p>
 
-        <p>
+        <p class="font-manrope">
           No matter the administration, International Traffic in Arms Regulation
           rules will not fundamentally change. A common misconception is that
           ITAR is only a response to terrorism. Additionally, ITAR is looking
@@ -454,18 +447,20 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[4].isOpen" class="space-y-2">
-        <h3>UL Certification</h3>
-        <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
-
-        <h6 class="font-bold font-ubuntu">UL Certification</h6>
+      <div v-if="content[4].isOpen" class="space-y-4 grid">
         <div class="flex flex-col">
-          <a class="hover:underline" href="">Link to UL Cert USA</a>
-          <a class="hover:underline" href="">Link to UL Cert Canada</a>
+          <img class="self-center" src="~/assets/images/logos/UL.png" alt="UL Certification Logo">
+          <h3 class="text-center text-2xl">UL Certification</h3>
+          <hr class="w-12 mx-auto h-1 bg-darkGreen-700 border-0 rounded" />
         </div>
 
-        <h6 class="font-bold font-ubuntu">UL Approved Material Chart</h6>
-        <p class="font-semibold">Single / Double Layer Material Chart</p>
+
+        <div class="font-ubuntu space-x-5 flex justify-center">
+            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">Link to UL Cert USA</a>
+            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">Link to UL Cert Canada</a>
+        </div>
+
+        <p class="font-semibold">UL Approved Single / Double Layer Material Chart</p>
 
         <!-- Table -->
         <table>
@@ -637,7 +632,7 @@
           </tbody>
         </table>
 
-        <p class="font-semibold">Multilayer Material Chart</p>
+        <p class="font-semibold">UL Approved Multilayer Material Chart</p>
         <!-- Table -->
         <table>
           <thead class="bg-darkGreen-700 text-white">
@@ -646,7 +641,8 @@
               <th>Manufacturer</th>
               <th>Grade</th>
               <th>Min Line</th>
-              <th>Min Copper</th>
+              <th>Max Internal Copper</th>
+              <th>Max External Copper</th>
             </tr>
           </thead>
           <tbody class="text-black">
@@ -808,8 +804,8 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[5].isOpen">
-        <h3>MBE</h3>
+      <div v-if="content[5].isOpen" class="space-y-2">
+        <h3 class="font-bold font-ubuntu">MBE</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
         <h6 class="font-bold">MBE PCB Manufacturer</h6>
@@ -824,9 +820,9 @@
           Council.
         </p>
 
-        <p><span class="font-bold font-ubuntu">NAICS Code</span>334412</p>
+        <p><span class="font-bold font-ubuntu">NAICS Code </span>334412</p>
         <p>
-          <span class="font-bold font-ubuntu">Product/Service Description:</span
+          <span class="font-bold font-ubuntu">Product/Service Description: </span
           >Manufacturer of printed circuit boards
         </p>
 
