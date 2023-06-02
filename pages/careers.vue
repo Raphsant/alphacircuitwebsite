@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="text-left items-left flex max-w-6xl mx-auto flex-col mt-4">
-            <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded dark:bg-gray-700">
+            <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded">
             <p class="mt-2 text-2xl font-ubuntu font-bold">Careers</p>
             <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
             <p class="mt-2 text-2xl font-manrope font-bold">Our people have the talent, tools and passion to do epic things together—for our clients, for consumers and for our community.</p>
@@ -160,7 +160,7 @@
 
     <div v-if="showContent" class="mx-auto max-w-6xl">
         <!-- divider line -->
-        <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
         <p class="text-darkGreen-700 font-ubuntu font-bold">Management Board</p>
         <div class="flex flex-row justify-evenly p-4">
             <div class="flex flex-col text-center gap-1.5">
@@ -194,7 +194,7 @@
 
     <div v-if="showContent" class="mx-auto max-w-6xl">
         <!-- divider line -->
-        <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
         <p class="text-darkGreen-700 font-ubuntu font-bold">Sales Team</p>
         <div class="flex flex-row justify-evenly p-4 mb-4">
             <div class="flex flex-col text-center gap-1.5">

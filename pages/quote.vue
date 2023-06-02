@@ -12,351 +12,81 @@
       <div class="grid gap-6 mb-6 md:grid-cols-3">
         <!-- First Name -->
         <div>
-          <label
-            for="first_name"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >First name</label
-          >
-          <input
-            type="text"
-            id="first_name"
-            v-model="emailData.firstName"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder="John"
-            required
-          />
+          <label for="first_name" class="block mb-2 text-sm font-medium text-white">First name</label>
+          <input type="text" id="first_name" v-model="emailData.firstName" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="John" required/>
         </div>
         <!-- Last Name -->
         <div>
-          <label
-            for="last_name"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >Last name</label
-          >
-          <input
-            type="text"
-            id="last_name"
-            v-model="emailData.lastName"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder="Doe"
-            required
-          />
+          <label for="last_name" class="block mb-2 text-sm font-medium text-white" >Last name</label>
+          <input type="text" id="last_name" v-model="emailData.lastName" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="Doe" required/>
         </div>
         <!-- Company -->
         <div>
-          <label
-            for="company"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >Company</label
-          >
-          <input
-            type="text"
-            id="company"
-            v-model="emailData.company"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder=""
-            required
-          />
+          <label for="company" class="block mb-2 text-sm font-medium text-white">Company</label>
+          <input type="text" id="company" v-model="emailData.company" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="" required/>
         </div>
         <!-- Phone Number -->
         <div>
-          <label
-            for="phone"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >Phone number</label
-          >
-          <input
-            type="tel"
-            id="phone"
-            v-model="emailData.phoneNumber"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder="+1 (123) 456-7890"
-            pattern="{3}-[0-9]{2}-[0-9]{3}"
-            required
-          />
+          <label for="phone" class="block mb-2 text-sm font-medium text-white">Phone number</label>
+          <input type="tel" id="phone" v-model="emailData.phoneNumber" class=" bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="+1 (123) 456-7890" pattern="{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
         <!-- Email Address -->
         <div>
           <label
             for="email_address"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >Email Address</label
-          >
-          <input
-            type="email"
-            id="email_address"
-            v-model="emailData.emailAddress"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder="johnsmith@gmail.com"
-            required
-          />
+            class="block mb-2 text-sm font-medium text-white"
+            >Email Address</label>
+          <input type="email" id="email_address" v-model="emailData.emailAddress" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="johnsmith@gmail.com" required/>
         </div>
         <!-- Estimated Quantity -->
         <div>
           <label
             for="quantity"
-            class="block mb-2 text-sm font-medium text-white dark:text-gray-900"
-            >Estimated Quantity</label
-          >
-          <input
-            type="number"
-            id="quantity"
-            v-model="emailData.estimatedQuantity"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-gray-900
-              dark:focus:ring-lightGreen-700
-              dark:focus:border-lightGreen-700
-            "
-            placeholder=""
-          />
+            class="block mb-2 text-sm font-medium text-white">Estimated Quantity</label>
+          <input type="number" id="quantity" v-model="emailData.estimatedQuantity" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder=""/>
         </div>
         <!-- States -->
         <div>
-          <label
-            for="states"
-            class="block mb-2 text-sm font-medium text-white dark:text-white"
-            >Select an option</label
-          >
-          <select
-            id="states"
-            v-model="emailData.state"
-            class="
-              bg-gray-50
-              border border-lightGreen-500
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-full
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-white
-              dark:focus:ring-blue-500
-              dark:focus:border-blue-500
-            "
-          >
+          <label for="states" class="block mb-2 text-sm font-medium text-white">Select an option</label>
+          <select id="states" v-model="emailData.state" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5">
             <option
               v-for="state in states"
               :key="state.code"
-              :value="state.name"
-            >
+              :value="state.name">
               {{ state.name }}
             </option>
           </select>
         </div>
         <!-- Countries -->
         <div>
-          <label
-            for="countries"
-            class="block mb-2 text-sm font-medium text-white dark:text-white"
-            >Select an option</label
-          >
-          <select
-            id="countries"
-            v-model="emailData.country"
-            class="
-              bg-gray-50
-              border border-gray-300
-              text-gray-900 text-sm
-              rounded-lg
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              block
-              w-max
-              p-2.5
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-white
-              dark:focus:ring-blue-500
-              dark:focus:border-blue-500
-            "
-          >
+          <label for="countries" class="block mb-2 text-sm font-medium text-white">Select an option</label>
+          <select id="countries" v-model="emailData.country" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-max p-2.5">
             <option
-              v-for="country in countries"
-              :key="country.code"
-              :value="country.name"
-            >
-              {{ country.name }}
+              v-for="country in countries" :key="country.code" :value="country.name">{{ country.name }}
             </option>
           </select>
         </div>
         <!-- File Upload -->
         <div>
-          <label
-            class="block mb-2 text-sm font-medium text-white dark:text-white"
-            for="file_input"
-            >Upload file</label
-          >
-          <input
-            class="
-              block
-              w-max
-              text-sm text-gray-900
-              rounded-lg
-              cursor-pointer
-              bg-gray-50
-              dark:text-gray-400
-              focus:outline-none
-              dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
-            "
-            id="file_input"
-            type="file"
-            accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-          />
+          <label class="block mb-2 text-sm font-medium text-white" for="file_input">Upload file</label>
+          <input class="block w-max text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 focus:outline-none" id="file_input" type="file" accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
         </div>
       </div>
 
       <div class="mb-6">
         <!-- Message Box -->
         <div>
-          <label
-            for="message"
-            class="block mb-2 text-sm font-medium text-white dark:text-white"
-            >Your message</label
-          >
-          <textarea
-            id="message"
-            v-model="emailData.message"
-            rows="4"
-            class="
-              block
-              p-2.5
-              w-full
-              text-sm text-gray-900
-              bg-gray-50
-              rounded-lg
-              border border-gray-300
-              focus:ring-lightGreen-700 focus:border-lightGreen-700
-              dark:bg-gray-700
-              dark:border-gray-600
-              dark:placeholder-gray-400
-              dark:text-white
-              dark:focus:ring-blue-500
-              dark:focus:border-blue-500
-            "
-            placeholder="Write your message here..."
-          ></textarea>
+          <label for="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
+          <textarea id="message" v-model="emailData.message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-lightGreen-700 focus:border-lightGreen-700" placeholder="Write your message here..."></textarea>
         </div>
       </div>
-      <button
-        @click="send"
-        type="submit"
-        class="
-          text-gray-900
-          bg-lightGreen-100
-          hover:underline hover:bg-lightGreen-500
-          focus:ring-4 focus:outline-none focus:ring-blue-300
-          font-medium
-          rounded-lg
-          text-sm
-          w-full
-          sm:w-auto
-          px-5
-          py-2.5
-          text-center
-          dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-        "
-      >
-        Submit
-      </button>
+      <button @click="send" type="submit" class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-lightGreen-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
     </form>
 
     <div class="rounded-lg flex shadow-lg h-250 max-w-5xl mx-auto mb-8">
       <!-- Leftside -->
       <div class="text-left align-middle p-8 text-black rounded-lg h-250">
-        <img
-          class="-m-2 mb-2"
-          src="~/assets/images/icons/60x60-Icons/icons8-schedule-60.png"
-          alt=""
-        />
+        <img class="-m-2 mb-2" src="~/assets/images/icons/60x60-Icons/icons8-schedule-60.png" alt=""/>
         <h4 class="font-ubuntu font-semibold">Schedule A Visit</h4>
         <p class="font-manrope">
           Want to know more? Come by, schedule a visit, let's talk!
@@ -364,18 +94,8 @@
       </div>
       <!-- Rightside -->
       <div>
-        <div
-          class="
-            bg-lightGreen-100
-            text-black
-            rounded-r-lg
-            h-250
-            flex flex-col
-            p-8
-            pt-20
-          "
-        >
-          <hr class="w-24 h-1 bg-gray-100 border-0 rounded dark:bg-gray-700" />
+        <div class="bg-lightGreen-100 text-black rounded-r-lg h-250 flex flex-col p-8 pt-20">
+          <hr class="w-24 h-1 bg-gray-100 border-0 rounded" />
           <p class="mt-4 font-manrope text-lg">
             We welcome you to come visit our facility and discuss more about our
             solutions. Feel free to fill out your email and a preferred date of

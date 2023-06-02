@@ -4,54 +4,17 @@
   <div>
     <div>
       <div class="relative overflow-hidden h-56">
-        <img
-          class="
-            h-full
-            w-full
-            absolute
-            object-cover
-            brightness-50
-            transform
-            transition-all
-            duration-3000
-            animate-kenburns
-          "
-          src="~/assets/images/images/carouselImages/26-02-201863869.webp"
-          alt=""
-        />
-        <h1
-          class="
-            text-3xl text-white
-            absolute
-            top-1/2
-            left-1/2
-            -translate-x-1/2 -translate-y-1/2
-          "
-        >
-          About Us
-        </h1>
+        <img class="h-full w-full absolute object-cover brightness-50 transform transition-all duration-3000 animate-kenburns" src="~/assets/images/images/carouselImages/26-02-201863869.webp" alt=""/>
+        <h1 class="text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">About Us</h1>
       </div>
     </div>
-    <div
-      class="
-        bg-darkGreen-900
-        text-white
-        h-80
-        flex flex-row
-        items-center
-        justify-center
-        gap-12
-        text-lg
-      "
-    >
+    <div class="bg-darkGreen-900 text-white h-80 flex flex-row items-center justify-center gap-12 text-lg">
       <div>
         <img class="h-56 w-96" src="~/assets/images/images/companyAssets/thumbnail.webp" alt="" />
       </div>
       <div class="flex-col flex">
         <div class="text-2xl font-ubuntu">Who are we?</div>
-        <hr
-          class="w-16 h-1 bg-gray-100 border-0 mt-2 rounded dark:bg-gray-700"
-        />
+        <hr class="w-16 h-1 bg-gray-100 border-0 mt-2 rounded"/>
         <div class="font-manrope w-96 mt-2 break-words">
           Our goal at Alpha Circuit Corporation is to make us the easiest PCB
           supplier to work with. Part of this goal is obtaining relevant
@@ -64,9 +27,7 @@
       <div class="text-lg text-darkGreen-700 font-bold font-ubuntu">
         Our History
       </div>
-      <hr
-        class="w-24 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700 mt-2"
-      />
+      <hr class="w-24 h-1 bg-darkGreen-700 border-0 rounded mt-2"/>
       <div class="text-lg mt-4 font-manrope">
         Alpha Circuit Corporation was founded by Bhagvan K. Vaghani in 1981 to
         make simple double sided printed circuit boards and we have steadily
@@ -85,19 +46,8 @@
       <div class="text-darkGreen-700 text-2xl text-center font-ubuntu">
         Our core values
       </div>
-      <hr
-        class="w-24 h-1 bg-darkGreen-700 border-0 rounded mt-2 dark:bg-gray-700"
-      />
-      <div
-        class="
-          grid grid-cols-4
-          justify-center
-          items-center
-          mt-6
-          w-2/4
-          font-ubuntu
-        "
-      >
+      <hr class="w-24 h-1 bg-darkGreen-700 border-0 rounded mt-2"/>
+      <div class="grid grid-cols-4 justify-center items-center mt-6 w-2/4 font-ubuntu">
         <div class="flex flex-col justify-center items-center">
           <img src="~/assets/images/icons/60x60-Icons/icons8-family-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">
@@ -122,32 +72,12 @@
         </div>
       </div>
     </div>
-    <div
-      class="
-        bg-white
-        h-96
-        flex flex-row
-        justify-center
-        items-center
-        gap-8
-        font-manrope
-      "
-    >
+    <div class="bg-white h-96 flex flex-row justify-center items-center gap-8 font-manrope">
       <div class="rounded-2xl bg-lightGreen-50 w-625 h-300">
         <div class="text-darkGreen-900 text-2xl text-center p-4 font-bold">
           Our Mission
         </div>
-        <hr
-          class="
-            w-16
-            h-1
-            mx-auto
-            bg-darkGreen-700
-            border-0
-            rounded
-            dark:bg-gray-700
-          "
-        />
+        <hr class="w-16 h-1 mx-auto bg-darkGreen-700 border-0 rounded"/>
         <div>
           <ul class="list-disc ml-10 mt-2">
             <li>To set the highest quality standards in the PCB industry</li>
@@ -163,7 +93,7 @@
           Our Vision
         </div>
         <hr
-          class="w-16 h-1 bg-gray-100 border-0 mx-auto rounded dark:bg-gray-700"
+          class="w-16 h-1 bg-gray-100 border-0 mx-auto rounded"
         />
         <div class="flex flex-col mt-2 gap-1">
           <div class="text-left text-white ml-5">

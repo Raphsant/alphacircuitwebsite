@@ -1,24 +1,24 @@
 <template>
     <div class="text-center">
         <h4 class="font-ubuntu text-lg">Certificates</h4>
-        <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded dark:bg-gray-700"/>
+        <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded "/>
         <div class="inline-flex rounded-md shadow-lg mt-2" role="group">
-            <button @click="showOption6 = !showOption6" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption6 = !showOption6" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-l-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 AS9100
             </button>
-            <button @click="showOption7 = !showOption7" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption7 = !showOption7" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 TS16949
             </button>
-            <button @click="showOption8 = !showOption8" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption8 = !showOption8" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 ISO9001
             </button>
-            <button @click="showOption9 = !showOption9" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption9 = !showOption9" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 ITAR
             </button>
-            <button @click="showOption10 = !showOption10" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption10 = !showOption10" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 UL Certification
             </button>
-            <button @click="showOption11 = !showOption11" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button @click="showOption11 = !showOption11" type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-r-md hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700">
                 MBE
             </button>
         </div>
@@ -27,7 +27,7 @@
             <!-- Option 1 -->
             <div v-if="showOption6">
                 <h3 class="font-bold font-ubuntu">AS9100</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-bold font-ubuntu">What is AS9100?</h6>
                 <p>The AS9100 is a technical specification aiming to the development of a quality management system for the Aerospace Industry.  Much like the TS16949 that the current Revision C seems to be based on, it provides for continual improvement, emphasizing defect prevention and the reduction of variation and waste in the supply chain.  It replaces the former AS9000 and now fully incorporates the ISO 9001 standard.</p>
@@ -54,7 +54,7 @@
             <!-- Option 2 -->
             <div v-if="showOption7">
                 <h3 class="font-bold font-ubuntu">TS16949</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-bold font-ubuntu">What is TS16949</h6>
                 <p>The ISO/TS16949 is an ISO technical specification aiming to the development of a quality management system that provides for continual improvement, emphasizing defect prevention and the reduction of variation and waste in the supply chain. It is based on the ISO 9001 and the first edition was published in March 2002 as ISO/TS 16949:2002.</p>
@@ -87,7 +87,7 @@
             <!-- Option 3 -->
             <div v-if="showOption8">
                 <h3 class="font-bold font-ubuntu">ISO9001</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-bold font-ubuntu">What is ISO9001?</h6>
                 <p>The ISO 9000 family of standards is related to quality management systems and designed to help organizations ensure that they meet the needs of customers and other stakeholders while meeting statutory and regulatory requirements related to the product. The standards are published by ISO, the International Organization for Standardization, and available through National standards bodies. ISO 9000 deals with the fundamentals of quality management systems,including the eight management principleson which the family of standards is based. ISO 9001 deals with the requirements that organizations wishing to meet the standard have to fulfill.</p>
@@ -102,7 +102,7 @@
             <!-- Option 4 -->
             <div v-if="showOption9">
                 <h3>ITAR </h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-ubuntu font-bold">ITAR Registration</h6>
                 <h6 class="font-ubuntu font-bold">Know Your Flexible Circuit Supply Chain</h6>
@@ -121,7 +121,7 @@
             <!-- Option 5 -->
             <div v-if="showOption10" class="space-y-2">
                 <h3>UL Certification</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-bold font-ubuntu">UL Certification</h6>
                 <div class="flex flex-col">
@@ -477,7 +477,7 @@
             <!-- Option 5 -->
             <div v-if="showOption11">
                 <h3>MBE</h3>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
 
                 <h6 class="font-bold">MBE PCB Manufacturer</h6>
                 <p class="font-manrope">Alpha Circuit is Minority Business Enterprise (MBE)</p>

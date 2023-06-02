@@ -27,7 +27,7 @@
     </div>
     <section class="max-w-5xl mx-auto space-y-1 p-16 rounded-xl">
         <h2 class="font-ubuntu font-bold">Alpha Circuit Corporation</h2>
-        <hr class="w-16 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+        <hr class="w-16 h-1 bg-darkGreen-700 border-0 rounded"/>
 
         <h6 class="font-ubuntu font-semibold">Alpha Circuit Corporation Supplier Agreement</h6>
         <p>Dear Supplier,</p>
@@ -43,17 +43,9 @@
         <p>Each shipment has to be accompanied with a certificate of compliance.</p>
         <p>Packing Slip must include P O number, qty ordered, qty ship, back order and lot number.</p>
         <p>All DMR's/Action Requests have to be resolved within 4 weeks.</p>
-        <div class="flex flex-row">
-            <a
-            href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1.pdf" class="py-3 px-5 mt-4 mr-1 mb-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
-            <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
-            <span class="relative font-manrope">Click to View Full Terms & Conditions</span>
-          </a>
-          <a
-            href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"  download class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
-            <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
-            <span class="relative font-manrope">Download Supplier Agreement</span>
-          </a>
+        <div class="flex flex-row space-x-5">
+          <button class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-darkGreen-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"><a href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1.pdf">Click to View Full Terms & Conditions</a></button>
+          <button class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-darkGreen-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"><a href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf">Download Supplier Agreement</a></button>
         </div>
     </section>
 </template>

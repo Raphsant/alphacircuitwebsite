@@ -4,11 +4,11 @@
             <div class="flex justify-end">
                 <!-- <div class="flex flex-col">
                     <h3 class="text-2xl">Capabilities</h3>
-                    <hr class="w-22 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                    <hr class="w-22 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div> -->
                 <div class="inline-flex mb-8 items-center justify-center w-full">
-    <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-    <span class="absolute px-3 font-medium text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">Capabilities</span>
+    <hr class="w-64 h-px my-8 bg-gray-200 border-0">
+    <span class="absolute px-3 font-medium text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2">Capabilities</span>
 </div>
             </div>
         </div>
@@ -86,14 +86,14 @@
             <p class="text-neutrals-400 font-manrope">-Prashant Patel, CEO</p>
         </div>
 
-        <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded dark:bg-gray-700 drop-shadow-xl"/>
+        <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded  drop-shadow-xl"/>
 
         <!-- Section with Multiple Tables -->
         <section class="grid grid-rows-2 grid-cols-2 w-12/12 mx-auto font-manrope place-items-center mb-8">
             <div class="space-y-2">
                 <div class="space-y-1">
                     <p>Production Capabilities</p>
-                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
                 <table >
                     <thead>
@@ -137,7 +137,7 @@
             <div class="space-y-2">
                 <div class="space-y-1">
                     <p>Fabrication</p>
-                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
                 <table >
                     <thead>
@@ -181,7 +181,7 @@
             <div class="space-y-2">
                 <div class="space-y-1">
                     <p>Imaging</p>
-                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
                 <table >
                     <thead>
@@ -230,7 +230,7 @@
             <div class="space-y-2">
                 <div class="space-y-1">
                     <p>Plating & Surface Finishes</p>
-                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                    <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
                 <table >
                     <thead>
@@ -282,7 +282,7 @@
             </div>
         </section>
 
-        <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded dark:bg-gray-700 drop-shadow-xl"/>
+        <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded  drop-shadow-xl"/>
 
     </section>
 
@@ -292,7 +292,7 @@
         <div class="space-y-2">
             <div class="space-y-1">
                 <p class="text-2xl">Technology</p>
-                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
+                <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
             </div>
             <p>As the telecommunication, big data analytics and high frequency spectrum expands, every key player in the electronics industry is keen to tap the market opportunities. Electronics device manufacturer will rely heavily on the PCB manufacturers to supply and support their systems for these emerging high technology markets. Based on the current market opportunity trend in hardware electronics, our high technology road map is focused on the following sectors.</p>
         </div>
