@@ -76,7 +76,7 @@
           />
           <img
             class="self-center"
-            src="~/assets/images/logos/download.png"
+            src="~/assets/images/logos/ITAR.png"
             alt="International Traffic In Arms Regulations Registered Certification Logo"
           />
           <img

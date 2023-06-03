@@ -94,15 +94,17 @@
 
     <div class="text-left max-w-5xl mx-auto space-y-1 p-16 rounded-xl">
       <!-- Option 1 -->
-      <div v-if="content[0].isOpen">
-        <h3>Quick Turn Prototype</h3>
+      <div v-if="content[0].isOpen" class="space-y-2">
+        <h3 class="font-bold font-ubuntu text-2xl">Quick Turn Prototype</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <h6>Prototype PCB</h6>
-        <h6>Quick-Turn PCB Prototypes</h6>
+        <div>
+          <h6 class="font-bold font-ubuntu text-darkGreen-700">Prototype PCB</h6>
+          <h6 class="font-manrope text-darkGreen-700">Quick-Turn PCB Prototypes</h6>
+        </div>
 
-        <h6>Production Quality Prototype Boards</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu">Production Quality Prototype Boards</h6>
+        <p class="font-manrope">
           Alpha's concentrated
           <span class="font-bold">quick-turn PCB prototype fabrication</span>
           capabilities make us your one-stop shop in reducing the critical
@@ -110,50 +112,48 @@
           service, Alpha pledges to meet your quick-turn prototype board needs
           by building multilayer boards swiftly, economically, and proficiently.
         </p>
-        <h6>Alpha Quick-Turn PCB Quick Facts</h6>
-        <p>
-          Guaranteed by Alpha’s 500% guarantee to cover for your costs in the
-          event of an electrical failure
-        </p>
-        <p>
-          Produced in the same lines that are certified for high-reliability,
-          safety, and under-hood applications
-        </p>
-        <p>Manufactured domestically in our Elmhurst facility</p>
-        <p>Backed by our exceptional customer service from quote-to-delivery</p>
+        <h6 class="font-bold font-ubuntu">Alpha Quick-Turn PCB Quick Facts</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Guaranteed by Alpha's 500% guarantee to cover for your costs in the
+          event of an electrical failure</li>
+          <li>Produced in the same lines that are certified for high-reliability,
+          safety, and under-hood applications</li>
+          <li>Manufactured domestically in our Elmhurst facility</li>
+          <li>Backed by our exceptional customer service from quote-to-delivery</li>
+        </ul>
 
-        <h6>Prototype Circuit Board Fabrication</h6>
-        <h6>Quick Turn PCB Prototyping</h6>
-        <p>
-          Alpha Circuit renders an articulated determination for accelerated
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Prototype Circuit Board Fabrication</h6>
+        <h6 class="font-bold font-ubuntu">Quick Turn PCB Prototyping</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Alpha Circuit renders an articulated determination for accelerated
           bare circuit board manufacturing. Adept in providing quick-turn
           services to customers worldwide, our Elmhurst, Chicago facility
           specializes in 24-72 hour turn-around time across an inclusive ambit
-          of technology.
-        </p>
+          of technology.</li>
+        </ul>
 
-        <h6>Specific programs dedicated to Quick-Turn</h6>
-        <p>Keep 30% of capacity open strictly for quick-turn production</p>
-        <p>
-          Once ongoing production exceeds 70% of capacity we embark on capacity
-          expansion program to address bottleneck areas
-        </p>
-        <p>
-          For more information on our Quick-Turn Services, contact
-          <a class="underline" href="/contact">Alpha Sales</a>
-        </p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Specific programs dedicated to Quick-Turn</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Keep 30% of capacity open strictly for quick-turn production</li>
+          <li>Once ongoing production exceeds 70% of capacity we embark on capacity
+          expansion program to address bottleneck areas</li>
+          <li>For more information on our Quick-Turn Services, contact
+          <a class="underline" href="/contact">Alpha Sales</a></li>
+        </ul>
       </div>
 
       <!-- Option 2 -->
-      <div v-if="content[1].isOpen">
-        <h3>Fast-Turn Production</h3>
+      <div v-if="content[1].isOpen" class="space-y-2">
+        <h3 class="font-bold font-ubuntu text-2xl">Fast-Turn Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <h6>Production PCB</h6>
-        <h6>Quick-Turn PCB Production</h6>
+        <div>
+          <h6 class="font-ubuntu font-bold text-darkGreen-700">Production PCB</h6>
+          <h6 class="font-ubuntu font-bold text-darkGreen-700">Quick-Turn PCB Production</h6>
+        </div>
 
-        <h6>Production Quality Boards</h6>
-        <p>
+        <h6 class="font-ubuntu font-bold">Production Quality Boards</h6>
+        <p class="font-manrope">
           Alpha's concentrated
           <span class="font-bold">quick-turn PCB prototype fabrication</span>
           capabilities make us your one-stop shop in reducing the critical
@@ -162,21 +162,21 @@
           by building multilayer boards swiftly, economically, and proficiently.
         </p>
 
-        <h6>Alpha Quick-Turn PCB Quick Facts</h6>
-        <p>
-          Guaranteed by Alpha’s 500% guarantee to cover for your costs in the
-          event of an electrical failure
-        </p>
-        <p>
-          Produced in the same lines that are certified for high-reliability,
-          safety, and under-hood applications
-        </p>
-        <p>Manufactured domestically in our Elmhurst facility</p>
-        <p>Backed by our exceptional customer service from quote-to-delivery</p>
+        <h6 class="font-ubuntu font-bold text-darkGreen-700">Alpha Quick-Turn PCB Quick Facts</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Guaranteed by Alpha's 500% guarantee to cover for your costs in the
+          event of an electrical failure</li>
+          <li>Guaranteed by Alpha's 500% guarantee to cover for your costs in the
+          event of an electrical failure</li>
+          <li>Manufactured domestically in our Elmhurst facility</li>
+          <li>Backed by our exceptional customer service from quote-to-delivery</li>
+        </ul>
 
-        <h6>Prototype Circuit Board Fabrication</h6>
-        <h6>Quick Turn PCB Prototyping</h6>
-        <p>
+        <div>
+          <h6 class="font-ubuntu font-bold text-darkGreen-700">Production Circuit Board Fabrication</h6>
+          <h6 class="font-bold font-ubuntu">Quick Turn PCB Prototyping</h6>
+        </div>
+        <p class="font-manrope">
           Alpha Circuit renders an articulated determination for accelerated
           bare circuit board manufacturing. Adept in providing quick-turn
           services to customers worldwide, our Elmhurst, Chicago facility
@@ -184,57 +184,63 @@
           of technology.
         </p>
 
-        <h6>Specific programs dedicated to Quick-Turn</h6>
-        <p>Keep 30% of capacity open strictly for quick-turn production</p>
-        <p>
-          Once ongoing production exceeds 70% of capacity we embark on capacity
-          expansion program to address bottleneck areas
-        </p>
-        <p>
-          For more information on our Quick-Turn Services, contact
-          <a class="underline" href="/contact">Alpha Sales</a>
-        </p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Specific programs dedicated to Quick-Turn</h6>
+        <ul class="font-manrope list-disc pl-4">
+          <li>Keep 30% of capacity open strictly for quick-turn production</li>
+          <li>Once ongoing production exceeds 70% of capacity we embark on capacity
+          expansion program to address bottleneck areas</li>
+          <li>For more information on our Quick-Turn Services, contact
+          <a class="underline text-blue-500" href="/contact">Alpha Sales</a></li>
+        </ul>
       </div>
 
       <!-- Option 3 -->
-      <div v-if="content[2].isOpen">
-        <h3>Offshore Production</h3>
+      <div v-if="content[2].isOpen" class="space-y-3">
+        <h3 class="font-ubuntu font-bold text-2xl">Offshore Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <h6>Offshore Sourcing</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Offshore Sourcing</h6>
+        <p class="font-manrope">
           ACC'sElmhurst facilities manufacture volume products at the highest
           levels of technology while our plants in Asia supply high-volume at
           globally competitive price points.
         </p>
 
-        <h6>Alpha's offshore capabilities provide customers:</h6>
-        <p>Quicker Delivery</p>
-        <p>Higher Quality</p>
-        <p>Greater Overall Cost Savings</p>
-        <p>Increased Flexibility</p>
-        <p>Seamless Facilitation</p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Alpha's offshore capabilities provide customers:</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Quicker Delivery</li>
+          <li>Higher Quality</li>
+          <li>Greater Overall Cost Savings</li>
+          <li>Increased Flexibility</li>
+          <li>Seamless Facilitation</li>
+        </ul>
 
-        <h6>ACC Personnel provides customers:</h6>
-        <p>Engineering & Technical Support</p>
-        <p>Customer Service</p>
-        <p>Account Representation</p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">ACC Personnel provides customers:</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Engineering & Technical Support</li>
+          <li>Customer Service</li>
+          <li>Account Representation</li>
+        </ul>
 
-        <h6>ACC Programs include:</h6>
-        <p>Complete Kan Ban</p>
-        <p>Stocking & Inventory Management</p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">ACC Programs include:</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Complete Kan Ban</li>
+          <li>Stocking & Inventory Management</li>
+        </ul>
 
-        <h6>Overseas Qualification Process</h6>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Overseas Qualification Process</h6>
+        <ul class="list-disc pl-4 font-manrope">
+          <li>Factory and Warehouse visit</li>
+          <li>Conduct Quality Systems Audit of the PCB manufacturing process</li>
+          <li>ISO 9001-2000 Certification</li>
+          <li>Capabilities Survey</li>
+          <li>Staff Training and Certification</li>
+          <li>Eight Discipline Process</li>
+          <li>Design Management</li>
+          <li>Materials Controls</li>
+        </ul>
 
-        <p>Factory and Warehouse visit</p>
-        <p>Conduct Quality Systems Audit of the PCB manufacturing process</p>
-        <p>ISO 9001-2000 Certification</p>
-        <p>Capabilities Survey</p>
-        <p>Staff Training and Certification</p>
-        <p>Eight Discipline Process</p>
-        <p>Design Management</p>
-        <p>Materials Controls</p>
-        <p>
+        <p class="font-manrope">
           After carefully selecting an offshore PCB facility based on a
           particular expertise, Alpha ensures that the fabricator's performance
           has a High-Quality performance rating by qualifying them through our
@@ -243,14 +249,14 @@
       </div>
 
       <!-- Option 4 -->
-      <div v-if="content[3].isOpen">
-        <h3>Design Validation</h3>
+      <div v-if="content[3].isOpen" class="space-y-2">
+        <h3 class="font-bold font-ubuntu text-2xl">Design Validation</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <h6>PCB Prototype Design and Process Development</h6>
-        <h6>Prototype Design Support</h6>
+        <h6 class="font-ubuntu font-bold text-darkGreen-700">PCB Prototype Design and Process Development</h6>
+        <h6 class="font-ubuntu font-bold text-darkGreen-700">Prototype Design Support</h6>
 
-        <p>
+        <p class="font-manrope">
           While we don't offer design services, we are always glad to provide
           designers support with their projects. Alpha's technical support staff
           can work closely with designers and OEMs to help them design a PCB
@@ -261,8 +267,8 @@
           life-cycle, while minimizing material and labor costs.
         </p>
 
-        <h6>Fabrication Process Development</h6>
-        <p>
+        <h6 class="font-ubuntu font-bold text-darkGreen-700">Fabrication Process Development</h6>
+        <p class="font-manrope">
           In today's world, OEM's and startups are constantly being forced to
           push the technological boundaries of PCB fabrication. Alpha Circuit
           Coporation' engineers are ready for any challenge. Whether the design
@@ -274,12 +280,12 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[4].isOpen">
-        <h3>Volume Production</h3>
+      <div v-if="content[4].isOpen" class="space-y-2">
+        <h3 class="font-bold font-ubuntu text-2xl">Volume Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <h6>High Volume Production</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">High Volume Production</h6>
+        <p class="font-manrope">
           Alpha comprehensively maintains the entire PCB platform by isolating
           each part of the process into succinct stages that ensure the highest
           levels of quality. This rigid isolation accumulates into greater
@@ -288,8 +294,8 @@
           ground-breaking research...
         </p>
 
-        <h6>Global Manufacturing</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Global Manufacturing</h6>
+        <p class="font-manrope">
           With factories in North America and Asia, ACC produces your products
           in the appropriate facility based on technology and volume. The size
           and scale of our manufacturing facilities allow us to meet the demands
@@ -297,8 +303,8 @@
           facilities blend to provide complete lifecycle support.
         </p>
 
-        <h6>Domestic Manufacturing</h6>
-        <p>
+        <h6 class="font-bold font-ubuntu text-darkGreen-700">Domestic Manufacturing</h6>
+        <p class="font-manrope">
           Alpha has a complete manufacturing facility in Elmhurst, IL that
           builds to military high reliability standards. Alpha does First
           Article inspection on all new lots. Alpha will inventory up to four
