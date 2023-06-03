@@ -12,10 +12,10 @@
     "
   >
     <img class="w-16" :src="props.imgUrl" alt="" />
-    <div class="text-3xl w-fit">
+    <div class="text-3xl w-fit font-ubuntu">
       {{ props.title }}
     </div>
-    <div class="w-4/6 text-lg">
+    <div class="w-4/6 text-lg font-manrope">
       {{ props.body }}
     </div>
     <NuxtLink :to="props.hash ? fullLink : props.redirectLink">
@@ -25,7 +25,7 @@
           text-white
           w-fit
           p-3
-          font-bold
+          font-manrope
           rounded-lg
           cursor-pointer
           hover:underline

@@ -5,7 +5,7 @@
     <div>
       <div class="relative overflow-hidden h-56">
         <img class="h-full w-full absolute object-cover brightness-50 transform transition-all duration-3000 animate-kenburns" src="~/assets/images/images/carouselImages/26-02-201863869.webp" alt=""/>
-        <h1 class="text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">About Us</h1>
+        <h1 class="font-ubuntu text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">About Us</h1>
       </div>
     </div>
     <div class="bg-darkGreen-900 text-white h-80 flex flex-row items-center justify-center gap-12 text-lg">
@@ -74,7 +74,7 @@
     </div>
     <div class="bg-white h-96 flex flex-row justify-center items-center gap-8 font-manrope">
       <div class="rounded-2xl bg-lightGreen-50 w-625 h-300">
-        <div class="text-darkGreen-900 text-2xl text-center p-4 font-bold">
+        <div class="text-darkGreen-900 text-2xl text-center p-4 font-ubuntu">
           Our Mission
         </div>
         <hr class="w-16 h-1 mx-auto bg-darkGreen-700 border-0 rounded"/>
@@ -89,7 +89,7 @@
         </div>
       </div>
       <div class="rounded-2xl bg-darkGreen-700 w-625 h-300">
-        <div class="text-white text-center text-2xl p-4 font-bold">
+        <div class="text-white text-center text-2xl p-4 font-ubuntu">
           Our Vision
         </div>
         <hr

@@ -7,8 +7,8 @@
                     <hr class="w-22 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div> -->
                 <div class="inline-flex mb-8 items-center justify-center w-full">
-    <hr class="w-64 h-px my-8 bg-gray-200 border-0">
-    <span class="absolute px-3 font-medium text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2">Capabilities</span>
+    <hr class="w-64 h-2 my-8 bg-gray-200 border-0 rounded-xl">
+    <span class="absolute px-3 text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 font-ubuntu font-bold">Capabilities</span>
 </div>
             </div>
         </div>
@@ -77,13 +77,8 @@
         </div>
 
         <div class="flex flex-row m-4 w-10/12 mx-auto justify-center space-x-10 mb-8">
-            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">(1)Sputtered Blind Hole Technology Paper</a>
-            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">(2)Thermal Management of RF and Digital Electronic Devices</a>
-        </div>
-
-        <div class="text-center mx-auto mb-8">
-            <h1 class="text-4xl font-ubuntu">"Our goal is to meet or exceed your expectations"</h1>
-            <p class="text-neutrals-400 font-manrope">-Prashant Patel, CEO</p>
+            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl font-manrope" href="">(1)Sputtered Blind Hole Technology Paper</a>
+            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl font-manrope" href="">(2)Thermal Management of RF and Digital Electronic Devices</a>
         </div>
 
         <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded  drop-shadow-xl"/>
@@ -291,7 +286,7 @@
 
         <div class="space-y-2">
             <div class="space-y-1">
-                <p class="text-2xl">Technology</p>
+                <p class="text-2xl font-ubuntu font-bold text-darkGreen-700">Technology</p>
                 <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
             </div>
             <p>As the telecommunication, big data analytics and high frequency spectrum expands, every key player in the electronics industry is keen to tap the market opportunities. Electronics device manufacturer will rely heavily on the PCB manufacturers to supply and support their systems for these emerging high technology markets. Based on the current market opportunity trend in hardware electronics, our high technology road map is focused on the following sectors.</p>

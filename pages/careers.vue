@@ -287,7 +287,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4"
+            <span class="font-semibold text-lg p-4 font-ubuntu"
               >Entry Level PCB Designer (10)</span
             >
             <span class="font-semibold text-xs text-gray-500"
@@ -363,7 +363,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4"
+            <span class="font-semibold text-lg p-4 font-ubuntu"
               >Quality Control Inspector (5)</span
             >
             <span class="font-semibold text-xs text-gray-500"
@@ -432,7 +432,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4">Buyer (2)</span>
+            <span class="font-semibold text-lg p-4 font-ubuntu">Buyer (2)</span>
             <span class="font-semibold text-xs text-gray-500"
               >*US Citizen or Green Card required</span
             >
