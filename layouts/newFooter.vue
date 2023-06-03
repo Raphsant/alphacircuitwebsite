@@ -13,22 +13,22 @@
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
-                  <ul class="text-gray-600 font-medium">
+                  <h2 class="mb-6 text-sm font-semibold text-neutrals-600 uppercase font-ubuntu">Resources</h2>
+                  <ul class="text-gray-600 font-medium font-manrope">
                       <li class="mb-4">
                           <NuxtLink to="/services" class="hover:underline">Services</NuxtLink>
                       </li>
                       <li class="mb-4">
                           <NuxtLink to="/careers" class="hover:underline">Careers</NuxtLink>
                       </li>
-                      <li>
+                      <li class=" ">
                           <NuxtLink to="/contact" class="hover:underline">Contact Us</NuxtLink>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
-                  <ul class="text-gray-600 font-medium">
+                  <h2 class="mb-6 text-sm font-semibold text-neutrals-600 uppercase font-ubuntu">Legal</h2>
+                  <ul class="text-gray-600 font-medium font-manrope">
                       <li class="mb-4">
                           <NuxtLink to="/certificates" class="hover:underline">Certificates</NuxtLink>
                       </li>
@@ -39,14 +39,14 @@
                         <img src="~/assets/images/icons/24x24-Icons/ISO.png" alt="ISO9001 and AS9100 Certification Logo">
                         <img src="~/assets/images/icons/24x24-Icons/ITAR.png" alt="International Traffic In Arms Regulation Certification Logo">
                         <img src="~/assets/images/icons/24x24-Icons/MBE.png" alt="Chicago Minority Supplier - Minority Business Enterprise Certification Logo">
-                        <img src="~/assets/images/icons/24x24-Icons/UL (1).png" alt="UL Certified Logo">
+                        <img src="~/assets/images/icons/24x24-Icons/ULsmall.png" alt="UL Certified Logo">
                       </div>
                   </ul>
               </div>
           </div>
       </div>
       <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
-      <div class="sm:flex sm:items-center sm:justify-between ml-5">
+      <div class="sm:flex sm:items-center sm:justify-between ml-5 font-manrope">
           <span class="text-sm text-gray-500 sm:text-center">© 2023 Alpha Circuit. All Rights Reserved.
           </span>
           <span class="text-sm text-gray-500 sm:text-center">730 N Oaklawn Ave, Elmhurst, IL, 60126</span>

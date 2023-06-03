@@ -88,7 +88,7 @@
     <div id="third section" class="h-90 pb-32">
       <div class="flex flex-row justify-evenly items-center p-10 h-max">
         <div class="text-white bg-darkGreen-900 rounded-lg text-2xl p-10 w-400">
-          <h4 class="font-bold mb-5">First Choice PCB Supplier</h4>
+          <h4 class="font-bold mb-5 font-ubuntu">First Choice PCB Supplier</h4>
           <p class="font-manrope">
             35 Years of mutually rewarding relationships with all of our
             customers from here in Illinois!
@@ -105,9 +105,9 @@
             before:content-[&quot;\201c&quot;] before:text-2xl
           "
         >
-          <p class="font-serif font-semibold italic leading-6 margin-0">
-            Because you're not just a customer... You are our partner, and your
-            success is our success.
+          <p class="font-ubuntu font-semibold italic leading-6 margin-0">
+            "Because you're not just a customer... You are our partner, and your
+            success is our success."
           </p>
         </blockquote>
         <img

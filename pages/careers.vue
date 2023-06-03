@@ -2,7 +2,7 @@
   <div>
     <div class="text-left items-left flex max-w-6xl mx-auto flex-col mt-4">
       <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded" />
-      <p class="mt-2 text-2xl font-ubuntu font-bold">Careers</p>
+      <p class="mt-2 text-2xl font-ubuntu font-bold text-darkGreen-900">Careers</p>
       <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
       <p class="mt-2 text-2xl font-manrope font-bold">
         Our people have the talent, tools and passion to do epic things
@@ -202,197 +202,6 @@
     </div>
   </div>
 
-  <div class="flex flex-row justify-center gap-8 mt-8">
-    <div
-      class="
-        w-250
-        h-250
-        bg-lightGreen-100
-        grid
-        place-items-center
-        rounded-2xl
-        p-2
-        shadow-2xl
-        hover:scale-105
-        cursor-pointer
-        group
-      "
-    >
-      <a class="scroll-smooth" href="#meet_the_team">
-        <img
-          class=""
-          src="~/assets/images/icons/64x64-Icons/icons8-team-64.png"
-          alt=""
-        />
-        <h4 class="font-ubuntu font-bold">Meet Us</h4>
-        <p class="font-manrope">Learn more about the team!</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="#000000"
-          class="
-            w-8
-            h-8
-            opacity-0
-            group-hover:opacity-100
-            transition-opacity
-            duration-500
-            group-hover:animate-fadeInDown
-          "
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </a>
-    </div>
-    <div
-      class="
-        w-250
-        h-250
-        bg-lightGreen-100
-        grid
-        place-items-center
-        rounded-2xl
-        p-2
-        shadow-2xl
-        hover:scale-105
-        cursor-pointer
-        group
-      "
-    >
-      <a class="scroll-smooth" href="#your_possibilities">
-        <img
-          class=""
-          src="~/assets/images/icons/64x64-Icons/icons8-award-64.png"
-          alt=""
-        />
-        <h4 class="font-ubuntu font-bold">Your Possibilities</h4>
-        <p class="font-manrope">Career opportunities for you</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="#000000"
-          class="
-            w-8
-            h-8
-            opacity-0
-            group-hover:opacity-100
-            transition-opacity
-            duration-500
-            group-hover:animate-fadeInDown
-          "
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </a>
-    </div>
-    <div
-      class="
-        w-250
-        h-250
-        bg-lightGreen-100
-        grid
-        place-items-center
-        rounded-2xl
-        p-2
-        shadow-2xl
-        hover:scale-105
-        cursor-pointer
-        group
-      "
-    >
-      <a class="scroll-smooth" href="#open_positions">
-        <img
-          class=""
-          src="~/assets/images/icons/64x64-Icons/icons8-job-64.png"
-          alt=""
-        />
-        <h4 class="font-ubuntu font-bold">Open Positions</h4>
-        <p class="font-manrope">Apply and join our team!</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="#000000"
-          class="
-            w-8
-            h-8
-            opacity-0
-            group-hover:opacity-100
-            transition-opacity
-            duration-500
-            group-hover:animate-fadeInDown
-          "
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </a>
-    </div>
-    <div
-      class="
-        w-250
-        h-250
-        bg-lightGreen-100
-        grid
-        place-items-center
-        rounded-2xl
-        p-2
-        shadow-2xl
-        hover:scale-105
-        cursor-pointer
-        group
-      "
-    >
-      <NuxtLink to="/about">
-        <img
-          class=""
-          src="~/assets/images/icons/64x64-Icons/icons8-lightbulb-64.png"
-          alt=""
-        />
-        <h4 class="font-ubuntu font-bold">Learn about AlphaCircuit</h4>
-        <p class="font-manrope">About Us</p>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="#000000"
-          class="
-            w-8
-            h-8
-            opacity-0
-            group-hover:opacity-100
-            transition-opacity
-            duration-500
-            group-hover:animate-fadeInDown
-          "
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </NuxtLink>
-    </div>
-  </div>
-
   <div class="mb-16">
     <div
       id="open_positions"
@@ -476,7 +285,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4"
+            <span class="font-semibold text-lg p-4 font-ubuntu"
               >Entry Level PCB Designer (10)</span
             >
             <span class="font-semibold text-xs text-gray-500"
@@ -552,7 +361,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4"
+            <span class="font-semibold text-lg p-4 font-ubuntu"
               >Quality Control Inspector (5)</span
             >
             <span class="font-semibold text-xs text-gray-500"
@@ -621,7 +430,7 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4">Buyer (2)</span>
+            <span class="font-semibold text-lg p-4 font-ubuntu">Buyer (2)</span>
             <span class="font-semibold text-xs text-gray-500"
               >*US Citizen or Green Card required</span
             >
