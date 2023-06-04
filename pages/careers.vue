@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <div class="text-left items-left flex max-w-6xl mx-auto flex-col mt-4">
-      <hr
-        class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded dark:bg-gray-700"
-      />
-      <p class="mt-2 text-2xl font-ubuntu font-bold">Careers</p>
+  <div class="max-w-screen">
+    <div class="text-left items-left flex max-w-6xl md:mx-auto flex-col mt-4 p-4 md:p-0">
+      <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded" />
+      <p class="mt-2 text-2xl font-ubuntu font-bold text-darkGreen-900">Careers</p>
       <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
       <p class="mt-2 text-2xl font-manrope font-bold">
         Our people have the talent, tools and passion to do epic things
@@ -12,11 +10,13 @@
       </p>
     </div>
 
-    <div class="flex flex-row justify-center gap-8 mt-8">
+    <div class="grid grid-rows-2 grid-cols-2 p-4 md:p-0 md:flex justify-center items-center md:items-stretch md:flex-row gap-8 md:mt-8">
       <div
         class="
-          w-250
-          h-250
+          w-fit
+          md:w-250
+          h-fit
+          md:h-250
           bg-lightGreen-100
           grid
           place-items-center
@@ -62,8 +62,10 @@
       </div>
       <div
         class="
-          w-250
-          h-250
+          w-fit
+          md:w-250
+          h-fit
+          md:h-250
           bg-lightGreen-100
           grid
           place-items-center
@@ -109,8 +111,10 @@
       </div>
       <div
         class="
-          w-250
-          h-250
+          w-fit
+          md:w-250
+          h-fit
+          md:h-250
           bg-lightGreen-100
           grid
           place-items-center
@@ -156,8 +160,10 @@
       </div>
       <div
         class="
-          w-250
-          h-250
+          w-fit
+          md:w-250
+          h-fit
+          md:h-250
           bg-lightGreen-100
           grid
           place-items-center
@@ -207,13 +213,13 @@
   <div class="mb-16">
     <div
       id="open_positions"
-      class="mx-auto max-w-7xl flex flex-row justify-evenly mt-16"
+      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
     >
-      <div class="w-525 h-375 flex flex-col justify-center gap-2">
+      <div class="w-screen md:w-525 h-375 flex flex-col justify-center gap-2 p-4 my-4">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Open Positions
         </h4>
-        <p class="w-525 font-ubuntu font-bold">
+        <p class="font-ubuntu font-bold">
           We are excited to offer a range of open positions that provide
           excellent opportunities for individuals looking to contribute their
           skills and expertise to our dynamic and innovative team. Whether you
@@ -268,8 +274,7 @@
       </div>
       <div>
         <img
-          class="w-425 h-375 rounded-lg"
-          id="hello"
+          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello scale-100': '']"
           src="~/assets/images/images/carouselImages/dylan-gillis-KdeqA3aTnBY-unsplash.jpg"
           alt=""
         />
@@ -491,21 +496,20 @@
     </div>
     <div
       id="your_possibilities"
-      class="mx-auto max-w-7xl flex flex-row justify-evenly mt-16"
+      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
     >
       <div>
         <img
-          class="w-425 h-375 rounded-lg"
-          id="hello2"
+          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello2 scale-100': '']"
           src="~/assets/images/images/carouselImages/greg-willson-KCU9PPL9GuE-unsplash.jpg"
           alt=""
         />
       </div>
-      <div class="w-525 h-375 flex flex-col justify-center gap-2">
+      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Your Possibilities
         </h4>
-        <p class="w-525 font-ubuntu font-bold">
+        <p class="font-ubuntu font-bold">
           Join our team and be part of a company that values creativity,
           collaboration, and continuous growth. With a wide range of positions
           available, we invite you to explore the possibilities and discover a
@@ -516,13 +520,13 @@
     </div>
     <div
       id="meet_the_team"
-      class="mx-auto max-w-7xl flex flex-row justify-evenly mt-16"
+      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
     >
-      <div class="w-525 h-375 flex flex-col justify-center gap-2">
+      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Meet the team!
         </h4>
-        <p class="w-525 font-ubuntu font-bold">
+        <p class="font-ubuntu font-bold">
           Get to know the exceptional individuals who make up our extraordinary
           team at AlphaCircuit. Behind every circuit board we produce, there is
           a team of passionate individuals working together to push the
@@ -574,8 +578,7 @@
       </div>
       <div>
         <img
-          class="w-425 h-375 rounded-lg"
-          id="hello"
+          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello scale-100': '']"
           src="~/assets/images/images/carouselImages/business-concept-closeup-two-confident-business-people-shaking-hands-during-meeting.webp"
           alt=""
         />
@@ -661,7 +664,19 @@ export default {
       showContent2: false,
       showContent3: false,
       showContent4: false,
+      isMd: false // Variable to track the media query
     };
+  },
+  mounted() {
+    const mediaQuery = window.matchMedia('(min-width: 768px)'); // Define your media query here
+
+    // Set the initial value of `isMd`
+    this.isMd = mediaQuery.matches;
+
+    // Listen for changes in the media query
+    mediaQuery.addEventListener('change', (event) => {
+      this.isMd = event.matches;
+    });
   },
   name: "careers",
 };
@@ -674,10 +689,18 @@ let isOpen3 = false;
 </script>
 
 <style scoped>
-#hello {
+html {
+  overflow-x: hidden;
+}
+
+#hello3 {
+  clip-path: none;
+}
+
+.hello {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 47% 100%);
 }
-#hello2 {
+.hello2 {
   clip-path: polygon(0 0, 100% 0%, 45% 100%, 0% 100%);
 }
 </style>
