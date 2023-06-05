@@ -2,7 +2,50 @@
   <div class="text-center">
     <h4 class="font-ubuntu text-lg">Certificates</h4>
     <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded" />
-    <div class="inline-flex rounded-md shadow-lg mt-2" role="group">
+    <div class="sm:hidden flex flex-col justify-center items-center">
+      <div
+        class="ml-2 mr-2 w-4/5 grid grid-cols-1 rounded-md shadow-lg mt-4"
+        role="group"
+      >
+        <button
+          v-for="cert in certificates"
+          @click="handleConditionals(cert.index)"
+          type="button"
+          class="
+            px-2
+            py-2
+            text-sm
+            font-medium
+            text-gray-900
+            bg-white
+            border border-gray-200
+            hover:bg-gray-100 hover:text-blue-700
+            focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700
+          "
+          :class="{
+            'rounded-t-lg': cert.index == 0,
+
+            'rounded-b-lg': cert.index == 5,
+          }"
+        >
+          {{ cert.name }}
+        </button>
+      </div>
+    </div>
+    <div
+      class="
+        hidden
+        w-fit
+        ml-2
+        mr-2
+        w-1/2
+        sm:inline-flex
+        rounded-md
+        shadow-lg
+        sm:mt-2
+      "
+      role="group"
+    >
       <button
         @click="handleConditionals(0)"
         type="button"
@@ -111,11 +154,14 @@
 
     <div class="text-left max-w-5xl mx-auto space-y-1 p-8 rounded-xl">
       <!-- Option 1 -->
-      <div v-if="content[0].isOpen" class="space-y-4">
+      <div
+        v-if="content[0].isOpen"
+        class="space-y-4 transition-all transform duration-300 ease-in-out"
+      >
         <h3 class="font-bold font-ubuntu">AS9100</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="">
+        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="" />
 
         <h6 class="font-bold font-ubuntu">What is AS9100?</h6>
         <p class="font-manrope">
@@ -141,32 +187,45 @@
           enhance an organization's ability to achieve high quality levels in
           the challenging automotive sector.
         </p>
-        <p class="font-bold font-ubuntu">AS9100 certification offers the following benefits:</p>
+        <p class="font-bold font-ubuntu">
+          AS9100 certification offers the following benefits:
+        </p>
         <ul class="list-disc pl-4 font-manrope">
           <li>Improved product and process quality and reliability.</li>
           <li>Improved on-time delivery.</li>
           <li>Greater emphasis on supplier quality improvement efforts.</li>
-          <li>Single quality system registration to meet multiple customer quality
-          requirements</li>
-          <li>Incorporates the best lessons learned from the global automotive
-          segment</li>
-          <li>Improved staff morale through increased management efficiencies</li>
-          <li>Continuous improvement of business performance through ongoing
-          certification audits</li>
-          <li>Bottom-line benefits through increased efficiency, reduced waste and
-          better utilization of resources</li>
+          <li>
+            Single quality system registration to meet multiple customer quality
+            requirements
+          </li>
+          <li>
+            Incorporates the best lessons learned from the global automotive
+            segment
+          </li>
+          <li>
+            Improved staff morale through increased management efficiencies
+          </li>
+          <li>
+            Continuous improvement of business performance through ongoing
+            certification audits
+          </li>
+          <li>
+            Bottom-line benefits through increased efficiency, reduced waste and
+            better utilization of resources
+          </li>
         </ul>
 
         <a
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
+            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            w-max
+            sm:w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -230,7 +289,9 @@
         </p>
 
         <h6 class="font-bold font-ubuntu">Benefits</h6>
-        <p class="font-semibold font-manrope italic">"The Improvement Standard"</p>
+        <p class="font-semibold font-manrope italic">
+          "The Improvement Standard"
+        </p>
 
         <p class="font-manrope">
           With ISO 9001:2000 as the basic quality management system,
@@ -252,27 +313,38 @@
           <li>Improved product and process quality and reliability.</li>
           <li>Improved on-time delivery.</li>
           <li>Greater emphasis on supplier quality improvement efforts.</li>
-          <li> Single quality system registration to meet multiple customer quality
-          requirements</li>
-          <li>Incorporates the best lessons learned from the global automotive
-          segment</li>
-          <li>Improved staff morale through increased management efficiencies</li>
-          <li>Continuous improvement of business performance through ongoing
-          certification audits</li>
-          <li>Bottom-line benefits through increased efficiency, reduced waste and
-          better utilization of resources</li>
+          <li>
+            Single quality system registration to meet multiple customer quality
+            requirements
+          </li>
+          <li>
+            Incorporates the best lessons learned from the global automotive
+            segment
+          </li>
+          <li>
+            Improved staff morale through increased management efficiencies
+          </li>
+          <li>
+            Continuous improvement of business performance through ongoing
+            certification audits
+          </li>
+          <li>
+            Bottom-line benefits through increased efficiency, reduced waste and
+            better utilization of resources
+          </li>
         </ul>
 
         <a
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
+            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            w-max
+            sm:w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -313,7 +385,7 @@
         <h3 class="font-bold font-ubuntu">ISO9001</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="">
+        <img src="~/assets/images/logos/AS9100+Black+TM+png.png" alt="" />
 
         <h6 class="font-bold font-ubuntu">What is ISO9001?</h6>
         <p class="font-manrope">
@@ -333,12 +405,13 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
+            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            w-max
+            sm:w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -379,7 +452,7 @@
         <h3 class="font-ubuntu">ITAR</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
-        <img src="~/assets/images/logos/ITAR.png" alt="">
+        <img src="~/assets/images/logos/ITAR.png" alt="" />
 
         <h6 class="font-ubuntu font-bold">ITAR Registration</h6>
         <h6 class="font-ubuntu font-bold">
@@ -405,12 +478,13 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
+            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            w-max
+            sm:w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -449,21 +523,49 @@
       <!-- Option 5 -->
       <div v-if="content[4].isOpen" class="space-y-4 grid">
         <div class="flex flex-col">
-          <img class="self-center" src="~/assets/images/logos/UL.png" alt="UL Certification Logo">
+          <img
+            class="self-center"
+            src="~/assets/images/logos/UL.png"
+            alt="UL Certification Logo"
+          />
           <h3 class="text-center text-2xl">UL Certification</h3>
           <hr class="w-12 mx-auto h-1 bg-darkGreen-700 border-0 rounded" />
         </div>
 
-
         <div class="font-ubuntu space-x-5 flex justify-center">
-            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">Link to UL Cert USA</a>
-            <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl" href="">Link to UL Cert Canada</a>
+          <a
+            class="
+              hover:underline
+              bg-darkGreen-700
+              text-white
+              p-2
+              rounded-lg
+              shadow-xl
+            "
+            href=""
+            >Link to UL Cert USA</a
+          >
+          <a
+            class="
+              hover:underline
+              bg-darkGreen-700
+              text-white
+              p-2
+              rounded-lg
+              shadow-xl
+            "
+            href=""
+            >Link to UL Cert Canada</a
+          >
         </div>
 
-        <p class="font-semibold">UL Approved Single / Double Layer Material Chart</p>
+        <p class="font-semibold text-center">
+          UL Approved Single / Double Layer Material Chart
+        </p>
 
         <!-- Table -->
-        <table>
+
+        <table class="text-xs outline outline-amber-300">
           <thead class="bg-darkGreen-700 text-white">
             <tr>
               <th>UL Type</th>
@@ -822,7 +924,8 @@
 
         <p><span class="font-bold font-ubuntu">NAICS Code </span>334412</p>
         <p>
-          <span class="font-bold font-ubuntu">Product/Service Description: </span
+          <span class="font-bold font-ubuntu"
+            >Product/Service Description: </span
           >Manufacturer of printed circuit boards
         </p>
 
@@ -830,12 +933,13 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
+            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            w-max
+            sm:w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -883,32 +987,42 @@ export default {
       showOption8: false,
       showOption9: false,
       showOption10: false,
-      content: [
-        { isOpen: false, title: "AS9100" },
-        { isOpen: false, content: "div 2" },
-        { isOpen: false, content: "div 1" },
-        { isOpen: false, content: "div 1" },
-        { isOpen: false, content: "div 1" },
-        { isOpen: false, content: "div 1" },
-      ],
     };
   },
   name: "careers",
-  methods: {
-    handleConditionals(index) {
-      this.content.forEach((div, i) => {
-        if (i === index) {
-          console.log(index, i);
-          div.isOpen = true;
-        } else {
-          div.isOpen = false;
-        }
-      });
-    },
-  },
 };
 </script>
 
-<script setup></script>
+<script setup>
+const content = ref([
+  { isOpen: false, title: "AS9100" },
+  { isOpen: false, content: "div 2" },
+  { isOpen: false, content: "div 1" },
+  { isOpen: false, content: "div 1" },
+  { isOpen: false, content: "div 1" },
+  { isOpen: false, content: "div 1" },
+]);
+
+const certificates = [
+  { name: "AS9100", index: 0 },
+  { name: "TS16949", index: 1 },
+  { name: "ISO9001", index: 2 },
+  { name: "ITAR", index: 3 },
+  { name: "UL Certification", index: 4 },
+  { name: "MBE", index: 5 },
+];
+
+function handleConditionals(index) {
+  event.preventDefault();
+  this.content.forEach((div, i) => {
+    if (i === index) {
+      console.log(index, i);
+      div.isOpen = true;
+    } else {
+      div.isOpen = false;
+    }
+  });
+}
+</script>
 
 <style scoped></style>
