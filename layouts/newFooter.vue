@@ -1,17 +1,17 @@
 <template>
 
 <footer>
-    <div class="mx-auto w-screen px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
-        <div class="md:flex md:justify-between mr-5 space-y-6">
-          <div class="mb-6 md:mb-0 ml-5">
+    <div class="mx-auto  md:px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
+        <div class="md:flex md:justify-between md:mr-5 space-y-6">
+          <div class="mb-6 md:mb-0 pl-14 md:ml-5w-screen">
               <NuxtLink to="/" class="flex items-center">
                   <img src="~/assets/images/logos/logo.png" class="h-12 mr-3" alt="Alpha Circuit Logo" />
                   <!-- <span class="self-center text-2xl font-ubuntu font-semibold whitespace-nowrap">Alpha Circuit</span> -->
               </NuxtLink>
-              <p class="w-200 h-10 mt-5 font-ubuntu text-neutrals-800">Total Bare Board Manufacturing Solutions</p>
-              <p class="w-250 h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
+              <p class="md:w-200 w-350 md:h-10 mt-5 font-ubuntu text-neutrals-800">Total Bare Board Manufacturing Solutions</p>
+              <p class="md:w-250 w-350 md:h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+          <div class="grid grid-cols-2 text-center md:text-left gap-8 md:gap-6 md:grid-cols-2">
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-neutrals-600 uppercase font-ubuntu">Resources</h2>
                   <ul class="text-gray-600 font-medium font-manrope">
@@ -35,7 +35,7 @@
                       <li class="mb-4">
                           <NuxtLink to="/terms" class="hover:underline">Terms &amp; Conditions</NuxtLink>
                       </li>
-                      <div class="flex flex-row space-x-1">
+                      <div class="flex flex-row space-x-1 justify-center md:justify-normal">
                         <img src="~/assets/images/icons/24x24-Icons/ISO.png" alt="ISO9001 and AS9100 Certification Logo">
                         <img src="~/assets/images/icons/24x24-Icons/ITAR.png" alt="International Traffic In Arms Regulation Certification Logo">
                         <img src="~/assets/images/icons/24x24-Icons/MBE.png" alt="Chicago Minority Supplier - Minority Business Enterprise Certification Logo">
@@ -45,15 +45,15 @@
               </div>
           </div>
       </div>
-      <hr class="my-6 border-gray-350 sm:mx-auto lg:my-8" />
-      <div class="sm:flex sm:items-center sm:justify-between ml-5 font-manrope">
-          <span class="text-sm text-gray-500 sm:text-center">© 2023 Alpha Circuit. All Rights Reserved.
+      <hr class="my-6 border-gray-350 mx-auto md:my-8" />
+      <div class="flex flex-col md:flex-row gap-1 items-center md:flex md:items-center md:justify-between ml-5 font-manrope">
+          <span class="text-sm text-gray-500 text-center md:text-center">© 2023 Alpha Circuit. All Rights Reserved.
           </span>
-          <span class="text-sm text-gray-500 sm:text-center">730 N Oaklawn Ave, Elmhurst, IL, 60126</span>
-          <span class="text-sm text-gray-500 sm:text-center">(630)-615-5555</span>
-          <span class="text-sm text-gray-500 sm:text-center">sales@alphacircuit.com</span>
+          <span class="text-sm text-gray-500 md:text-center">730 N Oaklawn Ave, Elmhurst, IL, 60126</span>
+          <span class="text-sm text-gray-500 md:text-center">(630)-615-5555</span>
+          <span class="text-sm text-gray-500 md:text-center">sales@alphacircuit.com</span>
           <a class="text-xs hover:underline text-gray-500" href="https://www.icons8.com">Icons by Icons8</a>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0 mr-5">
+          <div class="flex mt-4 space-x-6 md:justify-center md:mt-0 md:mr-5">
               <a href="https://facebook.com" class="text-gray-500 hover:text-gray-900">
                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
                   <span class="sr-only">Facebook page</span>
@@ -69,6 +69,7 @@
       </div>
     </div>
 </footer>
+
 
 </template>
 
