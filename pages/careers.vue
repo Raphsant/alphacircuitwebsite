@@ -498,7 +498,7 @@
       id="your_possibilities"
       class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-2 md:mt-16 "
     >
-      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4">
+      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4 md:order-2">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Your Possibilities
         </h4>
@@ -510,7 +510,7 @@
           shape the future of technology and printed circuit boards
         </p>
       </div>
-      <div>
+      <div class="md:order-1">
         <img
           :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello2 scale-100': '']"
           src="~/assets/images/images/carouselImages/greg-willson-KCU9PPL9GuE-unsplash.jpg"
