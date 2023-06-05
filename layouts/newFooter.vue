@@ -1,7 +1,7 @@
 <template>
 
 <footer>
-    <div class="mx-auto max-w-screen md:px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
+    <div class="mx-auto  md:px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
         <div class="md:flex md:justify-between md:mr-5 space-y-6">
           <div class="mb-6 md:mb-0 pl-14 md:ml-5w-screen">
               <NuxtLink to="/" class="flex items-center">
@@ -9,7 +9,7 @@
                   <!-- <span class="self-center text-2xl font-ubuntu font-semibold whitespace-nowrap">Alpha Circuit</span> -->
               </NuxtLink>
               <p class="md:w-200 w-350 md:h-10 mt-5 font-ubuntu text-neutrals-800">Total Bare Board Manufacturing Solutions</p>
-              <p class="md:w-250 w-400 md:h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
+              <p class="md:w-250 w-350 md:h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
           </div>
           <div class="grid grid-cols-2 text-center md:text-left gap-8 md:gap-6 md:grid-cols-2">
               <div>

@@ -280,8 +280,8 @@
         />
       </div>
     </div>
-    <div v-if="showContent1" id="" class="space-y-5">
-      <div class="max-w-2xl mx-48">
+    <div v-if="showContent1" id="" class="space-y-5 p-6">
+      <div class="md:max-w-2xl md:mx-48">
         <div class="bg-white rounded-xl border-2">
           <div
             @click="
@@ -357,7 +357,7 @@
           </div>
         </div>
       </div>
-      <div class="max-w-2xl mx-48">
+      <div class="md:max-w-2xl md:mx-48">
         <div class="bg-white rounded-xl border-2">
           <div
             @click="
@@ -426,7 +426,7 @@
           </div>
         </div>
       </div>
-      <div class="max-w-2xl mx-48">
+      <div class="md:max-w-2xl md:mx-48">
         <div class="bg-white rounded-xl border-2">
           <div
             @click="
@@ -496,15 +496,8 @@
     </div>
     <div
       id="your_possibilities"
-      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
+      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-2 md:mt-16 "
     >
-      <div>
-        <img
-          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello2 scale-100': '']"
-          src="~/assets/images/images/carouselImages/greg-willson-KCU9PPL9GuE-unsplash.jpg"
-          alt=""
-        />
-      </div>
       <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Your Possibilities
@@ -516,6 +509,13 @@
           career that aligns with your passion and aspirations. Together, let's
           shape the future of technology and printed circuit boards
         </p>
+      </div>
+      <div>
+        <img
+          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello2 scale-100': '']"
+          src="~/assets/images/images/carouselImages/greg-willson-KCU9PPL9GuE-unsplash.jpg"
+          alt=""
+        />
       </div>
     </div>
     <div
@@ -589,32 +589,32 @@
   <div v-if="showContent" class="mx-auto max-w-6xl">
     <!-- divider line -->
     <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <p class="text-darkGreen-700 font-ubuntu font-bold">Management Board</p>
-    <div class="flex flex-row justify-evenly p-4">
-      <div class="flex flex-col text-center gap-1.5">
+    <p class="text-darkGreen-700 font-ubuntu font-bold text-center text-2xl md:text-left">Management Board</p>
+    <div class="flex flex-col md:flex-row justify-evenly p-4 gap-10">
+      <div class="flex flex-col text-center items-center gap-1. bg-neutrals-100 p-4 md:px-10 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Prashant Patel</p>
         <p class="font-bold font-ubuntu">Owner and CEO</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p>Steve Smith</p>
         <p class="font-bold">General Manager</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-116</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Natu Vaghani</p>
         <p class="font-bold font-ubuntu">Engineering Manager</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-119</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">Contact Info</p>
       </div>
     </div>
@@ -623,32 +623,32 @@
   <div v-if="showContent" class="mx-auto max-w-6xl">
     <!-- divider line -->
     <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <p class="text-darkGreen-700 font-ubuntu font-bold">Sales Team</p>
-    <div class="flex flex-row justify-evenly p-4 mb-4">
-      <div class="flex flex-col text-center gap-1.5">
+    <p class="text-darkGreen-700 font-ubuntu font-bold text-center text-2xl md:text-left">Sales Team</p>
+    <div class="flex flex-col md:flex-row justify-evenly p-4 mb-4 gap-10">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Steve Ryan</p>
         <p class="font-bold font-ubuntu">Sales Team</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">SteveR@alphacircuit.com</p>
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-110</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center gap-1.5">
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <div class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"></div>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
         <p class="font-manrope">Contact Info</p>
       </div>
     </div>
