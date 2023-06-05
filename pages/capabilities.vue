@@ -7,9 +7,9 @@
                     <hr class="w-22 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div> -->
                 <div class="inline-flex mb-8 items-center justify-center w-full">
-    <hr class="w-64 h-2 my-8 bg-gray-200 border-0 rounded-xl">
-    <span class="absolute px-3 text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 font-ubuntu font-bold">Capabilities</span>
-</div>
+                    <hr class="w-64 h-2 my-8 bg-gray-200 border-0 rounded-xl">
+                    <span class="absolute px-3 text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 font-ubuntu font-bold">Capabilities</span>
+                </div>
             </div>
         </div>
         <div class="space-y-2 mb-12">
@@ -18,7 +18,7 @@
         </div>
 
         <!-- Table 1 -->
-        <div class="w-10/12 mx-auto bg-darkGreen-700 p-8 rounded-lg">
+        <div class="2xl:w-8/12 lg:w-10/12 mx-auto bg-darkGreen-700 p-8 rounded-lg">
             <table class="bg-neutrals-200 font-manrope rounded-lg">
                 <thead class="">
                     <tr class="bg-lightGreen-100">
@@ -76,7 +76,7 @@
             </table>
         </div>
 
-        <div class="flex flex-row m-4 w-10/12 mx-auto justify-center space-x-10 mb-8">
+        <div class="flex flex-col md:flex-row m-4 md:w-10/12 mx-auto space-y-4 md:space-y-0 md:justify-center md:space-x-10 mb-8">
             <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl font-manrope" href="">(1)Sputtered Blind Hole Technology Paper</a>
             <a class="hover:underline bg-darkGreen-700 text-white p-2 rounded-lg shadow-xl font-manrope" href="">(2)Thermal Management of RF and Digital Electronic Devices</a>
         </div>
@@ -84,9 +84,9 @@
         <hr class="w-12/12 mx-auto h-1 bg-lightGreen-50 border-0 rounded  drop-shadow-xl"/>
 
         <!-- Section with Multiple Tables -->
-        <section class="grid grid-rows-2 grid-cols-2 w-12/12 mx-auto font-manrope place-items-center mb-8">
+        <section class="grid grid-cols-1 md:space-y-0 space-y-8 md:grid-rows-2 md:grid-cols-2 w-12/12 mx-auto font-manrope place-items-center mb-8">
             <div class="space-y-2">
-                <div class="space-y-1">
+                <div class="space-y-1 md:mt-0 mt-4">
                     <p>Production Capabilities</p>
                     <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
@@ -173,8 +173,8 @@
                 </table>
             </div>
 
-            <div class="space-y-2">
-                <div class="space-y-1">
+            <div class="space-y-2 md:-ml-1">
+                <div class="space-y-1 2xl:-mt-2 md:-mt-6">
                     <p>Imaging</p>
                     <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
                 </div>
@@ -187,7 +187,7 @@
                             <th class="text-left bg-lightGreen-100 py-2 pr-2 border-b-2 border-white">
                                 <h4>Current Capability</h4>
                             </th>
-                            <th class="text-left bg-lightGreen-100 py-2 pr-2 border-b-2 border-white">
+                            <th class="text-left bg-lightGreen-100 py-2 pr-2 md:px-2 md:pr-14 border-b-2 border-white">
                                 <h4>Future Capabilities</h4>
                             </th>
                         </tr>
@@ -286,7 +286,7 @@
 
         <div class="space-y-2">
             <div class="space-y-1">
-                <p class="text-2xl font-ubuntu font-bold text-darkGreen-700">Technology</p>
+                <p class="text-2xl font-ubuntu font-bold text-darkGreen-700 md:mt-0 mt-2">Technology</p>
                 <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded "/>
             </div>
             <p>As the telecommunication, big data analytics and high frequency spectrum expands, every key player in the electronics industry is keen to tap the market opportunities. Electronics device manufacturer will rely heavily on the PCB manufacturers to supply and support their systems for these emerging high technology markets. Based on the current market opportunity trend in hardware electronics, our high technology road map is focused on the following sectors.</p>

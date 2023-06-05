@@ -25,7 +25,7 @@
       </span>
     </div>
 
-    <ul class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute bg-neutrals-100 md:w-auto w-full h-full top-28 duration-700 ease-in" :class="[open ? 'left-0' : 'left-[-100%]']">
+    <ul class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute bg-neutrals-100 md:w-auto w-full h-full top-28 duration-700 ease-in z-50" :class="[open ? 'left-0' : 'left-[-100%]']">
       <li class="md:mx-4 md:my-0 my-6">
         <NuxtLink to="/" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Home</NuxtLink>
       </li>

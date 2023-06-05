@@ -3,9 +3,11 @@
     class="
       flex-col flex
       border
+      mt-4
+      md:mt-0
       bg-neutral-50
       rounded-lg
-      w-3/12
+      md:w-3/12
       space-y-4
       p-5
       shadow-xl

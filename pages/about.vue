@@ -47,7 +47,7 @@
         Our core values
       </div>
       <hr class="w-24 h-1 bg-darkGreen-700 border-0 rounded mt-2"/>
-      <div class="grid md:grid-cols-4 justify-center items-center mt-6 md:w-2/4 font-ubuntu">
+      <div class="grid md:grid-cols-4 grid-cols-2 gap-8 md:gap-0 justify-center items-center mt-6 md:w-2/4 font-ubuntu">
         <div class="flex flex-col justify-center items-center">
           <img src="~/assets/images/icons/60x60-Icons/icons8-family-60.png" alt="" />
           <div class="text-darkGreen-900 text-2xl text-center">

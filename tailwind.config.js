@@ -12,40 +12,40 @@ module.exports = {
     extend: {
       keyframes: {
         fadeInDown: {
-          '0%': {
-            opacity: '0',
-            transform: 'translateY(-10px)',
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-10px)",
           },
-          '100%': {
-            opacity: '1',
-            transform: 'translateY(0)',
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
           },
         },
         kenburns: {
-          '0%': {
-            transform: 'scale(1) translate(0%, 0%)',
+          "0%": {
+            transform: "scale(1) translate(0%, 0%)",
           },
-          '50%': {
-            transform: 'scale(1.1) translate(-2%, -2%)',
+          "50%": {
+            transform: "scale(1.1) translate(-2%, -2%)",
           },
-          '100%': {
-            transform: 'scale(1) translate(0%, 0%)',
+          "100%": {
+            transform: "scale(1) translate(0%, 0%)",
           },
         },
       },
       animation: {
-        kenburns: 'kenburns 6000ms',
-        fadeInDown: 'fadeInDown 0.5s'
+        kenburns: "kenburns 6000ms",
+        fadeInDown: "fadeInDown 0.5s",
       },
       borderWidth: {
-        DEFAULT: '1px',
-        '0': '0',
-        '2': '2px',
-        '3': '3px',
-        '4': '4px',
-        '6': '6px',
-        '8': '8px',
-        '10': '10px'
+        DEFAULT: "1px",
+        0: "0",
+        2: "2px",
+        3: "3px",
+        4: "4px",
+        6: "6px",
+        8: "8px",
+        10: "10px",
       },
       colors: {
         darkGreen: {
@@ -85,11 +85,12 @@ module.exports = {
         350: "350px",
         375: "375px",
         400: "400px",
+        450: "450px",
         475: "475px",
         550: "550px",
         575: "575px",
         600: "600px",
-        625: "625px"
+        625: "625px",
       },
       width: {
         50: "50px",
@@ -106,7 +107,9 @@ module.exports = {
         575: "575px",
         600: "600px",
         625: "625px",
-        1100: "1100px"
+        650: "650px",
+        725: "725px",
+        1100: "1100px",
       },
       top: {
         10: "10px",
@@ -138,8 +141,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      translate: ['group-hover'],
+      translate: ["group-hover"],
     },
   },
-  plugins: [require("flowbite/plugin"), require("@tailwindcss/forms"), require('tailwind-clip-path')],
+  plugins: [
+    require("flowbite/plugin"),
+    require("@tailwindcss/forms"),
+    require("tailwind-clip-path"),
+  ],
 };
