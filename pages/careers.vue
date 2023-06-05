@@ -219,10 +219,7 @@
   </div>
 
   <div class="mb-16">
-    <div
-      id="open_positions"
-      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
-    >
+    <div id="open_positions" class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16">
       <div class="w-screen md:w-525 h-375 flex flex-col justify-center gap-2 p-4 my-4">
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Open Positions
@@ -250,7 +247,7 @@
             text-neutrals-100
             relative
             inline-flex
-            group
+            md:group
             items-center
             justify-center
             cursor-pointer
@@ -288,7 +285,7 @@
         />
       </div>
     </div>
-    <div v-if="showContent1" id="" class="space-y-5 p-6">
+    <div v-if="showContent1" id="" class="space-y-5 py-6 pr-6 pl-6 md:pl-0 2xl:pl-36 max-w-6xl mx-left">
       <div class="md:max-w-2xl md:mx-48">
         <div class="bg-white rounded-xl border-2">
           <div
@@ -300,12 +297,8 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4 font-ubuntu"
-              >Entry Level PCB Designer (10)</span
-            >
-            <span class="font-semibold text-xs text-gray-500"
-              >*US Citizen or Green Card required</span
-            >
+            <span class="font-semibold text-lg p-4 font-ubuntu">Entry Level PCB Designer (10)</span>
+            <span class="font-semibold text-xs text-gray-500">*US Citizen or Green Card required</span>
             <div>
               <img
                 v-if="isOpen1"
@@ -322,7 +315,7 @@
             </div>
           </div>
 
-          <div v-if="showContent2" class="">
+          <div v-if="showContent2" class="ease-out animate-fadeInDown transition-opacity duration-1000">
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -398,7 +391,7 @@
             </div>
           </div>
 
-          <div v-if="showContent3" class="">
+          <div v-if="showContent3" class="ease-out animate-fadeInDown transition-opacity duration-1000">
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -465,7 +458,7 @@
             </div>
           </div>
 
-          <div v-if="showContent4" class="">
+          <div v-if="showContent4" class="ease-out animate-fadeInDown transition-opacity duration-1000">
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -554,7 +547,7 @@
             text-neutrals-100
             relative
             inline-flex
-            group
+            md:group
             items-center
             justify-center
             cursor-pointer
