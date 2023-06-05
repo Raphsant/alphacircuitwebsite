@@ -1,5 +1,5 @@
 <template>
-    <section class="max-w-5xl mx-auto space-y-1">
+    <section class="max-w-5xl mx-auto space-y-1 p-4">
         <h2 class="font-ubuntu font-bold">Alpha Circuit Corporation</h2>
         <hr class="w-16 h-1 bg-darkGreen-700 border-0 rounded dark:bg-gray-700"/>
 
@@ -19,13 +19,13 @@
         <p>All DMR's/Action Requests have to be resolved within 4 weeks.</p>
         <div class="flex flex-row">
             <a
-            href="/pdf/ACF088_B_Supplier_Agreement_1.pdf" class="py-3 px-5 mt-4 mr-1 mb-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
-            <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
+            href="/pdf/ACF088_B_Supplier_Agreement_1.pdf" class="py-3 px-5 mt-4 mr-1 mb-1 w-max rounded-lg text-neutrals-100 relative inline-flex md:group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
+            <span class="md:absolute md:w-0 md:h-0 md:transition-all md:duration-300 md:ease-out md:bg-white md:rounded-full md:group-hover:w-32 md:group-hover:h-32 md:opacity-10"></span>
             <span class="relative font-manrope">Click to View Full Terms & Conditions</span>
           </a>
           <a
-            href="/pdf/ACF088_B_Supplier_Agreement_1 (1).pdf"  download class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
-            <span class="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
+            href="/pdf/ACF088_B_Supplier_Agreement_1 (1).pdf"  download class="py-3 px-5 mt-4 m-1 w-max rounded-lg text-neutrals-100 relative inline-flex md:group items-center justify-center cursor-pointer border-b-4 border-l-2 active:border-darkGreen-700 active:shadow-none shadow-xl bg-gradient-to-tr from-darkGreen-700 to-darkGreen-700 border-darkGreen-700">
+            <span class="md:absolute md:w-0 md:h-0 md:transition-all md:duration-300 md:ease-out md:bg-white md:rounded-full md:group-hover:w-32 md:group-hover:h-32 md:opacity-10"></span>
             <span class="relative font-manrope">Download Supplier Agreement</span>
           </a>
         </div>

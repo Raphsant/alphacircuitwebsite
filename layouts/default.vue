@@ -1,9 +1,9 @@
 <template>
   <div class="text-gray-100 py-3.5 px-6 shadow md:flex flex justify-between items-center bg-neutrals-100">
     <div class="flex items-center cursor-pointer xl:ml-28">
-      <span class="text-green-500 text-xl mr-1">
+      <NuxtLink to="/" class="text-green-500 text-xl mr-1">
         <img src="~/assets/images/logos/logo.png" alt="Alpha Circuit Logo"/>
-      </span>
+      </NuxtLink>
     </div>
 
     <div>
@@ -27,19 +27,19 @@
 
     <ul class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute bg-neutrals-100 md:w-auto w-full h-full top-28 duration-700 ease-in" :class="[open ? 'left-0' : 'left-[-100%]']">
       <li class="md:mx-4 md:my-0 my-6">
-        <a href="" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Home</a>
+        <NuxtLink to="/" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Home</NuxtLink>
       </li>
       <li class="md:mx-4 md:my-0 my-6">
-        <a href="" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">About</a>
+        <NuxtLink to="/about" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">About</NuxtLink>
       </li>
       <li class="md:mx-4 md:my-0 my-6">
-        <a href="" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Products</a>
+        <NuxtLink to="products" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Products</NuxtLink>
       </li>
       <li class="md:mx-4 md:my-0 my-6">
-        <a href="" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Capabilities</a>
+        <NuxtLink to="/capabilities" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Capabilities</NuxtLink>
       </li>
       <li class="md:mx-4 md:my-0 my-6">
-        <a href="" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Request A Quote</a>
+        <NuxtLink to="/quote" class="text-neutrals-800 text-lg no-underline hover:underline underline-offset-8 decoration-lightGreen-100 decoration-4 py-2 px-3">Request A Quote</NuxtLink>
       </li>
 
       <div class="md:flex items-center space-x-1 pl-3">

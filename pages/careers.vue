@@ -50,6 +50,8 @@
               transition-opacity
               duration-500
               group-hover:animate-fadeInDown
+              hidden
+              sm:inline-block
             "
           >
             <path
@@ -99,6 +101,8 @@
               transition-opacity
               duration-500
               group-hover:animate-fadeInDown
+              hidden
+              sm:inline-block
             "
           >
             <path
@@ -148,6 +152,8 @@
               transition-opacity
               duration-500
               group-hover:animate-fadeInDown
+              hidden
+              sm:inline-block
             "
           >
             <path
@@ -197,6 +203,8 @@
               transition-opacity
               duration-500
               group-hover:animate-fadeInDown
+              hidden
+              sm:inline-block
             "
           >
             <path
@@ -257,16 +265,16 @@
         >
           <span
             class="
-              absolute
-              w-0
-              h-0
-              transition-all
-              duration-300
-              ease-out
-              bg-white
-              rounded-full
-              group-hover:w-32 group-hover:h-32
-              opacity-10
+              md:absolute
+              md:w-0
+              md:h-0
+              md:transition-all
+              md:duration-300
+              md:ease-out
+              md:bg-white
+              md:rounded-full
+              md:group-hover:w-32 md:group-hover:h-32
+              md:opacity-10
             "
           ></span>
           <span class="relative font-manrope">Job Postings</span>
@@ -561,16 +569,16 @@
         >
           <span
             class="
-              absolute
-              w-0
-              h-0
-              transition-all
-              duration-300
-              ease-out
-              bg-white
-              rounded-full
-              group-hover:w-32 group-hover:h-32
-              opacity-10
+              md:absolute
+              md:w-0
+              md:h-0
+              md:transition-all
+              md:duration-300
+              md:ease-out
+              md:bg-white
+              md:rounded-full
+              md:group-hover:w-32 md:group-hover:h-32
+              md:opacity-10
             "
           ></span>
           <span class="relative font-manrope">Show me!</span>
