@@ -8,105 +8,335 @@
           back to you within 24 hours
         </h3>
       </div>
-  
+
       <form
         name="ask-quote"
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        class="bg-darkGreen-700 shadow-xl p-12 pl-9 md:pl-12 rounded-lg mb-8 font-manrope"
+        class="
+          bg-darkGreen-700
+          shadow-xl
+          p-12
+          pl-9
+          md:pl-12
+          rounded-lg
+          mb-8
+          font-manrope
+        "
       >
         <input type="hidden" name="form-name" value="ask-quote" />
         <div class="grid gap-6 mb-6 md:grid-cols-3">
           <!-- First Name -->
           <div>
-  
-            <label for="first_name" class="block mb-2 text-sm font-medium text-white">First name</label>
-            <input type="text" id="first_name" v-model="emailData.firstName" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="John" required/>
+            <label
+              for="first_name"
+              class="block mb-2 text-sm font-medium text-white"
+              >First name</label
+            >
+            <input
+              type="text"
+              id="first_name"
+              v-model="emailData.firstName"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder="John"
+              required
+            />
           </div>
           <!-- Last Name -->
           <div>
-            <label for="last_name" class="block mb-2 text-sm font-medium text-white" >Last name</label>
-            <input type="text" id="last_name" v-model="emailData.lastName" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="Doe" required/>
+            <label
+              for="last_name"
+              class="block mb-2 text-sm font-medium text-white"
+              >Last name</label
+            >
+            <input
+              type="text"
+              id="last_name"
+              v-model="emailData.lastName"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder="Doe"
+              required
+            />
           </div>
           <!-- Company -->
           <div>
-            <label for="company" class="block mb-2 text-sm font-medium text-white">Company</label>
-            <input type="text" id="company" v-model="emailData.company" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="" required/>
+            <label
+              for="company"
+              class="block mb-2 text-sm font-medium text-white"
+              >Company</label
+            >
+            <input
+              type="text"
+              id="company"
+              v-model="emailData.company"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder=""
+              required
+            />
           </div>
           <!-- Phone Number -->
           <div>
-            <label for="phone" class="block mb-2 text-sm font-medium text-white">Phone number</label>
-            <input type="tel" id="phone" v-model="emailData.phoneNumber" class=" bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="+1 (123) 456-7890" pattern="{3}-[0-9]{2}-[0-9]{3}" required/>
-  
+            <label for="phone" class="block mb-2 text-sm font-medium text-white"
+              >Phone number</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              v-model="emailData.phoneNumber"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder="+1 (123) 456-7890"
+              pattern="{3}-[0-9]{2}-[0-9]{3}"
+              required
+            />
           </div>
           <!-- Email Address -->
           <div>
             <label
               for="email_address"
-  
               class="block mb-2 text-sm font-medium text-white"
-              >Email Address</label>
-            <input type="email" id="email_address" v-model="emailData.emailAddress" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder="johnsmith@gmail.com" required/>
-  
+              >Email Address</label
+            >
+            <input
+              type="email"
+              id="email_address"
+              v-model="emailData.emailAddress"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder="johnsmith@gmail.com"
+              required
+            />
           </div>
           <!-- Estimated Quantity -->
           <div>
             <label
               for="quantity"
-  
-              class="block mb-2 text-sm font-medium text-white">Estimated Quantity</label>
-            <input type="number" id="quantity" v-model="emailData.estimatedQuantity" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5" placeholder=""/>
+              class="block mb-2 text-sm font-medium text-white"
+              >Estimated Quantity</label
+            >
+            <input
+              type="number"
+              id="quantity"
+              v-model="emailData.estimatedQuantity"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+              placeholder=""
+            />
           </div>
           <!-- States -->
           <div>
-            <label for="states" class="block mb-2 text-sm font-medium text-white">Select an option</label>
-            <select id="states" v-model="emailData.state" class="bg-gray-50 border border-lightGreen-500 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-full p-2.5">
-  
+            <label
+              for="states"
+              class="block mb-2 text-sm font-medium text-white"
+              >Select an option</label
+            >
+            <select
+              id="states"
+              v-model="emailData.state"
+              class="
+                bg-gray-50
+                border border-lightGreen-500
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-full
+                p-2.5
+              "
+            >
               <option
                 v-for="state in states"
                 :key="state.code"
-                :value="state.name">
+                :value="state.name"
+              >
                 {{ state.name }}
               </option>
             </select>
           </div>
           <!-- Countries -->
           <div>
-  
-            <label for="countries" class="block mb-2 text-sm font-medium text-white">Select an option</label>
-            <select id="countries" v-model="emailData.country" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-lightGreen-700 focus:border-lightGreen-700 block w-max p-2.5">
-  
+            <label
+              for="countries"
+              class="block mb-2 text-sm font-medium text-white"
+              >Select an option</label
+            >
+            <select
+              id="countries"
+              v-model="emailData.country"
+              class="
+                bg-gray-50
+                border border-gray-300
+                text-gray-900 text-sm
+                rounded-lg
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+                block
+                w-max
+                p-2.5
+              "
+            >
               <option
-                v-for="country in countries" :key="country.code" :value="country.name">{{ country.name }}
+                v-for="country in countries"
+                :key="country.code"
+                :value="country.name"
+              >
+                {{ country.name }}
               </option>
             </select>
           </div>
           <!-- File Upload -->
           <div class="pl-4 md:pl-0">
-  
-            <label class="block mb-2 text-sm font-medium text-white" for="file_input">Upload file</label>
-            <input class="block text-sm text-gray-900 rounded-lg cursor-pointer bg-gray-50 focus:outline-none" id="file_input" type="file" accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
-  
+            <label
+              class="block mb-2 text-sm font-medium text-white"
+              for="file_input"
+              >Upload file</label
+            >
+            <input
+              class="
+                block
+                text-sm text-gray-900
+                rounded-lg
+                cursor-pointer
+                bg-gray-50
+                focus:outline-none
+              "
+              id="file_input"
+              type="file"
+              accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+            />
           </div>
         </div>
-  
+
         <div class="mb-6">
           <!-- Message Box -->
           <div>
-  
-            <label for="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
-            <textarea id="message" v-model="emailData.message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-lightGreen-700 focus:border-lightGreen-700" placeholder="Write your message here..."></textarea>
+            <label
+              for="message"
+              class="block mb-2 text-sm font-medium text-white"
+              >Your message</label
+            >
+            <textarea
+              id="message"
+              v-model="emailData.message"
+              rows="4"
+              class="
+                block
+                p-2.5
+                w-full
+                text-sm text-gray-900
+                bg-gray-50
+                rounded-lg
+                border border-gray-300
+                focus:ring-lightGreen-700 focus:border-lightGreen-700
+              "
+              placeholder="Write your message here..."
+            ></textarea>
           </div>
         </div>
-        <button @click="send" type="submit" class="text-gray-900 bg-lightGreen-100 hover:underline hover:bg-lightGreen-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center">Submit</button>
-  
+        <button
+          @click="send"
+          type="submit"
+          class="
+            text-gray-900
+            bg-lightGreen-100
+            hover:underline hover:bg-lightGreen-500
+            focus:ring-4 focus:outline-none focus:ring-blue-300
+            font-medium
+            rounded-lg
+            text-sm
+            w-full
+            sm:w-auto
+            px-5
+            py-2.5
+            text-center
+          "
+        >
+          Submit
+        </button>
       </form>
-  
-      <div class="rounded-lg flex flex-col md:flex-row shadow-lg md:h-250 max-w-5xl mx-auto mb-8 p-2 md:p-0">
+
+      <div
+        class="
+          rounded-lg
+          flex flex-col
+          md:flex-row
+          shadow-lg
+          md:h-250
+          max-w-5xl
+          mx-auto
+          mb-8
+          p-2
+          md:p-0
+        "
+      >
         <!-- Leftside -->
-        <div class="text-left align-middle p-8 text-black rounded-t-lg md:rounded-br-none md:rounded-tr-none md:rounded-lg md:h-250 bg-neutrals-100">
-          <img class="-m-2 mb-2" src="~/assets/images/icons/60x60-Icons/icons8-schedule-60.png" alt=""/>
+        <div
+          class="
+            text-left
+            align-middle
+            p-8
+            text-black
+            rounded-t-lg
+            md:rounded-br-none md:rounded-tr-none md:rounded-lg md:h-250
+            bg-neutrals-100
+          "
+        >
+          <img
+            class="-m-2 mb-2"
+            src="~/assets/images/icons/60x60-Icons/icons8-schedule-60.png"
+            alt=""
+          />
           <h4 class="font-ubuntu font-semibold">Schedule A Visit</h4>
           <p class="font-manrope">
             Want to know more? Come by, schedule a visit, let's talk!
@@ -114,11 +344,23 @@
         </div>
         <!-- Rightside -->
         <div>
-          <div class="bg-lightGreen-100 text-black rounded-b-lg md:rounded-bl-none md:rounded-r-lg md:h-250 flex flex-col p-8 md:pt-20">
+          <div
+            class="
+              bg-lightGreen-100
+              text-black
+              rounded-b-lg
+              md:rounded-bl-none md:rounded-r-lg md:h-250
+              flex flex-col
+              p-8
+              md:pt-20
+            "
+          >
             <hr class="w-24 h-1 bg-gray-100 border-0 rounded" />
             <p class="mt-4 font-manrope text-lg">
-              We welcome you to come visit our facility and discuss more about our
-              solutions. Feel free to fill out your email and a member of our team will reach out! We appreciate your interest in Alpha Circuit!
+              We welcome you to come visit our facility and discuss more about
+              our solutions. Feel free to fill out your email and a member of
+              our team will reach out! We appreciate your interest in Alpha
+              Circuit!
             </p>
           </div>
         </div>
@@ -128,7 +370,6 @@
 </template>
 
 <script setup>
-const mail = useMail();
 let emailData = {
   firstName: "",
   lastName: "",
@@ -140,26 +381,7 @@ let emailData = {
   country: undefined,
   message: "",
 };
-const send = async () => {
-  try {
-    event.preventDefault();
-    await mail.send({
-      config: "contact",
-      from: emailData.firstName,
-      subject: `${emailData.firstName} ${emailData.lastName} is requesting a quote.`,
-      text: ` Name: ${emailData.firstName} ${emailData.lastName} \n
-            Company: ${emailData.company}\n
-            Email: ${emailData.emailAddress}\n
-            Estimated Quantity: ${emailData.estimatedQuantity}\n,
-            State: ${emailData.state}\n
-            Message: ${emailData.message}\n
-            `,
-    });
-  } catch (e) {
-    console.error(e);
-  }
-  window.location.reload();
-};
+
 const states = [
   { code: "AL", name: "Alabama" },
   { code: "AK", name: "Alaska" },
