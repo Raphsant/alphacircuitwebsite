@@ -8,9 +8,8 @@
         role="group"
       >
         <Button
-          v-for="cert in certificates"
-          :to="{ path: '/services', hash: '#content' }"
-          @click="handleConditionals(cert.index)"
+          v-for="serv in services"
+          @click="handleConditionals(serv.index)"
           type="button"
           class="
             px-2
@@ -22,14 +21,14 @@
             hover:bg-gray-100 hover:text-blue-700
           "
           :class="{
-            'rounded-t-lg': cert.index === 0,
-            'rounded-b-lg': cert.index === cert.length - 1,
-            'bg-gray-100': content[cert.index].isOpen,
-            'shadow-inner': content[cert.index].isOpen,
-            'bg-white': !content[cert.index].isOpen,
+            'rounded-t-lg': serv.index === 0,
+            'rounded-b-lg': serv.index === serv.length - 1,
+            'bg-gray-100': content[serv.index].isOpen,
+            'shadow-inner': content[serv.index].isOpen,
+            'bg-white': !content[serv.index].isOpen,
           }"
         >
-          {{ cert.name }}
+          {{ serv.name }}
         </Button>
       </div>
     </div>
@@ -436,7 +435,7 @@ export default {
       { isOpen: false },
     ]);
 
-    const certificates = [
+    const services = [
       { name: "Quick-Turn Prototype", index: 0 },
       { name: "Fast-Turn Prototype", index: 1 },
       { name: "Offshore Production", index: 2 },
@@ -446,7 +445,7 @@ export default {
 
     return {
       content,
-      certificates,
+      services,
     };
   },
   methods: {

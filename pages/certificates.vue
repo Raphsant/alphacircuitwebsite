@@ -974,11 +974,12 @@ export default {
     ]);
 
     const certificates = [
-      { name: "Quick-Turn Prototype", index: 0 },
-      { name: "Fast-Turn Prototype", index: 1 },
-      { name: "Offshore Production", index: 2 },
-      { name: "Design Validation", index: 3 },
-      { name: "Volume Production", index: 4 },
+      { name: "AS9100", index: 0 },
+      { name: "TS16949", index: 1 },
+      { name: "ISO9001", index: 2 },
+      { name: "ITAR", index: 3 },
+      { name: "UL Certification", index: 4 },
+      { name: "MBE", index: 5 },
     ];
 
     return {
