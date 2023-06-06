@@ -21,11 +21,11 @@
             hover:bg-gray-100 hover:text-blue-700
           "
           :class="{
-            'rounded-t-lg': cert.index == 0,
-            'rounded-b-lg': cert.index == 5,
-            'bg-gray-100': content[cert.index].isOpen,
-            'shadow-inner': content[cert.index].isOpen,
-            'bg-white': !content[cert.index].isOpen,
+            'rounded-t-lg': cert.index === 0,
+            'rounded-b-lg': cert.index === cert.length - 1,
+            'bg-gray-100': content[cert.index],
+            'shadow-inner': content[cert.index],
+            'bg-white': !content[cert.index],
           }"
         >
           {{ cert.name }}
@@ -144,7 +144,7 @@
       class="text-left max-w-5xl mx-auto space-y-1 p-8 rounded-xl"
     >
       <!-- Option 1 -->
-      <div v-if="content[0].isOpen" class="space-y-4">
+      <div v-if="content === certificates[0].index" class="space-y-4">
         <h3 class="font-bold font-ubuntu">AS9100</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -248,7 +248,7 @@
       </div>
 
       <!-- Option 2 -->
-      <div v-if="content[1].isOpen" class="space-y-4">
+      <div v-if="content === certificates[1].index" class="space-y-4">
         <h3 class="font-bold font-ubuntu">TS16949</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -366,7 +366,7 @@
       </div>
 
       <!-- Option 3 -->
-      <div v-if="content[2].isOpen" class="space-y-2">
+      <div v-if="content === certificates[2].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu">ISO9001</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -432,7 +432,7 @@
       </div>
 
       <!-- Option 4 -->
-      <div v-if="content[3].isOpen" class="space-y-2">
+      <div v-if="content === certificates[3].index" class="space-y-2">
         <h3 class="font-ubuntu">ITAR</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -504,7 +504,7 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[4].isOpen" class="space-y-4 grid">
+      <div v-if="content === certificates[4].index" class="space-y-4 grid">
         <div class="flex flex-col">
           <img
             class="self-center"
@@ -888,7 +888,7 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[5].isOpen" class="space-y-2">
+      <div v-if="content === certificates[5].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu">MBE</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -958,48 +958,19 @@
     </div>
   </div>
 </template>
-
-<script>
-import { ref } from "vue";
-export default {
-  setup() {
-    const isOpen = ref(false);
-    const content = ref([
-      { isOpen: true, title: "AS9100" },
-      { isOpen: false, content: "div 2" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
-    ]);
-
-    const certificates = [
-      { name: "AS9100", index: 0 },
-      { name: "TS16949", index: 1 },
-      { name: "ISO9001", index: 2 },
-      { name: "ITAR", index: 3 },
-      { name: "UL Certification", index: 4 },
-      { name: "MBE", index: 5 },
-    ];
-
-    return {
-      content,
-      certificates,
-    };
-  },
-  methods: {
-    handleConditionals(index) {
-      this.content.forEach((div, i) => {
-        if (i === index) {
-          console.log(index, i);
-          div.isOpen = true;
-        } else {
-          div.isOpen = false;
-        }
-      });
-    },
-  },
-};
+<script setup>
+const content = ref(0);
+const certificates = [
+  { name: "AS9100", index: 0 },
+  { name: "TS16949", index: 1 },
+  { name: "ISO9001", index: 2 },
+  { name: "ITAR", index: 3 },
+  { name: "UL Certification", index: 4 },
+  { name: "MBE", index: 5 },
+];
+function handleConditionals(index) {
+  content.value = index;
+}
 </script>
 
 <style scoped></style>
