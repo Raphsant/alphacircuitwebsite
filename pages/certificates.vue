@@ -980,7 +980,6 @@ const certificates = [
 ];
 
 function handleConditionals(index) {
-  event.preventDefault();
   this.content.forEach((div, i) => {
     if (i === index) {
       console.log(index, i);
