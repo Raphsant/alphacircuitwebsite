@@ -10,22 +10,10 @@ export default defineNuxtConfig({
       description: "Prototype Design",
     },
   },
-  modules: [
-    [
-      "nuxt-mail",
-      {
-        message: [{ name: "contact", to: "rafsant345@gmail.com" }],
-        smtp: {
-          service: "gmail",
-          auth: {
-            user: "alphacircuitmail@gmail.com",
-            pass: "bpqapdkrdvdmouzc",
-          },
-        },
-      },
-    ],
-  ],
   css: ["~/assets/css/main.css"],
+  build: {
+    transpile: ["gsap"],
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

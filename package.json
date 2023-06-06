@@ -16,6 +16,7 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "autoprefixer": "^10.4.14",
     "flowbite": "^1.6.5",
+    "gsap": "^3.11.5",
     "nuxt-mail": "^4.0.1",
     "postcss": "^8.4.21",
     "tailwind-clip-path": "^1.0.0",
