@@ -14,16 +14,7 @@
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        class="
-          bg-darkGreen-700
-          shadow-xl
-          p-12
-          pl-9
-          md:pl-12
-          rounded-lg
-          mb-8
-          font-manrope
-        "
+        class="bg-darkGreen-700 shadow-xl p-12 rounded-lg mb-8 font-manrope"
       >
         <input type="hidden" name="form-name" value="ask-quote" />
         <div class="grid gap-6 mb-6 md:grid-cols-3">
@@ -31,13 +22,20 @@
           <div>
             <label
               for="first_name"
-              class="block mb-2 text-sm font-medium text-white"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >First name</label
             >
             <input
               type="text"
               id="first_name"
-              value="firstName"
+              name="emailData.firstName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -47,6 +45,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder="John"
               required
@@ -56,13 +60,20 @@
           <div>
             <label
               for="last_name"
-              class="block mb-2 text-sm font-medium text-white"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >Last name</label
             >
             <input
               type="text"
               id="last_name"
-              value="lastName"
+              name="emailData.lastName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -72,6 +83,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder="Doe"
               required
@@ -81,13 +98,20 @@
           <div>
             <label
               for="company"
-              class="block mb-2 text-sm font-medium text-white"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >Company</label
             >
             <input
               type="text"
               id="company"
-              value="company"
+              name="emailData.company"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -97,6 +121,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder=""
               required
@@ -104,13 +134,22 @@
           </div>
           <!-- Phone Number -->
           <div>
-            <label for="phone" class="block mb-2 text-sm font-medium text-white"
+            <label
+              for="phone"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >Phone number</label
             >
             <input
               type="tel"
               id="phone"
-              value="phoneNumber"
+              name="emailData.phoneNumber"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -120,6 +159,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder="+1 (123) 456-7890"
               pattern="{3}-[0-9]{2}-[0-9]{3}"
@@ -130,13 +175,20 @@
           <div>
             <label
               for="email_address"
-              class="block mb-2 text-sm font-medium text-white"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >Email Address</label
             >
             <input
               type="email"
               id="email_address"
-              value="emailAddress"
+              name="emailData.emailAddress"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -146,6 +198,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder="johnsmith@gmail.com"
               required
@@ -155,13 +213,20 @@
           <div>
             <label
               for="quantity"
-              class="block mb-2 text-sm font-medium text-white"
+              class="
+                block
+                mb-2
+                text-sm
+                font-medium
+                text-white
+                dark:text-gray-900
+              "
               >Estimated Quantity</label
             >
             <input
               type="number"
               id="quantity"
-              value="estimatedQuantity"
+              name="emailData.estimatedQuantity"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -171,6 +236,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-gray-900
+                dark:focus:ring-lightGreen-700
+                dark:focus:border-lightGreen-700
               "
               placeholder=""
             />
@@ -179,12 +250,12 @@
           <div>
             <label
               for="states"
-              class="block mb-2 text-sm font-medium text-white"
+              class="block mb-2 text-sm font-medium text-white dark:text-white"
               >Select an option</label
             >
             <select
               id="states"
-              value="state"
+              name="emailData.state"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -194,6 +265,12 @@
                 block
                 w-full
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
               "
             >
               <option
@@ -209,12 +286,12 @@
           <div>
             <label
               for="countries"
-              class="block mb-2 text-sm font-medium text-white"
+              class="block mb-2 text-sm font-medium text-white dark:text-white"
               >Select an option</label
             >
             <select
               id="countries"
-              value="country"
+              name="emailData.country"
               class="
                 bg-gray-50
                 border border-gray-300
@@ -224,6 +301,12 @@
                 block
                 w-max
                 p-2.5
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
               "
             >
               <option
@@ -236,23 +319,27 @@
             </select>
           </div>
           <!-- File Upload -->
-          <div class="pl-4 md:pl-0">
+          <div>
             <label
-              class="block mb-2 text-sm font-medium text-white"
+              class="block mb-2 text-sm font-medium text-white dark:text-white"
               for="file_input"
               >Upload file</label
             >
             <input
               class="
                 block
+                w-max
                 text-sm text-gray-900
                 rounded-lg
                 cursor-pointer
                 bg-gray-50
+                dark:text-gray-400
                 focus:outline-none
+                dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400
               "
               id="file_input"
               type="file"
+              name="file"
               accept="image/png, image/jpeg, .doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             />
           </div>
@@ -263,12 +350,12 @@
           <div>
             <label
               for="message"
-              class="block mb-2 text-sm font-medium text-white"
+              class="block mb-2 text-sm font-medium text-white dark:text-white"
               >Your message</label
             >
             <textarea
               id="message"
-              value="message"
+              name="emailData.message"
               rows="4"
               class="
                 block
@@ -279,13 +366,18 @@
                 rounded-lg
                 border border-gray-300
                 focus:ring-lightGreen-700 focus:border-lightGreen-700
+                dark:bg-gray-700
+                dark:border-gray-600
+                dark:placeholder-gray-400
+                dark:text-white
+                dark:focus:ring-blue-500
+                dark:focus:border-blue-500
               "
               placeholder="Write your message here..."
             ></textarea>
           </div>
         </div>
         <button
-          @click="send"
           type="submit"
           class="
             text-gray-900
@@ -300,6 +392,7 @@
             px-5
             py-2.5
             text-center
+            dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
           "
         >
           Submit
