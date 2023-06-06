@@ -872,7 +872,7 @@
         <p class="font-bold font-ubuntu">Sales</p>
         <img
           class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="/img/companyAssets/Tom Massman.jpg"
+          src="/img/companyAssets/TomMassman.jpg"
           alt=""
         />
         <p class="font-manrope">tomm@alphacircuit.com</p>
