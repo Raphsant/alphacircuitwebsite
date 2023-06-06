@@ -7,7 +7,7 @@
         class="ml-2 mr-2 w-4/5 grid grid-cols-1 rounded-md shadow-lg mt-4"
         role="group"
       >
-        <NuxtLink
+        <Button
           v-for="cert in certificates"
           :to="{ path: '/services', hash: '#content' }"
           @click="handleConditionals(cert.index)"
@@ -30,7 +30,7 @@
           }"
         >
           {{ cert.name }}
-        </NuxtLink>
+        </Button>
       </div>
     </div>
     <div class="hidden sm:inline-flex rounded-md shadow-lg mt-2" role="group">
