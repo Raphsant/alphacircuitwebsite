@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h4 class="font-ubuntu text-lg">Certificates</h4>
+    <h4 class="font-ubuntu text-xl mt-8">Certificates</h4>
     <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded" />
     <div class="inline-flex rounded-md shadow-lg mt-2" role="group">
       <button
