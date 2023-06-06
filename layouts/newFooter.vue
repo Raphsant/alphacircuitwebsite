@@ -1,15 +1,7 @@
 <template>
   <footer>
     <div class="mx-auto md:px-28 py-6 lg:py-8 bg-lightGreen-100">
-      <div
-        class="
-          flex flex-col
-          justify-center
-          items-center
-          md:flex md:justify-between md:mr-5
-          space-y-6
-        "
-      >
+      <div class="md:flex md:justify-between md:mr-5 space-y-6">
         <div class="mb-6 md:mb-0 md:ml-5w-screen">
           <NuxtLink to="/" class="flex items-center">
             <img
@@ -19,7 +11,7 @@
             />
             <!-- <span class="self-center text-2xl font-ubuntu font-semibold whitespace-nowrap">Alpha Circuit</span> -->
           </NuxtLink>
-          <div class="flex flex-col mx-auto justify-center items-center ml">
+          <div class="mx-auto ml">
             <p
               class="md:w-200 w-350 md:h-10 mt-5 font-ubuntu text-neutrals-800"
             >
