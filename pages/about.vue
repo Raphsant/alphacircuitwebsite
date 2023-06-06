@@ -411,7 +411,7 @@
             <p class="font-bold font-ubuntu">Sales / Direct Support</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets/StevenW.Ryan.jpg"
+              src="/img/companyAssets/StevenWRyan.jpg"
               alt=""
             />
             <p class="font-manrope">stever@alphacircuit.com</p>
