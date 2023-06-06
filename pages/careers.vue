@@ -895,7 +895,7 @@
         <p class="font-bold font-ubuntu">Sales</p>
         <img
           class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="/img/companyAssets/Matt Kehoe.jpg"
+          src="/img/companyAssets/MattKehoe.jpg"
           alt=""
         />
         <p class="font-manrope">mattk@alphacircuit.com</p>
@@ -918,7 +918,7 @@
         <p class="font-bold font-ubuntu">Sales</p>
         <img
           class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="/img/companyAssets/Matt Hamesfahr.jpg"
+          src="/img/companyAssets/MattHamesfahr.jpg"
           alt=""
         />
         <p class="font-manrope">matth@alphacircuit.com</p>
