@@ -23,9 +23,9 @@
           :class="{
             'rounded-t-lg': serv.index === 0,
             'rounded-b-lg': serv.index === serv.length - 1,
-            // 'bg-gray-100': content[serv.index].isOpen,
-            // 'shadow-inner': content[serv.index].isOpen,
-            // 'bg-white': !content[serv.index].isOpen,
+            'bg-gray-100': content === serv.index,
+            'shadow-inner': content === serv.index,
+            'bg-white': !content === serv.index,
           }"
         >
           {{ serv.name }}

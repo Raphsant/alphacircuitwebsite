@@ -1,20 +1,65 @@
 <template>
   <div id="wrapper" class="w-full">
     <div class="flex bg-lightGreen-100 h-20 w-full">
-      <div class="flex flex-row gap-10 md:mr-28 mt-50 w-full md:justify-end justify-center items-center">
+      <div
+        class="
+          flex flex-row
+          gap-10
+          md:mr-28
+          mt-50
+          w-full
+          md:justify-end
+          justify-center
+          items-center
+        "
+      >
         <div>READY TO REQUEST A QUOTE?</div>
-        <div class="rounded-md text-white bg-neutrals-600 p-2 px-4 hover:underline cursor-pointer hover:bg-neutrals-800">
-          <NuxtLink to="/quote">
-            Inquires?
-          </NuxtLink>
+        <div
+          class="
+            rounded-md
+            text-white
+            bg-neutrals-600
+            p-2
+            px-4
+            hover:underline
+            cursor-pointer
+            hover:bg-neutrals-800
+          "
+        >
+          <NuxtLink to="/quote"> Inquires? </NuxtLink>
         </div>
       </div>
     </div>
-
   </div>
-  <div class="rounded-lg flex flex-col md:flex-row shadow-lg bg-gradient-to-b from-darkGreen-700 to-darkGreen-500 via-lightGreen-300 to-lightGreen-600 max-w-6xl mt-8 md:mx-auto md:mb-8 md:w-1100 md:h-400 m-4">
+  <div
+    class="
+      rounded-lg
+      flex flex-col
+      md:flex-row
+      shadow-lg
+      bg-gradient-to-b
+      from-darkGreen-700
+      to-darkGreen-500
+      via-lightGreen-300
+      to-lightGreen-600
+      max-w-6xl
+      mt-8
+      md:mx-auto md:mb-8 md:w-1100 md:h-400
+      m-4
+    "
+  >
     <!-- Leftside -->
-    <div class="text-left align-middle p-8 text-black rounded-lg gap-2 flex-col flex">
+    <div
+      class="
+        text-left
+        align-middle
+        p-8
+        text-black
+        rounded-lg
+        gap-2
+        flex-col flex
+      "
+    >
       <h1 class="md:w-400 text-5xl font-ubuntu font-semibold">
         Partner with Alpha Circuit today!
       </h1>
@@ -60,12 +105,32 @@
   </div>
 
   <div id="third section" class="h-90 pb-32">
-    <div class="flex flex-col gap-5 md:gap-0 md:flex-row justify-evenly items-center md:p-10 h-max">
-      <div class="text-white bg-darkGreen-900 rounded-lg text-2xl p-8 md:p-10 w-400">
+    <div
+      class="
+        flex flex-col
+        gap-5
+        md:gap-0 md:flex-row
+        justify-evenly
+        items-center
+        md:p-10
+        h-max
+      "
+    >
+      <div
+        class="
+          text-white
+          bg-darkGreen-900
+          rounded-lg
+          text-2xl
+          p-8
+          md:p-10
+          w-400
+        "
+      >
         <h4 class="font-bold mb-5 font-ubuntu">First Choice PCB Supplier</h4>
         <p class="font-manrope">
-          35 Years of mutually rewarding relationships with all of our
-          customers from here in Illinois!
+          35 Years of mutually rewarding relationships with all of our customers
+          from here in Illinois!
         </p>
       </div>
       <blockquote
@@ -96,8 +161,7 @@
     <div
       class="
         flex flex-col
-        md:flex-row
-        md:gap-16
+        md:flex-row md:gap-16
         justify-center
         m-10
         relative
@@ -114,7 +178,18 @@
         :hash="data.hash"
       />
     </div>
-    <div class="flex md:flex-row flex-col -mt-40 md:-mt-32 max-w-7xl mx-auto md:pb-16">
+    <div
+      class="
+        flex
+        md:flex-row
+        flex-col
+        -mt-40
+        md:-mt-32
+        max-w-7xl
+        mx-auto
+        md:pb-16
+      "
+    >
       <div>
         <Form id="form" class="md:w-650 md:h-450" />
       </div>
@@ -137,6 +212,7 @@
 
 <script setup>
 import Form from "~/components/contact/fourth/form.vue";
+import ContactCard from "~/components/contact/fourth/ContactCard.vue";
 
 const fourthSectionData = [
   {

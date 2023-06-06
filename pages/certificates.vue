@@ -23,9 +23,9 @@
           :class="{
             'rounded-t-lg': cert.index === 0,
             'rounded-b-lg': cert.index === cert.length - 1,
-            'bg-gray-100': content[cert.index],
-            'shadow-inner': content[cert.index],
-            'bg-white': !content[cert.index],
+            'bg-gray-100': content === cert.index,
+            'shadow-inner': content === cert.index,
+            'bg-white': !content === cert.index,
           }"
         >
           {{ cert.name }}

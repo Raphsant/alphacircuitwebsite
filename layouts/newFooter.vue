@@ -1,4 +1,5 @@
 <template>
+
 <footer>
     <div class="mx-auto  md:px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
         <div class="md:flex md:justify-between md:mr-5 space-y-6">
@@ -11,6 +12,7 @@
               <p class="md:w-250 w-350 md:h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
 
           </div>
+
         </div>
         <div
           class="
