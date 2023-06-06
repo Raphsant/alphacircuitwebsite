@@ -1,27 +1,15 @@
 <template>
-  <footer>
-    <div class="mx-auto md:px-28 py-6 lg:py-8 bg-lightGreen-100">
-      <div class="md:flex md:justify-between md:mr-5 space-y-6">
-        <div class="mb-6 md:mb-0 md:ml-5w-screen">
-          <NuxtLink to="/" class="flex items-center">
-            <img
-              src="~/assets/images/logos/logo.png"
-              class="h-12 mr-3"
-              alt="Alpha Circuit Logo"
-            />
-            <!-- <span class="self-center text-2xl font-ubuntu font-semibold whitespace-nowrap">Alpha Circuit</span> -->
-          </NuxtLink>
-          <div class="mx-auto ml">
-            <p
-              class="md:w-200 w-350 md:h-10 mt-5 font-ubuntu text-neutrals-800"
-            >
-              Total Bare Board Manufacturing Solutions
-            </p>
-            <p
-              class="md:w-250 w-350 md:h-85 mt-5 font-manrope text-neutrals-800"
-            >
-              One stop shop for your printed circuit board requirements.
-            </p>
+<footer>
+    <div class="mx-auto  md:px-28 rounded-lg py-6 lg:py-8 bg-lightGreen-100">
+        <div class="md:flex md:justify-between md:mr-5 space-y-6">
+          <div class="mb-6 md:mb-0 pl-14 md:ml-5w-screen">
+              <NuxtLink to="/" class="flex items-center">
+                  <img src="~/assets/images/logos/logoNew.png" class="h-12 mr-3" alt="Alpha Circuit Logo" />
+                  <!-- <span class="self-center text-2xl font-ubuntu font-semibold whitespace-nowrap">Alpha Circuit</span> -->
+              </NuxtLink>
+              <p class="md:w-200 w-350 md:h-10 mt-5 font-ubuntu text-neutrals-800">Total Bare Board Manufacturing Solutions</p>
+              <p class="md:w-250 w-350 md:h-85 mt-5 font-manrope text-neutrals-800">One stop shop for your printed circuit board requirements.</p>
+
           </div>
         </div>
         <div

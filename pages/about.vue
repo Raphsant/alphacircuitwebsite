@@ -18,8 +18,8 @@
         <div class="font-manrope md:w-96 mt-2 break-words">
           Our goal at Alpha Circuit Corporation is to make us the easiest PCB
           supplier to work with. Part of this goal is obtaining relevant
-          industry certifications. These include TS16949 (Automotive), AS9100
-          (Aerospace), and MIL-Prf-31032 (Military).
+          industry certifications. These include TS16949 (Automotive), and AS9100
+          (Aerospace).
         </div>
       </div>
     </div>
@@ -118,6 +118,93 @@
             As we grow as a company, we have realized and clearly identified our
             core business goals and values from which we gain strength, build
             our company culture and business strategies.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rounded-2xl bg-darkGreen-700  order-3 md:order-3 m-4 ">
+    <div class="text-white text-center text-2xl p-4 font-ubuntu">
+      Our Team
+    </div>
+    <hr
+      class="w-16 h-1 bg-gray-100 border-0 mx-auto rounded"
+    />
+    <div class="flex flex-col mt-2 gap-1 p-4 md:p-0">
+      <div class="md:mx-auto md:max-w-6xl">
+        <!-- divider line -->
+        <hr class="my-6 hidden md:visible border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <p class="text-white font-ubuntu font-bold text-center text-2xl md:text-left my-2 md:ml-4">Management Board</p>
+        <div class="flex flex-col md:flex-row justify-evenly md:p-4 gap-10">
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Prashant Patel</p>
+            <p class="font-bold font-ubuntu">President and CEO</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Prashant.png" alt="">
+            <p class="font-manrope">prashantp@alphacircuit.com</p>
+            <p class="font-manrope">630-617-5555</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p>Steve Smith</p>
+            <p class="font-bold">General Manager</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+            <p class="font-manrope">steves@alphacircuit.com</p>
+            <p class="font-manrope">630-617-5555</p>
+            <p class="text-xs">EXT-116</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Natu Vaghani</p>
+            <p class="font-bold font-ubuntu">Engineering Manager</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Natu.jpg" alt="">
+            <p class="font-manrope">natuv@alphacircuit.com</p>
+            <p class="font-manrope">630-617-5555</p>
+            <p class="text-xs">EXT-119</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Heather Llanes</p>
+            <p class="font-bold font-ubuntu">Quality Manager</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Heather.jpg" alt="">
+            <p class="font-manrope">heatherl@alphacircuit.com</p>
+            <p class="font-manrope">630-617-5555</p>
+            <p class="text-xs">EXT-112</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="md:mx-auto md:max-w-6xl">
+        <!-- divider line -->
+        <hr class="my-6 hidden md:visible border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <p class="text-white font-ubuntu font-bold text-center text-2xl md:text-left my-2">Sales Team</p>
+        <div class="flex flex-col md:flex-row justify-evenly mb-4 gap-10">
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Steve Ryan</p>
+            <p class="font-bold font-ubuntu">Sales / Direct Support</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Steven W. Ryan.jpg" alt="">
+            <p class="font-manrope">stever@alphacircuit.com</p>
+            <p class="font-manrope">630-617-5555</p>
+            <p class="text-xs">EXT-110</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Thomas Massman</p>
+            <p class="font-bold font-ubuntu">Sales</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Tom Massman.jpg" alt="">
+            <p class="font-manrope">tomm@alphacircuit.com</p>
+            <p class="font-manrope">224-908-9964</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Matt Kehoe</p>
+            <p class="font-bold font-ubuntu">Sales</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Matt Kehoe.jpg" alt="">
+            <p class="font-manrope">mattk@alphacircuit.com</p>
+            <p class="font-manrope">404-680-7977</p>
+          </div>
+          <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+            <p class="font-manrope">Matthew Hammesfahr</p>
+            <p class="font-bold font-ubuntu">Sales</p>
+            <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Matt Hamesfahr.jpg" alt="">
+            <p class="font-manrope">matth@alphacircuit.com</p>
+            <p class="font-manrope">847-745-8556</p>
           </div>
         </div>
       </div>
