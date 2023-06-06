@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="md:mt-12 md:mx-32 md:mb-12 flex flex-col p-12 md:p-0">
+    <div class="md:mt-12 md:mx-32 md:mb-12 flex flex-col p-12 md:p-0 gap-2">
       <div class="text-lg text-darkGreen-700 font-bold font-ubuntu">
         Our History
       </div>
@@ -40,6 +40,21 @@
         ourselves on a higher technology platform. Over the past decade, the PCB
         industry has evolved tremendously to cater to the ever increasing
         demands of making PCBs for high speed and high data processing.
+      </div>
+    </div>
+    <div class="md:mt-12 md:mx-32 md:mb-12 flex flex-col p-12 md:p-0 gap-2">
+      <div class="text-lg text-darkGreen-700 font-bold font-ubuntu">
+        Quality Commitment
+      </div>
+      <hr class="w-24 h-1 bg-darkGreen-700 border-0 rounded mt-2"/>
+      <div class="text-lg mt-4 font-manrope">
+        We achieve the highest quality levels by utilizing the latest equipment, processes, and quality standards throughout our organization. Our facilities are ISO 9001, RoHS, certified. We have six-sigma black belt trained staff that guarantees strictest quality of the products we ship.
+      </div>
+      <div class="text-lg">
+        We have also trained each employee with the 5S quality system which allows us to flawlessly launch and sustain your project. Rigorous auditing and regular training of personnel at all levels are done. Proactive engineering change system and first article processing concept ensure prevention of any quality related issues when actual manufacturing of the boards begins. Document control center completely safeguard your data and release of technical documents.
+      </div>
+      <div class="text-lg">
+        We invest our time, knowledge and capital to create an optimal solution to meet and exceed your requirements and keep you ahead of your competitors. Our goal is to provide you with the best possible products.
       </div>
     </div>
     <div class="bg-lightGreen-50 h-fit flex flex-col items-center pb-10 md:pb-20 pt-10">

@@ -715,27 +715,13 @@
       Management Board
     </p>
     <div class="flex flex-col md:flex-row justify-evenly p-4 gap-10">
-      <div
-        class="
-          flex flex-col
-          text-center
-          items-center
-          gap-1.
-          bg-neutrals-100
-          p-4
-          md:px-10
-          rounded-xl
-          drop-shadow-xl
-        "
-      >
+
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
         <p class="font-manrope">Prashant Patel</p>
-        <p class="font-bold font-ubuntu">Owner and CEO</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">Contact Info</p>
+        <p class="font-bold font-ubuntu">President and CEO</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Prashant.png" alt="">
+        <p class="font-manrope">prashantp@alphacircuit.com</p>
+        <p class="font-manrope">630-617-5555</p>
       </div>
       <div
         class="
@@ -752,11 +738,10 @@
       >
         <p>Steve Smith</p>
         <p class="font-bold">General Manager</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
+
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <p class="font-manrope">steves@alphacircuit.com</p>
+
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-116</p>
       </div>
@@ -775,35 +760,20 @@
       >
         <p class="font-manrope">Natu Vaghani</p>
         <p class="font-bold font-ubuntu">Engineering Manager</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
+
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Natu.jpg" alt="">
+        <p class="font-manrope">natuv@alphacircuit.com</p>
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-119</p>
       </div>
-      <div
-        class="
-          flex flex-col
-          text-center
-          items-center
-          gap-1.5
-          bg-neutrals-100
-          p-4
-          md:px-6
-          rounded-xl
-          drop-shadow-xl
-        "
-      >
-        <p class="font-manrope">Person Name</p>
-        <p class="font-bold font-ubuntu">Job Role</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">Contact Info</p>
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+        <p class="font-manrope">Heather Llanes</p>
+        <p class="font-bold font-ubuntu">Quality Manager</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Heather.jpg" alt="">
+        <p class="font-manrope">heatherl@alphacircuit.com</p>
+        <p class="font-manrope">630-617-5555</p>
+        <p class="text-xs">EXT-112</p>
+
       </div>
     </div>
   </div>
@@ -836,81 +806,34 @@
         "
       >
         <p class="font-manrope">Steve Ryan</p>
-        <p class="font-bold font-ubuntu">Sales Team</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">SteveR@alphacircuit.com</p>
+
+        <p class="font-bold font-ubuntu">Sales / Direct Support</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Steven W. Ryan.jpg" alt="">
+        <p class="font-manrope">stever@alphacircuit.com</p>
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-110</p>
       </div>
-      <div
-        class="
-          flex flex-col
-          text-center
-          items-center
-          gap-1.5
-          bg-neutrals-100
-          p-4
-          md:px-6
-          rounded-xl
-          drop-shadow-xl
-        "
-      >
-        <p class="font-manrope">Person Name</p>
-        <p class="font-bold font-ubuntu">Job Role</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">Contact Info</p>
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+        <p class="font-manrope">Thomas Massman</p>
+        <p class="font-bold font-ubuntu">Sales</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Tom Massman.jpg" alt="">
+        <p class="font-manrope">tomm@alphacircuit.com</p>
+        <p class="font-manrope">224-908-9964</p>
       </div>
-      <div
-        class="
-          flex flex-col
-          text-center
-          items-center
-          gap-1.5
-          bg-neutrals-100
-          p-4
-          md:px-6
-          rounded-xl
-          drop-shadow-xl
-        "
-      >
-        <p class="font-manrope">Person Name</p>
-        <p class="font-bold font-ubuntu">Job Role</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">Contact Info</p>
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+        <p class="font-manrope">Matt Kehoe</p>
+        <p class="font-bold font-ubuntu">Sales</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Matt Kehoe.jpg" alt="">
+        <p class="font-manrope">mattk@alphacircuit.com</p>
+        <p class="font-manrope">404-680-7977</p>
       </div>
-      <div
-        class="
-          flex flex-col
-          text-center
-          items-center
-          gap-1.5
-          bg-neutrals-100
-          p-4
-          md:px-6
-          rounded-xl
-          drop-shadow-xl
-        "
-      >
-        <p class="font-manrope">Person Name</p>
-        <p class="font-bold font-ubuntu">Job Role</p>
-        <img
-          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
-          alt=""
-        />
-        <p class="font-manrope">Contact Info</p>
+      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+        <p class="font-manrope">Matthew Hammesfahr</p>
+        <p class="font-bold font-ubuntu">Sales</p>
+        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/images/companyAssets/Matt Hamesfahr.jpg" alt="">
+        <p class="font-manrope">matth@alphacircuit.com</p>
+        <p class="font-manrope">847-745-8556</p>
+
       </div>
     </div>
   </div>

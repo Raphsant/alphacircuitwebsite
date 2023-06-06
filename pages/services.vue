@@ -1,6 +1,6 @@
 <template>
   <div class="text-center">
-    <h4 class="font-ubuntu text-lg">Categories</h4>
+    <h4 class="font-ubuntu text-xl mt-8">Services</h4>
     <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded" />
     <div class="sm:hidden flex flex-col justify-center items-center">
       <div
