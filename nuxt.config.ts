@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
+  modules: ["@morev/vue-transitions/nuxt", "@vueuse/nuxt"],
+  // @ts-ignore
   app: {
     head: {
       title: "Alpha Circuit",

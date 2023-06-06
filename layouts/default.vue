@@ -171,6 +171,7 @@
 
 <script setup>
 // import Footer from "~/layouts/footer.vue";
+
 import newFooter from "~/layouts/newFooter.vue";
 
 const open = ref(false);
