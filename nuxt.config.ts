@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
 export default defineNuxtConfig({
+  modules: ["@morev/vue-transitions/nuxt", "@vueuse/nuxt"],
+  // @ts-ignore
   app: {
     head: {
       title: "Alpha Circuit",
@@ -10,22 +13,10 @@ export default defineNuxtConfig({
       description: "Prototype Design",
     },
   },
-  modules: [
-    [
-      "nuxt-mail",
-      {
-        message: [{ name: "contact", to: "rafsant345@gmail.com" }],
-        smtp: {
-          service: "gmail",
-          auth: {
-            user: "alphacircuitmail@gmail.com",
-            pass: "bpqapdkrdvdmouzc",
-          },
-        },
-      },
-    ],
-  ],
   css: ["~/assets/css/main.css"],
+  build: {
+    transpile: ["gsap"],
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
