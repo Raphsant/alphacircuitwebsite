@@ -53,11 +53,7 @@
       "
     >
       <div class="md:order-1 order-2">
-        <img
-          class="h-56 w-96"
-          src="/img/companyAssets//thumbnail.webp"
-          alt=""
-        />
+        <img class="h-56 w-96" src="/img/companyAssets/thumbnail.webp" alt="" />
       </div>
       <div class="flex-col flex md:order-2 order-1 p-4 md:p-0">
         <div class="text-2xl font-ubuntu">Who are we?</div>
@@ -292,7 +288,7 @@
             <p class="font-bold font-ubuntu">President and CEO</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//Prashant.png"
+              src="/img/companyAssets/Prashant.png"
               alt=""
             />
             <p class="font-manrope">prashantp@alphacircuit.com</p>
@@ -339,7 +335,7 @@
             <p class="font-bold font-ubuntu">Engineering Manager</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//Natu.jpg"
+              src="/img/companyAssets/Natu.jpg"
               alt=""
             />
             <p class="font-manrope">natuv@alphacircuit.com</p>
@@ -363,7 +359,7 @@
             <p class="font-bold font-ubuntu">Quality Manager</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//Heather.jpg"
+              src="/img/companyAssets/Heather.jpg"
               alt=""
             />
             <p class="font-manrope">heatherl@alphacircuit.com</p>
@@ -415,7 +411,7 @@
             <p class="font-bold font-ubuntu">Sales / Direct Support</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//StevenW.Ryan.jpg"
+              src="/img/companyAssets/StevenW.Ryan.jpg"
               alt=""
             />
             <p class="font-manrope">stever@alphacircuit.com</p>
@@ -439,7 +435,7 @@
             <p class="font-bold font-ubuntu">Sales</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//TomMassman.jpg"
+              src="/img/companyAssets/TomMassman.jpg"
               alt=""
             />
             <p class="font-manrope">tomm@alphacircuit.com</p>
@@ -462,7 +458,7 @@
             <p class="font-bold font-ubuntu">Sales</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//MattKehoe.jpg"
+              src="/img/companyAssets/MattKehoe.jpg"
               alt=""
             />
             <p class="font-manrope">mattk@alphacircuit.com</p>
@@ -485,7 +481,7 @@
             <p class="font-bold font-ubuntu">Sales</p>
             <img
               class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
-              src="/img/companyAssets//MattHamesfahr.jpg"
+              src="/img/companyAssets/MattHamesfahr.jpg"
               alt=""
             />
             <p class="font-manrope">matth@alphacircuit.com</p>
