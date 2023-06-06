@@ -983,6 +983,7 @@ export default {
 
     return {
       content,
+      certificates,
     };
   },
   methods: {

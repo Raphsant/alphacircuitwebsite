@@ -22,8 +22,8 @@
             hover:bg-gray-100 hover:text-blue-700
           "
           :class="{
-            'rounded-t-lg': cert.index == 0,
-            'rounded-b-lg': cert.index == 4,
+            'rounded-t-lg': cert.index === 0,
+            'rounded-b-lg': cert.index === cert.length - 1,
             'bg-gray-100': content[cert.index].isOpen,
             'shadow-inner': content[cert.index].isOpen,
             'bg-white': !content[cert.index].isOpen,
@@ -428,12 +428,12 @@ export default {
   setup() {
     const isOpen = ref(false);
     const content = ref([
-      { isOpen: true, title: "AS9100" },
-      { isOpen: false, content: "div 2" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
-      { isOpen: false, content: "div 1" },
+      { isOpen: true },
+      { isOpen: false },
+      { isOpen: false },
+      { isOpen: false },
+      { isOpen: false },
+      { isOpen: false },
     ]);
 
     const certificates = [
@@ -446,6 +446,7 @@ export default {
 
     return {
       content,
+      certificates,
     };
   },
   methods: {
