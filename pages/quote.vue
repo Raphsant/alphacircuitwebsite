@@ -37,7 +37,7 @@
             <input
               type="text"
               id="first_name"
-              v-model="emailData.firstName"
+              value="firstName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -62,7 +62,7 @@
             <input
               type="text"
               id="last_name"
-              v-model="emailData.lastName"
+              value="lastName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -87,7 +87,7 @@
             <input
               type="text"
               id="company"
-              v-model="emailData.company"
+              value="company"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -110,7 +110,7 @@
             <input
               type="tel"
               id="phone"
-              v-model="emailData.phoneNumber"
+              value="phoneNumber"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -136,7 +136,7 @@
             <input
               type="email"
               id="email_address"
-              v-model="emailData.emailAddress"
+              value="emailAddress"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -161,7 +161,7 @@
             <input
               type="number"
               id="quantity"
-              v-model="emailData.estimatedQuantity"
+              value="estimatedQuantity"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -184,7 +184,7 @@
             >
             <select
               id="states"
-              v-model="emailData.state"
+              value="state"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -214,7 +214,7 @@
             >
             <select
               id="countries"
-              v-model="emailData.country"
+              value="country"
               class="
                 bg-gray-50
                 border border-gray-300
@@ -268,7 +268,7 @@
             >
             <textarea
               id="message"
-              v-model="emailData.message"
+              value="message"
               rows="4"
               class="
                 block
