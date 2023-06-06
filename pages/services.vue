@@ -23,9 +23,9 @@
           :class="{
             'rounded-t-lg': serv.index === 0,
             'rounded-b-lg': serv.index === serv.length - 1,
-            'bg-gray-100': content[serv.index].isOpen,
-            'shadow-inner': content[serv.index].isOpen,
-            'bg-white': !content[serv.index].isOpen,
+            // 'bg-gray-100': content[serv.index].isOpen,
+            // 'shadow-inner': content[serv.index].isOpen,
+            // 'bg-white': !content[serv.index].isOpen,
           }"
         >
           {{ serv.name }}
@@ -127,7 +127,7 @@
       class="text-left max-w-5xl mx-auto space-y-1 p-16 rounded-xl"
     >
       <!-- Option 1 -->
-      <div v-if="content[0].isOpen" class="space-y-2">
+      <div v-if="content === services[0].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu text-2xl">Quick Turn Prototype</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -198,7 +198,7 @@
       </div>
 
       <!-- Option 2 -->
-      <div v-if="content[1].isOpen" class="space-y-2">
+      <div v-if="content === services[1].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu text-2xl">Fast-Turn Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -270,7 +270,7 @@
       </div>
 
       <!-- Option 3 -->
-      <div v-if="content[2].isOpen" class="space-y-3">
+      <div v-if="content === services[2].index" class="space-y-3">
         <h3 class="font-ubuntu font-bold text-2xl">Offshore Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -336,7 +336,7 @@
       </div>
 
       <!-- Option 4 -->
-      <div v-if="content[3].isOpen" class="space-y-2">
+      <div v-if="content === services[3].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu text-2xl">Design Validation</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -373,7 +373,7 @@
       </div>
 
       <!-- Option 5 -->
-      <div v-if="content[4].isOpen" class="space-y-2">
+      <div v-if="content === services[4].index" class="space-y-2">
         <h3 class="font-bold font-ubuntu text-2xl">Volume Production</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -419,48 +419,17 @@
   </div>
 </template>
 
-<script setup></script>
-
-<script>
-import { ref } from "vue";
-export default {
-  setup() {
-    const isOpen = ref(false);
-    const content = ref([
-      { isOpen: true },
-      { isOpen: false },
-      { isOpen: false },
-      { isOpen: false },
-      { isOpen: false },
-      { isOpen: false },
-    ]);
-
-    const services = [
-      { name: "Quick-Turn Prototype", index: 0 },
-      { name: "Fast-Turn Prototype", index: 1 },
-      { name: "Offshore Production", index: 2 },
-      { name: "Design Validation", index: 3 },
-      { name: "Volume Production", index: 4 },
-    ];
-
-    return {
-      content,
-      services,
-    };
-  },
-  methods: {
-    handleConditionals(index) {
-      this.content.forEach((div, i) => {
-        if (i === index) {
-          console.log(index, i);
-          div.isOpen = true;
-        } else {
-          div.isOpen = false;
-        }
-      });
-    },
-  },
-};
+<script setup>
+const content = ref(0);
+const services = [
+  { name: "Quick-Turn Prototype", index: 0 },
+  { name: "Fast-Turn Prototype", index: 1 },
+  { name: "Offshore Production", index: 2 },
+  { name: "Design Validation", index: 3 },
+  { name: "Volume Production", index: 4 },
+];
+function handleConditionals(index) {
+  content.value = index;
+}
 </script>
-
 <style scoped></style>
