@@ -14,7 +14,7 @@
   >
     <div class="flex items-center cursor-pointer xl:ml-28">
       <NuxtLink to="/" class="text-green-500 text-xl mr-1">
-        <img src="~/assets/images/logos/logo.png" alt="Alpha Circuit Logo" />
+        <img src="~/assets/images/logos/logoNew.png" alt="Alpha Circuit Logo"/>
       </NuxtLink>
     </div>
 
