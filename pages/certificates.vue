@@ -1,14 +1,15 @@
 <template>
   <div class="text-center">
-    <h4 class="font-ubuntu text-lg">Certificates</h4>
+    <h4 class="font-ubuntu text-xl mt-8">Certificates</h4>
     <hr class="w-12 h-1 bg-darkGreen-700 border-0 mx-auto mb-2 rounded" />
     <div class="sm:hidden flex flex-col justify-center items-center">
       <div
         class="ml-2 mr-2 w-4/5 grid grid-cols-1 rounded-md shadow-lg mt-4"
         role="group"
       >
-        <button
+        <NuxtLink
           v-for="cert in certificates"
+          :to="{ path: '/certificates', hash: '#content' }"
           @click="handleConditionals(cert.index)"
           type="button"
           class="
@@ -17,35 +18,22 @@
             text-sm
             font-medium
             text-gray-900
-            bg-white
             border border-gray-200
             hover:bg-gray-100 hover:text-blue-700
-            focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700
           "
           :class="{
             'rounded-t-lg': cert.index == 0,
-
             'rounded-b-lg': cert.index == 5,
+            'bg-gray-100': content[cert.index].isOpen,
+            'shadow-inner': content[cert.index].isOpen,
+            'bg-white': !content[cert.index].isOpen,
           }"
         >
           {{ cert.name }}
-        </button>
+        </NuxtLink>
       </div>
     </div>
-    <div
-      class="
-        hidden
-        w-fit
-        ml-2
-        mr-2
-        w-1/2
-        sm:inline-flex
-        rounded-md
-        shadow-lg
-        sm:mt-2
-      "
-      role="group"
-    >
+    <div class="hidden sm:inline-flex rounded-md shadow-lg mt-2" role="group">
       <button
         @click="handleConditionals(0)"
         type="button"
@@ -152,12 +140,12 @@
       </button>
     </div>
 
-    <div class="text-left max-w-5xl mx-auto space-y-1 p-8 rounded-xl">
+    <div
+      id="content"
+      class="text-left max-w-5xl mx-auto space-y-1 p-8 rounded-xl"
+    >
       <!-- Option 1 -->
-      <div
-        v-if="content[0].isOpen"
-        class="space-y-4 transition-all transform duration-300 ease-in-out"
-      >
+      <div v-if="content[0].isOpen" class="space-y-4">
         <h3 class="font-bold font-ubuntu">AS9100</h3>
         <hr class="w-12 h-1 bg-darkGreen-700 border-0 rounded" />
 
@@ -219,13 +207,12 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
-            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            sm:w-max
+            w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -338,13 +325,12 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
-            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            sm:w-max
+            w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -405,13 +391,12 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
-            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            sm:w-max
+            w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -478,13 +463,12 @@
           href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
-            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            sm:w-max
+            w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -559,13 +543,12 @@
           >
         </div>
 
-        <p class="font-semibold text-center">
+        <p class="font-semibold">
           UL Approved Single / Double Layer Material Chart
         </p>
 
         <!-- Table -->
-
-        <table class="text-xs outline outline-amber-300">
+        <table>
           <thead class="bg-darkGreen-700 text-white">
             <tr>
               <th>UL Type</th>
@@ -930,16 +913,15 @@
         </p>
 
         <a
-          href="~/assets/images/pdfs/ACF088_B_Supplier_Agreement_1 (1).pdf"
+          href="/img/pdf/ACF088_B_Supplier_Agreement_1 (1).pdf"
           download
           class="
-            w-full
             py-3
             px-5
             mt-4
             mr-1
             mb-1
-            sm:w-max
+            w-max
             rounded-lg
             text-neutrals-100
             relative
@@ -978,24 +960,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      showOption6: true,
-      showOption7: false,
-      showOption8: false,
-      showOption9: false,
-      showOption10: false,
-    };
-  },
-  name: "careers",
-};
-</script>
-
 <script setup>
 const content = ref([
-  { isOpen: false, title: "AS9100" },
+  { isOpen: true, title: "AS9100" },
   { isOpen: false, content: "div 2" },
   { isOpen: false, content: "div 1" },
   { isOpen: false, content: "div 1" },
