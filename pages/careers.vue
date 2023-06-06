@@ -1,8 +1,22 @@
 <template>
   <div class="max-w-screen">
-    <div class="text-left items-left flex max-w-6xl md:mx-auto flex-col mt-4 p-4 md:p-0">
+    <div
+      class="
+        text-left
+        items-left
+        flex
+        max-w-6xl
+        md:mx-auto
+        flex-col
+        mt-4
+        p-4
+        md:p-0
+      "
+    >
       <hr class="w-16 h-1 bg-darkGreen-700 border-0 mt-2 rounded" />
-      <p class="mt-2 text-2xl font-ubuntu font-bold text-darkGreen-900">Careers</p>
+      <p class="mt-2 text-2xl font-ubuntu font-bold text-darkGreen-900">
+        Careers
+      </p>
       <h1 class="mt-2 text-3xl font-ubuntu font-bold">Run with the best</h1>
       <p class="mt-2 text-2xl font-manrope font-bold">
         Our people have the talent, tools and passion to do epic things
@@ -10,7 +24,18 @@
       </p>
     </div>
 
-    <div class="grid grid-rows-2 grid-cols-2 p-4 md:p-0 md:flex justify-center items-center md:items-stretch md:flex-row gap-8 md:mt-8">
+    <div
+      class="
+        grid grid-rows-2 grid-cols-2
+        p-4
+        md:p-0 md:flex
+        justify-center
+        items-center
+        md:items-stretch md:flex-row
+        gap-8
+        md:mt-8
+      "
+    >
       <div
         class="
           w-fit
@@ -219,8 +244,30 @@
   </div>
 
   <div class="mb-16">
-    <div id="open_positions" class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16">
-      <div class="w-screen md:w-525 h-375 flex flex-col justify-center gap-2 p-4 my-4">
+    <div
+      id="open_positions"
+      class="
+        mx-auto
+        max-w-screen
+        flex-col flex
+        md:flex-row
+        justify-evenly
+        mt-8
+        md:mt-16
+      "
+    >
+      <div
+        class="
+          w-screen
+          md:w-525
+          h-375
+          flex flex-col
+          justify-center
+          gap-2
+          p-4
+          my-4
+        "
+      >
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Open Positions
         </h4>
@@ -234,9 +281,9 @@
           and project management, we offer a diverse range of roles that cater
           to different skill sets and interests.
         </p>
-        <a
+        <NuxtLink
           @click="showContent1 = !showContent1"
-          href="#_"
+          :to="{ path: '/careers', hash: '#jobs' }"
           class="
             py-3
             px-5
@@ -270,25 +317,33 @@
               md:ease-out
               md:bg-white
               md:rounded-full
-              md:group-hover:w-32 md:group-hover:h-32
+              md:group-hover:w-32
+              md:group-hover:h-32
               md:opacity-10
             "
           ></span>
           <span class="relative font-manrope">Job Postings</span>
-        </a>
+        </NuxtLink>
       </div>
       <div>
         <img
-          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello scale-100': '']"
+          :class="[
+            'hello3 w-425 h-375 rounded-lg scale-90',
+            isMd ? 'hello scale-100' : '',
+          ]"
           src="~/assets/images/images/carouselImages/dylan-gillis-KdeqA3aTnBY-unsplash.jpg"
           alt=""
         />
       </div>
     </div>
-    <div v-if="showContent1" id="" class="space-y-5 py-6 pr-6 pl-6 md:pl-0 2xl:pl-36 max-w-6xl mx-left">
+    <div
+      v-if="showContent1"
+      class="space-y-5 py-6 pr-6 pl-6 md:pl-0 2xl:pl-36 max-w-6xl mx-left"
+    >
       <div class="md:max-w-2xl md:mx-48">
         <div class="bg-white rounded-xl border-2">
           <div
+            id="jobs"
             @click="
               () => {
                 showContent2 = !showContent2;
@@ -297,8 +352,12 @@
             "
             class="flex items-center justify-between cursor-pointer"
           >
-            <span class="font-semibold text-lg p-4 font-ubuntu">Entry Level PCB Designer (10)</span>
-            <span class="font-semibold text-xs text-gray-500">*US Citizen or Green Card required</span>
+            <span class="font-semibold text-lg p-4 font-ubuntu"
+              >Entry Level PCB Designer (10)</span
+            >
+            <span class="font-semibold text-xs text-gray-500"
+              >*US Citizen or Green Card required</span
+            >
             <div>
               <img
                 v-if="isOpen1"
@@ -315,7 +374,10 @@
             </div>
           </div>
 
-          <div v-if="showContent2" class="ease-out animate-fadeInDown transition-opacity duration-1000">
+          <div
+            v-if="showContent2"
+            class="ease-out animate-fadeInDown transition-opacity duration-1000"
+          >
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -391,7 +453,10 @@
             </div>
           </div>
 
-          <div v-if="showContent3" class="ease-out animate-fadeInDown transition-opacity duration-1000">
+          <div
+            v-if="showContent3"
+            class="ease-out animate-fadeInDown transition-opacity duration-1000"
+          >
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -458,7 +523,10 @@
             </div>
           </div>
 
-          <div v-if="showContent4" class="ease-out animate-fadeInDown transition-opacity duration-1000">
+          <div
+            v-if="showContent4"
+            class="ease-out animate-fadeInDown transition-opacity duration-1000"
+          >
             <div class="p-4 border-t space-y-2">
               <h6 class="font-ubuntu font-semibold text-darkGreen-700">
                 Responsibilities and Duties
@@ -497,9 +565,29 @@
     </div>
     <div
       id="your_possibilities"
-      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-2 md:mt-16 "
+      class="
+        mx-auto
+        max-w-screen
+        flex-col flex
+        md:flex-row
+        justify-evenly
+        mt-2
+        md:mt-16
+      "
     >
-      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4 md:order-2">
+      <div
+        class="
+          w-screen
+          md:w-525
+          h-fit
+          flex flex-col
+          justify-center
+          gap-2
+          p-4
+          my-4
+          md:order-2
+        "
+      >
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Your Possibilities
         </h4>
@@ -513,7 +601,10 @@
       </div>
       <div class="md:order-1">
         <img
-          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello2 scale-100': '']"
+          :class="[
+            'hello3 w-425 h-375 rounded-lg scale-90',
+            isMd ? 'hello2 scale-100' : '',
+          ]"
           src="~/assets/images/images/carouselImages/greg-willson-KCU9PPL9GuE-unsplash.jpg"
           alt=""
         />
@@ -521,9 +612,28 @@
     </div>
     <div
       id="meet_the_team"
-      class="mx-auto max-w-screen flex-col flex md:flex-row justify-evenly mt-8 md:mt-16 "
+      class="
+        mx-auto
+        max-w-screen
+        flex-col flex
+        md:flex-row
+        justify-evenly
+        mt-8
+        md:mt-16
+      "
     >
-      <div class="w-screen md:w-525 h-fit flex flex-col justify-center gap-2 p-4 my-4">
+      <div
+        class="
+          w-screen
+          md:w-525
+          h-fit
+          flex flex-col
+          justify-center
+          gap-2
+          p-4
+          my-4
+        "
+      >
         <h4 class="font-ubuntu font-bold text-darkGreen-900 text-2xl">
           Meet the team!
         </h4>
@@ -534,9 +644,9 @@
           boundaries of possibility. Join us in getting to know the faces behind
           AlphaCircuit.
         </p>
-        <a
+        <NuxtLink
           @click="showContent = !showContent"
-          href="#_"
+          :to="{ path: '/careers', hash: '#team' }"
           class="
             py-3
             px-5
@@ -570,16 +680,20 @@
               md:ease-out
               md:bg-white
               md:rounded-full
-              md:group-hover:w-32 md:group-hover:h-32
+              md:group-hover:w-32
+              md:group-hover:h-32
               md:opacity-10
             "
           ></span>
           <span class="relative font-manrope">Show me!</span>
-        </a>
+        </NuxtLink>
       </div>
       <div>
         <img
-          :class="['hello3 w-425 h-375 rounded-lg scale-90', isMd ? 'hello scale-100': '']"
+          :class="[
+            'hello3 w-425 h-375 rounded-lg scale-90',
+            isMd ? 'hello scale-100' : '',
+          ]"
           src="~/assets/images/images/carouselImages/business-concept-closeup-two-confident-business-people-shaking-hands-during-meeting.webp"
           alt=""
         />
@@ -587,35 +701,108 @@
     </div>
   </div>
 
-  <div v-if="showContent" class="mx-auto max-w-6xl">
+  <div id="team" v-if="showContent" class="mx-auto max-w-6xl">
     <!-- divider line -->
     <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <p class="text-darkGreen-700 font-ubuntu font-bold text-center text-2xl md:text-left">Management Board</p>
+    <p
+      class="
+        text-darkGreen-700
+        font-ubuntu font-bold
+        text-center text-2xl
+        md:text-left
+      "
+    >
+      Management Board
+    </p>
     <div class="flex flex-col md:flex-row justify-evenly p-4 gap-10">
-      <div class="flex flex-col text-center items-center gap-1. bg-neutrals-100 p-4 md:px-10 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.
+          bg-neutrals-100
+          p-4
+          md:px-10
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Prashant Patel</p>
         <p class="font-bold font-ubuntu">Owner and CEO</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p>Steve Smith</p>
         <p class="font-bold">General Manager</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-116</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Natu Vaghani</p>
         <p class="font-bold font-ubuntu">Engineering Manager</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-119</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">Contact Info</p>
       </div>
     </div>
@@ -624,32 +811,105 @@
   <div v-if="showContent" class="mx-auto max-w-6xl">
     <!-- divider line -->
     <hr class="my-6 border-gray-350 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <p class="text-darkGreen-700 font-ubuntu font-bold text-center text-2xl md:text-left">Sales Team</p>
+    <p
+      class="
+        text-darkGreen-700
+        font-ubuntu font-bold
+        text-center text-2xl
+        md:text-left
+      "
+    >
+      Sales Team
+    </p>
     <div class="flex flex-col md:flex-row justify-evenly p-4 mb-4 gap-10">
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Steve Ryan</p>
         <p class="font-bold font-ubuntu">Sales Team</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">SteveR@alphacircuit.com</p>
         <p class="font-manrope">630-617-5555</p>
         <p class="text-xs">EXT-110</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">Contact Info</p>
       </div>
-      <div class="flex flex-col text-center items-center gap-1.5 bg-neutrals-100 p-4 md:px-6 rounded-xl drop-shadow-xl">
+      <div
+        class="
+          flex flex-col
+          text-center
+          items-center
+          gap-1.5
+          bg-neutrals-100
+          p-4
+          md:px-6
+          rounded-xl
+          drop-shadow-xl
+        "
+      >
         <p class="font-manrope">Person Name</p>
         <p class="font-bold font-ubuntu">Job Role</p>
-        <img class="w-200 h-200 rounded-full bg-slate-200 shadow-lg" src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg" alt="">
+        <img
+          class="w-200 h-200 rounded-full bg-slate-200 shadow-lg"
+          src="~/assets/images/shapes/default-avatar-photo-placeholder-profile-icon-vector.jpg"
+          alt=""
+        />
         <p class="font-manrope">Contact Info</p>
       </div>
     </div>
@@ -665,17 +925,17 @@ export default {
       showContent2: false,
       showContent3: false,
       showContent4: false,
-      isMd: false // Variable to track the media query
+      isMd: false, // Variable to track the media query
     };
   },
   mounted() {
-    const mediaQuery = window.matchMedia('(min-width: 768px)'); // Define your media query here
+    const mediaQuery = window.matchMedia("(min-width: 768px)"); // Define your media query here
 
     // Set the initial value of `isMd`
     this.isMd = mediaQuery.matches;
 
     // Listen for changes in the media query
-    mediaQuery.addEventListener('change', (event) => {
+    mediaQuery.addEventListener("change", (event) => {
       this.isMd = event.matches;
     });
   },
