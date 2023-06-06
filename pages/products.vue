@@ -8,7 +8,7 @@
                 </div> -->
                 <div class="inline-flex items-center justify-center w-full">
                     <hr class="w-72 h-2 my-8 bg-gray-200 border-0 rounded-xl">
-                    <span class="absolute px-3 text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 font-ubuntu font-bold">Product Portfolio</span>
+                    <span class="absolute md:px-3 px-1 text-darkGreen-700 text-2xl -translate-x-1/2 bg-white left-1/2 font-ubuntu font-bold">Product Portfolio</span>
                 </div>
             </div>
             <p class="text-center w-450 mx-auto"><span class="text-2xl font-ubuntu font-bold text-darkGreen-500">Welcome to our Product Portfolio section.</span><br> A list and typical photos of PCBs made by Alpha Circuit Corporation is displayed in the following section of this page. An assortment of PCBs is shown below:</p>
