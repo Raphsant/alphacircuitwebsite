@@ -959,35 +959,45 @@
   </div>
 </template>
 
-<script setup>
-const content = ref([
-  { isOpen: true, title: "AS9100" },
-  { isOpen: false, content: "div 2" },
-  { isOpen: false, content: "div 1" },
-  { isOpen: false, content: "div 1" },
-  { isOpen: false, content: "div 1" },
-  { isOpen: false, content: "div 1" },
-]);
+<script>
+import { ref } from "vue";
+export default {
+  setup() {
+    const isOpen = ref(false);
+    const content = ref([
+      { isOpen: true, title: "AS9100" },
+      { isOpen: false, content: "div 2" },
+      { isOpen: false, content: "div 1" },
+      { isOpen: false, content: "div 1" },
+      { isOpen: false, content: "div 1" },
+      { isOpen: false, content: "div 1" },
+    ]);
 
-const certificates = [
-  { name: "AS9100", index: 0 },
-  { name: "TS16949", index: 1 },
-  { name: "ISO9001", index: 2 },
-  { name: "ITAR", index: 3 },
-  { name: "UL Certification", index: 4 },
-  { name: "MBE", index: 5 },
-];
+    const certificates = [
+      { name: "Quick-Turn Prototype", index: 0 },
+      { name: "Fast-Turn Prototype", index: 1 },
+      { name: "Offshore Production", index: 2 },
+      { name: "Design Validation", index: 3 },
+      { name: "Volume Production", index: 4 },
+    ];
 
-function handleConditionals(index) {
-  this.content.forEach((div, i) => {
-    if (i === index) {
-      console.log(index, i);
-      div.isOpen = true;
-    } else {
-      div.isOpen = false;
-    }
-  });
-}
+    return {
+      content,
+    };
+  },
+  methods: {
+    handleConditionals(index) {
+      this.content.forEach((div, i) => {
+        if (i === index) {
+          console.log(index, i);
+          div.isOpen = true;
+        } else {
+          div.isOpen = false;
+        }
+      });
+    },
+  },
+};
 </script>
 
 <style scoped></style>
