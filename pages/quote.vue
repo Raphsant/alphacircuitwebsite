@@ -35,7 +35,7 @@
             <input
               type="text"
               id="first_name"
-              name="emailData.firstName"
+              name="firstName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -73,7 +73,7 @@
             <input
               type="text"
               id="last_name"
-              name="emailData.lastName"
+              name="lastName"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -111,7 +111,7 @@
             <input
               type="text"
               id="company"
-              name="emailData.company"
+              name="company"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -149,7 +149,7 @@
             <input
               type="tel"
               id="phone"
-              name="emailData.phoneNumber"
+              name="phoneNumber"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -188,7 +188,7 @@
             <input
               type="email"
               id="email_address"
-              name="emailData.emailAddress"
+              name="emailAddress"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -226,7 +226,7 @@
             <input
               type="number"
               id="quantity"
-              name="emailData.estimatedQuantity"
+              name="estimatedQuantity"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -255,7 +255,8 @@
             >
             <select
               id="states"
-              name="emailData.state"
+              name="state"
+              :disabled="country !== 'United States'"
               class="
                 bg-gray-50
                 border border-lightGreen-500
@@ -272,11 +273,17 @@
                 dark:focus:ring-blue-500
                 dark:focus:border-blue-500
               "
+              :class="{
+                'bg-gray-500': country !== 'United States',
+                'border-black': country !== 'United States',
+                'text-black': country !== 'United States',
+                'inner-shadow': country !== 'United States',
+              }"
             >
               <option
                 v-for="state in states"
                 :key="state.code"
-                :value="state.name"
+                :value="country !== 'United States' ? 'N/A' : state.name"
               >
                 {{ state.name }}
               </option>
@@ -290,8 +297,9 @@
               >Select an option</label
             >
             <select
+              v-model="country"
               id="countries"
-              name="emailData.country"
+              name="country"
               class="
                 bg-gray-50
                 border border-gray-300
@@ -355,8 +363,9 @@
             >
             <textarea
               id="message"
-              name="emailData.message"
+              name="message"
               rows="4"
+              required
               class="
                 block
                 p-2.5
@@ -463,19 +472,10 @@
 </template>
 
 <script setup>
-let emailData = {
-  firstName: "",
-  lastName: "",
-  company: "",
-  phoneNumber: "",
-  emailAddress: "",
-  estimatedQuantity: 0,
-  state: undefined,
-  country: undefined,
-  message: "",
-};
+const country = ref("United States");
 
 const states = [
+  { code: "N/A", name: "Please choose a State" },
   { code: "AL", name: "Alabama" },
   { code: "AK", name: "Alaska" },
   { code: "AZ", name: "Arizona" },
