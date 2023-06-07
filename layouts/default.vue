@@ -134,6 +134,7 @@
             decoration-lightGreen-100 decoration-4
             py-2
             px-3
+            whitespace-nowrap
           "
           >Request A Quote</NuxtLink
         >
@@ -147,6 +148,7 @@
             text-xl
             py-2
             px-4
+            whitespace-nowrap
             md:my-0
             my-6
             shadow-xl
