@@ -102,11 +102,12 @@
         <h3 class="text-center text-2xl my-4 font-ubuntu bold">
           Recognized and Trusted By:
         </h3>
+        <!-- postLaunchFix -- i made the md:flex-row into md:flex-col while we wait for more partner logos -->
         <div class="grid grid-cols-2 gap-2 place-items-center md:flex md:flex-row mb-12 md:mb-0">
-          <img class="" src="https://via.placeholder.com/148x90" alt="" />
-          <img class="" src="https://via.placeholder.com/148x90" alt="" />
-          <img class="" src="https://via.placeholder.com/148x90" alt="" />
-          <img class="" src="https://via.placeholder.com/148x90" alt="" />
+          <img class="" src="~/assets/images/images/companyAssets/boyd.png" width="148" height="90" alt="" />
+          <img class="opacity-0" src="https://via.placeholder.com/148x90" alt="" />
+          <img class="opacity-0" src="https://via.placeholder.com/148x90" alt="" />
+          <img class="opacity-0" src="https://via.placeholder.com/148x90" alt="" />
         </div>
       </div>
     </section>
